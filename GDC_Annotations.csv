@@ -1,0 +1,192 @@
+Annotation,Value,ValueDescription,Type,Category,AnnotationDescription
+library_id,NA,NA,freetext,file,This is an identifier for the sequencing library preparation.
+platform,,Affymetrix SNP Array 6.0,categorical,file,"This is the version (manufacturer, model, etc.) of the technology that was used sequencing or assaying."
+platform,,Illumina HiSeq,categorical,file,"This is the version (manufacturer, model, etc.) of the technology that was used sequencing or assaying."
+platform,,Illumina Human Methylation 450,categorical,file,"This is the version (manufacturer, model, etc.) of the technology that was used sequencing or assaying."
+platform,,Illumina GA,categorical,file,"This is the version (manufacturer, model, etc.) of the technology that was used sequencing or assaying."
+platform,,MDA_RPPA_Core,categorical,file,"This is the version (manufacturer, model, etc.) of the technology that was used sequencing or assaying."
+platform,,BCR Record,categorical,file,"This is the version (manufacturer, model, etc.) of the technology that was used sequencing or assaying."
+platform,,Hospital Record,categorical,file,"This is the version (manufacturer, model, etc.) of the technology that was used sequencing or assaying."
+platform,,llumina Human Methylation 27,categorical,file,"This is the version (manufacturer, model, etc.) of the technology that was used sequencing or assaying."
+platform,,ABI capillary sequencer,categorical,file,"This is the version (manufacturer, model, etc.) of the technology that was used sequencing or assaying."
+platform,,AgilentG4502A_07_3,categorical,file,"This is the version (manufacturer, model, etc.) of the technology that was used sequencing or assaying."
+platform,,HG-CGH-244A,categorical,file,"This is the version (manufacturer, model, etc.) of the technology that was used sequencing or assaying."
+platform,,HG-CGH-415K_G4124A,categorical,file,"This is the version (manufacturer, model, etc.) of the technology that was used sequencing or assaying."
+platform,,CGH-1x1M_G4447A,categorical,file,"This is the version (manufacturer, model, etc.) of the technology that was used sequencing or assaying."
+platform,,Illumina MiSeq,categorical,file,"This is the version (manufacturer, model, etc.) of the technology that was used sequencing or assaying."
+platform,,HT_HG-U133A,categorical,file,"This is the version (manufacturer, model, etc.) of the technology that was used sequencing or assaying."
+platform,,Illumina Human 1M Duo,categorical,file,"This is the version (manufacturer, model, etc.) of the technology that was used sequencing or assaying."
+platform,,H-miRNA_8x15Kv2,categorical,file,"This is the version (manufacturer, model, etc.) of the technology that was used sequencing or assaying."
+platform,,Illumina HumanHap550,categorical,file,"This is the version (manufacturer, model, etc.) of the technology that was used sequencing or assaying."
+platform,,H-miRNA_8x15K,categorical,file,"This is the version (manufacturer, model, etc.) of the technology that was used sequencing or assaying."
+platform,,AgilentG4502A_07_2,categorical,file,"This is the version (manufacturer, model, etc.) of the technology that was used sequencing or assaying."
+platform,,HuEx-1_0-st-v2,categorical,file,"This is the version (manufacturer, model, etc.) of the technology that was used sequencing or assaying."
+platform,,ABI SOLiD,categorical,file,"This is the version (manufacturer, model, etc.) of the technology that was used sequencing or assaying."
+platform,,Complete Genomics,categorical,file,"This is the version (manufacturer, model, etc.) of the technology that was used sequencing or assaying."
+platform,,HG-U133_Plus_2,categorical,file,"This is the version (manufacturer, model, etc.) of the technology that was used sequencing or assaying."
+platform,,Illumina DNA Methylation OMA003 CPI,categorical,file,"This is the version (manufacturer, model, etc.) of the technology that was used sequencing or assaying."
+platform,,Illumina DNA Methylation OMA002 CPI,categorical,file,"This is the version (manufacturer, model, etc.) of the technology that was used sequencing or assaying."
+platform,,AgilentG4502A_07_1,categorical,file,"This is the version (manufacturer, model, etc.) of the technology that was used sequencing or assaying."
+platform,,Ion Torrent PGM,categorical,file,"This is the version (manufacturer, model, etc.) of the technology that was used sequencing or assaying."
+platform,,Affymetrix U133 Plus 2,categorical,file,"This is the version (manufacturer, model, etc.) of the technology that was used sequencing or assaying."
+platform,,LS 454,categorical,file,"This is the version (manufacturer, model, etc.) of the technology that was used sequencing or assaying."
+platform,,HiSeq X Ten,categorical,file,"This is the version (manufacturer, model, etc.) of the technology that was used sequencing or assaying."
+platform,,Mixed platforms,categorical,file,"This is the version (manufacturer, model, etc.) of the technology that was used sequencing or assaying."
+platform,,Illumina,categorical,file,"This is the version (manufacturer, model, etc.) of the technology that was used sequencing or assaying."
+platform,,Helicos,categorical,file,"This is the version (manufacturer, model, etc.) of the technology that was used sequencing or assaying."
+platform,,PacBio,categorical,file,"This is the version (manufacturer, model, etc.) of the technology that was used sequencing or assaying."
+platform,,Not available,categorical,file,"This is the version (manufacturer, model, etc.) of the technology that was used sequencing or assaying."
+platform_unit_id,,This takes a string.,freetext,file,"This is an identifier for lanes (Illumina), or for slides (SOLiD) in the case that a library was split and ran over multiple lanes on the flow cell or slides. The platform unit ID refers to the lane ID or the slide ID."
+paired_end,,This takes a value of 1 or 2. Note: For single-end sequencing no value is needed.,freetext,file,"For paired-end sequencing, this value determines the end of the fragment sequenced."
+file_segment_number,,This takes an integer.,numerical,file,"If the sequencing reads for a single library, sample and lane are divided into multiple (smaller) files, the File segment number is used to enumerate these. Otherwise, this field can be left blank."
+quality_scale,,sanger,categorical,file,"For raw reads, this value denotes the sequencing technology and quality format. For BAM and SAM files, this value should always be ‘Sanger’."
+quality_scale,,llumina13,categorical,file,"For raw reads, this value denotes the sequencing technology and quality format. For BAM and SAM files, this value should always be ‘Sanger’."
+quality_scale,,illumina15,categorical,file,"For raw reads, this value denotes the sequencing technology and quality format. For BAM and SAM files, this value should always be ‘Sanger’."
+quality_scale,,illumina18,categorical,file,"For raw reads, this value denotes the sequencing technology and quality format. For BAM and SAM files, this value should always be ‘Sanger’."
+quality_scale,,solexa,categorical,file,"For raw reads, this value denotes the sequencing technology and quality format. For BAM and SAM files, this value should always be ‘Sanger’."
+quality_scale,,not available,categorical,file,"For raw reads, this value denotes the sequencing technology and quality format. For BAM and SAM files, this value should always be ‘Sanger’."
+experimental_strategy,,DNA-Seq,categorical,file,This is the method or protocol used to perform the laboratory analysis.
+experimental_strategy,,WXS,categorical,file,This is the method or protocol used to perform the laboratory analysis.
+experimental_strategy,,WGS,categorical,file,This is the method or protocol used to perform the laboratory analysis.
+experimental_strategy,,Amplicon,categorical,file,This is the method or protocol used to perform the laboratory analysis.
+experimental_strategy,,Bisulfite-Seq,categorical,file,This is the method or protocol used to perform the laboratory analysis.
+experimental_strategy,,VALIDATION,categorical,file,This is the method or protocol used to perform the laboratory analysis.
+experimental_strategy,,RNA-Seq,categorical,file,This is the method or protocol used to perform the laboratory analysis.
+experimental_strategy,,miRNA-Seq,categorical,file,This is the method or protocol used to perform the laboratory analysis.
+experimental_strategy,,Total RNA-Seq,categorical,file,This is the method or protocol used to perform the laboratory analysis.
+experimental_strategy,,Genotyping Array,categorical,file,This is the method or protocol used to perform the laboratory analysis.
+experimental_strategy,,Exon Array,categorical,file,This is the method or protocol used to perform the laboratory analysis.
+experimental_strategy,,CGH Array,categorical,file,This is the method or protocol used to perform the laboratory analysis.
+experimental_strategy,,Methylation Array,categorical,file,This is the method or protocol used to perform the laboratory analysis.
+experimental_strategy,,Gene Expression Array,categorical,file,This is the method or protocol used to perform the laboratory analysis.
+experimental_strategy,,miRNA Array,categorical,file,This is the method or protocol used to perform the laboratory analysis.
+experimental_strategy,,Protein Expression Array,categorical,file,This is the method or protocol used to perform the laboratory analysis.
+experimental_strategy,,MSI- Mono- Dinucleotide Array,categorical,file,This is the method or protocol used to perform the laboratory analysis.
+experimental_strategy,,Not available,categorical,file,This is the method or protocol used to perform the laboratory analysis.
+reference_genome,,NCBI36_BCCAGSC_variant,categorical,file,The reference assembly (such as HG19 or GRCh37) to which the nucleotide sequence of a case can be aligned.
+reference_genome,,NCBI36_BCM_variant,categorical,file,The reference assembly (such as HG19 or GRCh37) to which the nucleotide sequence of a case can be aligned.
+reference_genome,,NCBI36_WUGSC_variant,categorical,file,The reference assembly (such as HG19 or GRCh37) to which the nucleotide sequence of a case can be aligned.
+reference_genome,,HG18,categorical,file,The reference assembly (such as HG19 or GRCh37) to which the nucleotide sequence of a case can be aligned.
+reference_genome,,HG18_Broad_variant,categorical,file,The reference assembly (such as HG19 or GRCh37) to which the nucleotide sequence of a case can be aligned.
+reference_genome,,GRCh37,categorical,file,The reference assembly (such as HG19 or GRCh37) to which the nucleotide sequence of a case can be aligned.
+reference_genome,,GRCh37-lite,categorical,file,The reference assembly (such as HG19 or GRCh37) to which the nucleotide sequence of a case can be aligned.
+reference_genome,,GRCh37_BI_Variant,categorical,file,The reference assembly (such as HG19 or GRCh37) to which the nucleotide sequence of a case can be aligned.
+reference_genome,,GRCh37-lite-+-HPV_Redux-build,categorical,file,The reference assembly (such as HG19 or GRCh37) to which the nucleotide sequence of a case can be aligned.
+reference_genome,,GRCh37-lite_WUGSC_variant_1,categorical,file,The reference assembly (such as HG19 or GRCh37) to which the nucleotide sequence of a case can be aligned.
+reference_genome,,GRCh37-lite_WUGSC_variant_2,categorical,file,The reference assembly (such as HG19 or GRCh37) to which the nucleotide sequence of a case can be aligned.
+reference_genome,,HG19,categorical,file,The reference assembly (such as HG19 or GRCh37) to which the nucleotide sequence of a case can be aligned.
+reference_genome,,HG19_Broad_variant,categorical,file,The reference assembly (such as HG19 or GRCh37) to which the nucleotide sequence of a case can be aligned.
+reference_genome,,HS37D5,categorical,file,The reference assembly (such as HG19 or GRCh37) to which the nucleotide sequence of a case can be aligned.
+reference_genome,,GRCh38,categorical,file,The reference assembly (such as HG19 or GRCh37) to which the nucleotide sequence of a case can be aligned.
+sample_id,,This takes a string.,freetext,sample,"A human readable identifier for a sample or specimen, which could contain some metadata information. A sample or specimen is material taken from a biological entity for testing, diagnosis, propagation, treatment, or research purposes, including but not limited to tissues, body fluids, cells, organs, embryos, body excretory products, etc."
+sample_type,,Blood Derived Normal,categorical,sample,"The type of material taken from a biological entity for testing, diagnosis, propagation, treatment, or research purposes. This includes tissues, body fluids, cells, organs, embryos, body excretory products, etc."
+sample_type,,Buccal Cell Normal,categorical,sample,"The type of material taken from a biological entity for testing, diagnosis, propagation, treatment, or research purposes. This includes tissues, body fluids, cells, organs, embryos, body excretory products, etc."
+sample_type,,Primary Blood Derived Cancer - Peripheral Blood,categorical,sample,"The type of material taken from a biological entity for testing, diagnosis, propagation, treatment, or research purposes. This includes tissues, body fluids, cells, organs, embryos, body excretory products, etc."
+sample_type,,Recurrent Blood Derived Cancer - Peripheral Blood,categorical,sample,"The type of material taken from a biological entity for testing, diagnosis, propagation, treatment, or research purposes. This includes tissues, body fluids, cells, organs, embryos, body excretory products, etc."
+sample_type,,Primary Tumor,categorical,sample,"The type of material taken from a biological entity for testing, diagnosis, propagation, treatment, or research purposes. This includes tissues, body fluids, cells, organs, embryos, body excretory products, etc."
+sample_type,,Recurrent Blood Derived Cancer - Bone Marrow,categorical,sample,"The type of material taken from a biological entity for testing, diagnosis, propagation, treatment, or research purposes. This includes tissues, body fluids, cells, organs, embryos, body excretory products, etc."
+sample_type,,Recurrent Tumor,categorical,sample,"The type of material taken from a biological entity for testing, diagnosis, propagation, treatment, or research purposes. This includes tissues, body fluids, cells, organs, embryos, body excretory products, etc."
+sample_type,,Solid Tissue Normal,categorical,sample,"The type of material taken from a biological entity for testing, diagnosis, propagation, treatment, or research purposes. This includes tissues, body fluids, cells, organs, embryos, body excretory products, etc."
+sample_type,,Metastatic,categorical,sample,"The type of material taken from a biological entity for testing, diagnosis, propagation, treatment, or research purposes. This includes tissues, body fluids, cells, organs, embryos, body excretory products, etc."
+sample_type,,Additional - New Primary,categorical,sample,"The type of material taken from a biological entity for testing, diagnosis, propagation, treatment, or research purposes. This includes tissues, body fluids, cells, organs, embryos, body excretory products, etc."
+sample_type,,Additional Metastatic,categorical,sample,"The type of material taken from a biological entity for testing, diagnosis, propagation, treatment, or research purposes. This includes tissues, body fluids, cells, organs, embryos, body excretory products, etc."
+sample_type,,Human Tumor Original Cells,categorical,sample,"The type of material taken from a biological entity for testing, diagnosis, propagation, treatment, or research purposes. This includes tissues, body fluids, cells, organs, embryos, body excretory products, etc."
+sample_type,,Primary Blood Derived Cancer - Bone Marrow,categorical,sample,"The type of material taken from a biological entity for testing, diagnosis, propagation, treatment, or research purposes. This includes tissues, body fluids, cells, organs, embryos, body excretory products, etc."
+sample_type,,Cell Lines,categorical,sample,"The type of material taken from a biological entity for testing, diagnosis, propagation, treatment, or research purposes. This includes tissues, body fluids, cells, organs, embryos, body excretory products, etc."
+sample_type,,Xenograft Tissue,categorical,sample,"The type of material taken from a biological entity for testing, diagnosis, propagation, treatment, or research purposes. This includes tissues, body fluids, cells, organs, embryos, body excretory products, etc."
+sample_type,,Bone Marrow Normal,categorical,sample,"The type of material taken from a biological entity for testing, diagnosis, propagation, treatment, or research purposes. This includes tissues, body fluids, cells, organs, embryos, body excretory products, etc."
+sample_type,,Fibroblasts from Bone Marrow Normal,categorical,sample,"The type of material taken from a biological entity for testing, diagnosis, propagation, treatment, or research purposes. This includes tissues, body fluids, cells, organs, embryos, body excretory products, etc."
+sample_type,,Not available,categorical,sample,"The type of material taken from a biological entity for testing, diagnosis, propagation, treatment, or research purposes. This includes tissues, body fluids, cells, organs, embryos, body excretory products, etc."
+sample_uuid,,This takes a string. Biomaterial ID of primary sample from LabMatrix,freetext,sample,"A unique identifier for the sample or specimen used in the investigation, such as a Universally Unique Identifier (UUID). A sample or specimen is material taken from a biological entity for testing, diagnosis, propagation, treatment, or research purposes, including but not limited to tissues, body fluids, cells, organs, embryos, body excretory products, etc."
+aliquot_id,,This takes a string.,freetext,aliquot,"A human readable identifier for an aliquot, which may contain metadata information. The aliquot is a product or unit extracted from a sample of a specimen and prepared for the analysis."
+aliquot_uuid,,This takes a string. Biomaterial ID of processed sample from LabMatrix (NOT the analyte ID),freetext,aliquot,"The unique identifier for an aliquot, such as a Universally Unique Identifier (UUID). The aliquot is a product or unit extracted from a sample of a specimen and prepared for the analysis."
+case_id,,This takes a string. ,freetext,case,"An identifier, such as a number or a string that may contain metadata information, for a subject who has taken part in the investigation of study."
+case_uuid,,This takes a string. Subject ID from LabMatrix,freetext,case,"An unique identifier, such as a Universally Unique Identifier (UUID), for a subject who has taken part in the investigation of study."
+primary_site,,Adrenal Gland,categorical,case,The anatomical site where the primary tumor is located in the organism.
+primary_site,,Bile Duct,categorical,case,The anatomical site where the primary tumor is located in the organism.
+primary_site,,Bladder,categorical,case,The anatomical site where the primary tumor is located in the organism.
+primary_site,,Blood,categorical,case,The anatomical site where the primary tumor is located in the organism.
+primary_site,,Brain,categorical,case,The anatomical site where the primary tumor is located in the organism.
+primary_site,,Breast,categorical,case,The anatomical site where the primary tumor is located in the organism.
+primary_site,,Cervix,categorical,case,The anatomical site where the primary tumor is located in the organism.
+primary_site,,Colorectal,categorical,case,The anatomical site where the primary tumor is located in the organism.
+primary_site,,Esophagus,categorical,case,The anatomical site where the primary tumor is located in the organism.
+primary_site,,Eye,categorical,case,The anatomical site where the primary tumor is located in the organism.
+primary_site,,Head And Neck,categorical,case,The anatomical site where the primary tumor is located in the organism.
+primary_site,,Liver,categorical,case,The anatomical site where the primary tumor is located in the organism.
+primary_site,,Lung,categorical,case,The anatomical site where the primary tumor is located in the organism.
+primary_site,,Lymph Nodes,categorical,case,The anatomical site where the primary tumor is located in the organism.
+primary_site,,Kidney,categorical,case,The anatomical site where the primary tumor is located in the organism.
+primary_site,,Mesenchymal,categorical,case,The anatomical site where the primary tumor is located in the organism.
+primary_site,,Mesothelium,categorical,case,The anatomical site where the primary tumor is located in the organism.
+primary_site,,Nervous System,categorical,case,The anatomical site where the primary tumor is located in the organism.
+primary_site,,Ovary,categorical,case,The anatomical site where the primary tumor is located in the organism.
+primary_site,,Pancreas,categorical,case,The anatomical site where the primary tumor is located in the organism.
+primary_site,,Prostate,categorical,case,The anatomical site where the primary tumor is located in the organism.
+primary_site,,Skin,categorical,case,The anatomical site where the primary tumor is located in the organism.
+primary_site,,Stomach,categorical,case,The anatomical site where the primary tumor is located in the organism.
+primary_site,,Uterus,categorical,case,The anatomical site where the primary tumor is located in the organism.
+primary_site,,Testis,categorical,case,The anatomical site where the primary tumor is located in the organism.
+primary_site,,Thymus,categorical,case,The anatomical site where the primary tumor is located in the organism.
+primary_site,,Thyroid,categorical,case,The anatomical site where the primary tumor is located in the organism.
+primary_site,,Not available,categorical,case,The anatomical site where the primary tumor is located in the organism.
+disease_type,,Acute Myeloid Leukemia,categorical,case,The type of the disease or condition studied.
+disease_type,,Adrenocortical Carcinoma,categorical,case,The type of the disease or condition studied.
+disease_type,,Bladder Urothelial Carcinoma,categorical,case,The type of the disease or condition studied.
+disease_type,,Brain Lower Grade Glioma,categorical,case,The type of the disease or condition studied.
+disease_type,,Breast Invasive Carcinoma,categorical,case,The type of the disease or condition studied.
+disease_type,,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,categorical,case,The type of the disease or condition studied.
+disease_type,,Cholangiocarcinoma,categorical,case,The type of the disease or condition studied.
+disease_type,,Chronic Myelogenous Leukemia,categorical,case,The type of the disease or condition studied.
+disease_type,,Colon Adenocarcinoma,categorical,case,The type of the disease or condition studied.
+disease_type,,Esophageal Carcinoma,categorical,case,The type of the disease or condition studied.
+disease_type,,Glioblastoma Multiforme,categorical,case,The type of the disease or condition studied.
+disease_type,,Head and Neck Squamous Cell Carcinoma,categorical,case,The type of the disease or condition studied.
+disease_type,,Kidney Chromophobe,categorical,case,The type of the disease or condition studied.
+disease_type,,Kidney Renal Clear Cell Carcinoma,categorical,case,The type of the disease or condition studied.
+disease_type,,Kidney Renal Papillary Cell Carcinoma,categorical,case,The type of the disease or condition studied.
+disease_type,,Liver Hepatocellular Carcinoma,categorical,case,The type of the disease or condition studied.
+disease_type,,Lung Adenocarcinoma,categorical,case,The type of the disease or condition studied.
+disease_type,,Lung Squamous Cell Carcinoma,categorical,case,The type of the disease or condition studied.
+disease_type,,Lymphoid Neoplasm Diffuse Large B-cell Lymphoma,categorical,case,The type of the disease or condition studied.
+disease_type,,Mesothelioma,categorical,case,The type of the disease or condition studied.
+disease_type,,Ovarian Serous Cystadenocarcinoma,categorical,case,The type of the disease or condition studied.
+disease_type,,Pancreatic Adenocarcinoma,categorical,case,The type of the disease or condition studied.
+disease_type,,Pheochromocytoma and Paraganglioma,categorical,case,The type of the disease or condition studied.
+disease_type,,Prostate Adenocarcinoma,categorical,case,The type of the disease or condition studied.
+disease_type,,Rectum Adenocarcinoma,categorical,case,The type of the disease or condition studied.
+disease_type,,Sarcoma,categorical,case,The type of the disease or condition studied.
+disease_type,,Skin Cutaneous Melanoma,categorical,case,The type of the disease or condition studied.
+disease_type,,Stomach Adenocarcinoma,categorical,case,The type of the disease or condition studied.
+disease_type,,Testicular Germ Cell Tumors,categorical,case,The type of the disease or condition studied.
+disease_type,,Thymoma,categorical,case,The type of the disease or condition studied.
+disease_type,,Thyroid Carcinoma,categorical,case,The type of the disease or condition studied.
+disease_type,,Uterine Carcinosarcoma,categorical,case,The type of the disease or condition studied.
+disease_type,,Uterine Corpus Endometrial Carcinoma,categorical,case,The type of the disease or condition studied.
+disease_type,,Uveal Melanoma,categorical,case,The type of the disease or condition studied.
+disease_type,,Not available,categorical,case,The type of the disease or condition studied.
+gender,,Female,categorical,case,The collection of behaviors and attitudes that distinguish people on the basis of societal roles expected for the two sexes.
+gender,,Male,categorical,case,The collection of behaviors and attitudes that distinguish people on the basis of societal roles expected for the two sexes.
+gender,,Ambiguous,categorical,case,The collection of behaviors and attitudes that distinguish people on the basis of societal roles expected for the two sexes.
+gender,,Not available,categorical,case,The collection of behaviors and attitudes that distinguish people on the basis of societal roles expected for the two sexes.
+age_at_diagnosis,,This takes a non-negative integer.,numerical,case,The age in years of the case at the initial pathological diagnosis of disease or cancer.
+vital_status,,Alive,categorical,case,The state of being living or deceased for cases that are part of the investigation.
+vital_status,,Dead,categorical,case,The state of being living or deceased for cases that are part of the investigation.
+vital_status,,Lost to follow-up,categorical,case,The state of being living or deceased for cases that are part of the investigation.
+vital_status,,Unknown,categorical,case,The state of being living or deceased for cases that are part of the investigation.
+vital_status,,Not available,categorical,case,The state of being living or deceased for cases that are part of the investigation.
+days_to_death,,This takes a non-negative integer.,numerical,case,The number of days from the date of the initial pathological diagnosis to the date of death for the case in investigation.
+race,,White,categorical,case,"A classification of humans characterized by certain heritable traits, common history, nationality, or geographic distribution."
+race,,American Indian or Alaska Native,categorical,case,"A classification of humans characterized by certain heritable traits, common history, nationality, or geographic distribution."
+race,,Black or African American,categorical,case,"A classification of humans characterized by certain heritable traits, common history, nationality, or geographic distribution."
+race,,Asian,categorical,case,"A classification of humans characterized by certain heritable traits, common history, nationality, or geographic distribution."
+race,,Native Hawaiian or other Pacific Islander,categorical,case,"A classification of humans characterized by certain heritable traits, common history, nationality, or geographic distribution."
+race,,Not reported,categorical,case,"A classification of humans characterized by certain heritable traits, common history, nationality, or geographic distribution."
+race,,Not available,categorical,case,"A classification of humans characterized by certain heritable traits, common history, nationality, or geographic distribution."
+ethnicity,,Hispanic or Latino,categorical,case,"A socially defined category of people based on common ancestral, cultural, biological, and social factors."
+ethnicity,,Not Hispanic or Latino,categorical,case,"A socially defined category of people based on common ancestral, cultural, biological, and social factors."
+ethnicity,,Not reported,categorical,case,"A socially defined category of people based on common ancestral, cultural, biological, and social factors."
+ethnicity,,Not Available,categorical,case,"A socially defined category of people based on common ancestral, cultural, biological, and social factors."
+investigation,,This takes a string. ,,general,A value denoting the project or study that generated the data.
+,,,,,
+ADD: https://docs.cancergenomicscloud.org/docs/tcga-metadata,,,,,

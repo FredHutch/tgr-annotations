@@ -1,0 +1,15 @@
+stage,workflowID,fileNameString,GGWorkflowName,toolSource,processedContentType,informaticsPlatform
+processed,GG.id.9ea43fe535d3b430,htseqQC.txt,ConsensusGeneExp,HiSat2/htseq-count,QCStats,GlobusGenomics
+processed,GG.id.9ea43fe535d3b430,salmon.txt,ConsensusGeneExp,salmon,genelevelCounts,GlobusGenomics
+processed,GG.id.9ea43fe535d3b430,htseq.txt,ConsensusGeneExp,HiSat2/htseq-count,genelevelCounts,GlobusGenomics
+processed,GG.id.0a3ad9dd82afd4ef,samtools.vcf,ConsensusVariants,samtoolsMpileup,rawVariants,GlobusGenomics
+processed,GG.id.0a3ad9dd82afd4ef,gatk.vcf,ConsensusVariants,GATKHaplotypeCaller,rawVariants,GlobusGenomics
+processed,GG.id.0a3ad9dd82afd4ef,samtools.ann.txt,ConsensusVariants,samtoolsMpileup,annotatedVariants,GlobusGenomics
+processed,GG.id.0a3ad9dd82afd4ef,GATK.ann.txt,ConsensusVariants,GATKHaplotypeCaller,annotatedVariants,GlobusGenomics
+QC,GG.id.0a3ad9dd82afd4ef,fastqc.html,ConsensusVariants,FastQC,QCStats,GlobusGenomics
+QC,GG.id.0a3ad9dd82afd4ef,gatkqc.txt,ConsensusVariants,GATKDepthofCoverage,ampliconSeqQC,GlobusGenomics
+QC,GG.id.0a3ad9dd82afd4ef,fastqc.txt,ConsensusVariants,FastQC,QCStats,GlobusGenomics
+analyzed,consensusVariantsParallel.R,consensus.csv,,ITHAnalysis,consensusVariants,Manual
+probelevelnormalized,,,,Manual,probelevelNormalized,Manual
+processed,Manual,,,Manual,probelevelQuantileNormed,Manual
+snpfinalreport,,,,GenomeStudio,snparrayFinalReport,GenomeStudio
