@@ -1,381 +1,390 @@
-Annotation,Value,ValueDescription,Type,Category,AnnotationDescription,TabGroup
-cyto_group,BCRABL,"Any BCR-ABL (t(9,22)) translocation",categorical,Biomarkers,Cytogenetics group,Clinical
-cyto_group,complex,Complex cytogenetics (3 or more chromosomal abnormalities),categorical,Biomarkers,Cytogenetics group,Clinical
-cyto_group,inv16,Inversion(16),categorical,Biomarkers,Cytogenetics group,Clinical
-cyto_group,noannot,Not relevant/Do not annotate in Synapse,categorical,Biomarkers,Cytogenetics group,Clinical
-cyto_group,normal,Normal Karyotype,categorical,Biomarkers,Cytogenetics group,Clinical
-cyto_group,other_nondefined,Other non-defined cytogenetic abnormality,categorical,Biomarkers,Cytogenetics group,Clinical
-cyto_group,other_nondefined_del7,"Deletion(7) and one non-defined cytogenetic abnormality,",categorical,Biomarkers,Cytogenetics group,Clinical
-cyto_group,other_nondefined_inv16,Inversion(16) and one non-defined cytogenetic abnormality,categorical,Biomarkers,Cytogenetics group,Clinical
-cyto_group,t821,Translocation(8;21),categorical,Biomarkers,Cytogenetics group,Clinical
-genotype_calr,negative,Negative,categorical,Biomarkers,CALR Status,Clinical
-genotype_calr,notdetermined,Not Determined,categorical,Biomarkers,CALR Status,Clinical
-genotype_calr,positive,Positive,categorical,Biomarkers,CALR Status,Clinical
-genotype_cebpa,negative,Negative,categorical,Biomarkers,CEBPA Status,Clinical
-genotype_cebpa,notdetermined,Not Determined,categorical,Biomarkers,CEBPA Status,Clinical
-genotype_cebpa,positive,Positive,categorical,Biomarkers,CEBPA Status,Clinical
-genotype_dnmt3a,negative,Negative,categorical,Biomarkers,DNMT3A Status,Clinical
-genotype_dnmt3a,notdetermined,Not Determined,categorical,Biomarkers,DNMT3A Status,Clinical
-genotype_dnmt3a,positive,Positive,categorical,Biomarkers,DNMT3A Status,Clinical
-genotype_flt3d835,negative,Negative,categorical,Biomarkers,FLT3 D835 Status,Clinical
-genotype_flt3d835,notdetermined,Not Determined,categorical,Biomarkers,FLT3 D835 Status,Clinical
-genotype_flt3d835,positive,Positive,categorical,Biomarkers,FLT3 D835 Status,Clinical
-genotype_flt3itd,negative,Negative,categorical,Biomarkers,FLT3-ITD Status,Clinical
-genotype_flt3itd,notdetermined,Not Determined,categorical,Biomarkers,FLT3-ITD Status,Clinical
-genotype_flt3itd,positive,Positive,categorical,Biomarkers,FLT3-ITD Status,Clinical
-genotype_jak2,negative,Negative,categorical,Biomarkers,JAK2 Status,Clinical
-genotype_jak2,notdetermined,Not Determined,categorical,Biomarkers,JAK2 Status,Clinical
-genotype_jak2,positive,Positive,categorical,Biomarkers,JAK2 Status,Clinical
-genotype_mpl,negative,Negative,categorical,Biomarkers,MPL Status,Clinical
-genotype_mpl,notdetermined,Not Determined,categorical,Biomarkers,MPL Status,Clinical
-genotype_mpl,positive,Positive,categorical,Biomarkers,MPL Status,Clinical
-genotype_npm1,negative,Negative,categorical,Biomarkers,NPM1 Status,Clinical
-genotype_npm1,notdetermined,Not Determined,categorical,Biomarkers,NPM1 Status,Clinical
-genotype_npm1,positive,Positive,categorical,Biomarkers,NPM1 Status,Clinical
-genotype_nras,negative,Negative,categorical,Biomarkers,NRAS Status (for Q61/G12/G13),Clinical
-genotype_nras,notdetermined,Not Determined,categorical,Biomarkers,NRAS Status (for Q61/G12/G13),Clinical
-genotype_nras,positive,Positive,categorical,Biomarkers,NRAS Status (for Q61/G12/G13),Clinical
-consent_datause_group,diseasespecific,Disease-specific -- (Use of the data must be related to the specified disease.),categorical,Consent,Data Use Limitations for a genomic data set as defined by the NIH/Genomic Data Policy,Clinical
-consent_datause_group,generalresearchuse,General Research Use -- (no limitations),categorical,Consent,Data Use Limitations for a genomic data set as defined by the NIH/Genomic Data Policy,Clinical
-consent_datause_group,healthmedicalbiomedical,"Health/Medical/Biomedical -- (Use of the data is limited to health/medical/biomedical purposes, does not include the study of population origins or ancestry.)",categorical,Consent,Data Use Limitations for a genomic data set as defined by the NIH/Genomic Data Policy,Clinical
-consent_datause_group,other,Other,categorical,Consent,Data Use Limitations for a genomic data set as defined by the NIH/Genomic Data Policy,Clinical
-consent_datause_mod_col,collaborationrequired,Yes,categorical,Consent,Data Use Limitation Modifier:  Collaboration required -- (Requestor must provide a letter of collaboration with the primary study investigator(s).),Clinical
-consent_datause_mod_col,notapplicable,No,categorical,Consent,Data Use Limitation Modifier:  Collaboration required -- (Requestor must provide a letter of collaboration with the primary study investigator(s).),Clinical
-consent_datause_mod_gso,geneticstudiesonly,Yes,categorical,Consent,Data Use Limitation Modifier: Genetic studies only -- (Use of the data is limited to genetic studies only.),Clinical
-consent_datause_mod_gso,notapplicable,No,categorical,Consent,Data Use Limitation Modifier: Genetic studies only -- (Use of the data is limited to genetic studies only.),Clinical
-consent_datause_mod_irb,irbrequired,Yes,categorical,Consent,Data Use Limitation Modifier: IRB approval required -- (Requestor must provide documentation of local IRB approval.),Clinical
-consent_datause_mod_irb,notapplicable,No,categorical,Consent,Data Use Limitation Modifier: IRB approval required -- (Requestor must provide documentation of local IRB approval.),Clinical
-consent_datause_mod_mds,methods,Yes,categorical,Consent,"Data Use Limitation Modifier: Methods -- (Use of the data includes methods development research (e.g., development of software or algorithms).)",Clinical
-consent_datause_mod_mds,notapplicable,No,categorical,Consent,"Data Use Limitation Modifier: Methods -- (Use of the data includes methods development research (e.g., development of software or algorithms).)",Clinical
-consent_datause_mod_npu,notapplicable,No,categorical,Consent,Data Use Limitation Modifier: Not-for-profit use only -- (Use of the data is limited to not-for-profit organizations.),Clinical
-consent_datause_mod_npu,notforprofituse,Yes,categorical,Consent,Data Use Limitation Modifier: Not-for-profit use only -- (Use of the data is limited to not-for-profit organizations.),Clinical
-consent_datause_mod_pub,notapplicable,No,categorical,Consent,Data Use Limitation Modifier: Publication required -- (Requestor agrees to make results of studies using the data available to the larger scientific community.),Clinical
-consent_datause_mod_pub,publicationrequired,Yes,categorical,Consent,Data Use Limitation Modifier: Publication required -- (Requestor agrees to make results of studies using the data available to the larger scientific community.),Clinical
-consent_research_celllines,no,No,categorical,Consent,Specifies if a patient consented to the generation of cell line(s) from their specimen.,Clinical
-consent_research_celllines,unknown,Unknown,categorical,Consent,Specifies if a patient consented to the generation of cell line(s) from their specimen.,Clinical
-consent_research_celllines,yes,Yes,categorical,Consent,Specifies if a patient consented to the generation of cell line(s) from their specimen.,Clinical
-consent_research_future,no,No,categorical,Consent,Specifies if a patient consented to researchers keeping DNA and/or cells and health information for future research,Clinical
-consent_research_future,unknown,Unknown,categorical,Consent,Specifies if a patient consented to researchers keeping DNA and/or cells and health information for future research,Clinical
-consent_research_future,yes,Yes,categorical,Consent,Specifies if a patient consented to researchers keeping DNA and/or cells and health information for future research,Clinical
-consent_research_genomics,no,No,categorical,Consent,Specifies if a patient consented to the generation of large scale genomic and/or sequencing data from their specimen (such as 1690 Part D consent).,Clinical
-consent_research_genomics,unknown,Unknown,categorical,Consent,Specifies if a patient consented to the generation of large scale genomic and/or sequencing data from their specimen (such as 1690 Part D consent).,Clinical
-consent_research_genomics,yes,Yes,categorical,Consent,Specifies if a patient consented to the generation of large scale genomic and/or sequencing data from their specimen (such as 1690 Part D consent).,Clinical
-specimen_gdspolicy,required,On or after Jan 25th 2015 - GDS policy required,categorical,Consent,"Was this specimen originally acquired from the subject on or after January 25th, 2015 when the NIH requirements for Genomic Data Sharing consenting requirements changed?  This relates to whether a waiver can be applied for for use of data originating from a specimen banked prior to the requirement that all consents have Genomic Data Sharing language in them.  ",Clinical
-specimen_gdspolicy,unknown,Consult Magic 8 ball,categorical,Consent,"Was this specimen originally acquired from the subject on or after January 25th, 2015 when the NIH requirements for Genomic Data Sharing consenting requirements changed?  This relates to whether a waiver can be applied for for use of data originating from a specimen banked prior to the requirement that all consents have Genomic Data Sharing language in them.  ",Clinical
-specimen_gdspolicy,waiver,Before January 25th 2015 - GDS policy waiver possible,categorical,Consent,"Was this specimen originally acquired from the subject on or after January 25th, 2015 when the NIH requirements for Genomic Data Sharing consenting requirements changed?  This relates to whether a waiver can be applied for for use of data originating from a specimen banked prior to the requirement that all consents have Genomic Data Sharing language in them.  ",Clinical
-specimen_privacy,protected,Protected Specimen with restrictions on privacy,categorical,Consent,What is the privacy type of this specimen? i.e. Is this specimen from a human source associated with private clinical information or is this specimen from a publicly accessible cell line or other reference specimen?,Clinical
-specimen_privacy,publiclyavailable,Publicly Available Specimen with no restrictions on privacy,categorical,Consent,What is the privacy type of this specimen? i.e. Is this specimen from a human source associated with private clinical information or is this specimen from a publicly accessible cell line or other reference specimen?,Clinical
-age_range,adult18to60,Adult ages 18-60  years old,categorical,Patient,Age Range at the time of specimen acquisition,Clinical
-age_range,elderly61,Elderly ages 61+  years old,categorical,Patient,Age Range at the time of specimen acquisition,Clinical
-age_range,pediatric17,Pediatric ages 0-17 years old,categorical,Patient,Age Range at the time of specimen acquisition,Clinical
-age_range,unknown,Unknown age,categorical,Patient,Age Range at the time of specimen acquisition,Clinical
-diagnosis,aa,Aplastic Anemia,categorical,Patient,"Diagnosis at collection or immediately prior, such that the implications of the disease would be relevant for interpretation of the data from the specimen",Clinical
-diagnosis,all,Acute Lymphoblastic Leukemia,categorical,Patient,"Diagnosis at collection or immediately prior, such that the implications of the disease would be relevant for interpretation of the data from the specimen",Clinical
-diagnosis,aml,Acute Myeloid Leukemia,categorical,Patient,"Diagnosis at collection or immediately prior, such that the implications of the disease would be relevant for interpretation of the data from the specimen",Clinical
-diagnosis,cml,Chronic Myeloid Leukemia,categorical,Patient,"Diagnosis at collection or immediately prior, such that the implications of the disease would be relevant for interpretation of the data from the specimen",Clinical
-diagnosis,et,Essential Thrombocytothemia,categorical,Patient,"Diagnosis at collection or immediately prior, such that the implications of the disease would be relevant for interpretation of the data from the specimen",Clinical
-diagnosis,icus,ICUS,categorical,Patient,"Diagnosis at collection or immediately prior, such that the implications of the disease would be relevant for interpretation of the data from the specimen",Clinical
-diagnosis,mds,Myelodysplastic Syndrome,categorical,Patient,"Diagnosis at collection or immediately prior, such that the implications of the disease would be relevant for interpretation of the data from the specimen",Clinical
-diagnosis,mf,Primary Myelofibrosis,categorical,Patient,"Diagnosis at collection or immediately prior, such that the implications of the disease would be relevant for interpretation of the data from the specimen",Clinical
-diagnosis,mpn,Myeloproliferative Neoplasm,categorical,Patient,"Diagnosis at collection or immediately prior, such that the implications of the disease would be relevant for interpretation of the data from the specimen",Clinical
-diagnosis,normal,Normal Donation,categorical,Patient,"Diagnosis at collection or immediately prior, such that the implications of the disease would be relevant for interpretation of the data from the specimen",Clinical
-diagnosis,pv,Polycythemia Vera,categorical,Patient,"Diagnosis at collection or immediately prior, such that the implications of the disease would be relevant for interpretation of the data from the specimen",Clinical
-diagnosis,secondaryaml,Secondary Acute Myeloid Leukemia,categorical,Patient,"Diagnosis at collection or immediately prior, such that the implications of the disease would be relevant for interpretation of the data from the specimen",Clinical
-diagnosis,therapyaml,Therapy-Induced Acute Myeloid Leukemia,categorical,Patient,"Diagnosis at collection or immediately prior, such that the implications of the disease would be relevant for interpretation of the data from the specimen",Clinical
-diagnosis,undetermined,Undetermined or Complex Diagnosis,categorical,Patient,"Diagnosis at collection or immediately prior, such that the implications of the disease would be relevant for interpretation of the data from the specimen",Clinical
-protocol,bloodbank,BloodBank,categorical,Patient,Protocol the specimen was collected under,Clinical
-protocol,calgb_10201,CALGB-10201,categorical,Patient,Protocol the specimen was collected under,Clinical
-protocol,calgb_19808,CALGB-19808,categorical,Patient,Protocol the specimen was collected under,Clinical
-protocol,calgb_8525,CALGB-8525,categorical,Patient,Protocol the specimen was collected under,Clinical
-protocol,calgb_9621,CALGB-9621,categorical,Patient,Protocol the specimen was collected under,Clinical
-protocol,calgb_9720,CALGB-9720,categorical,Patient,Protocol the specimen was collected under,Clinical
-protocol,cceh,CCEH,categorical,Patient,Protocol the specimen was collected under,Clinical
-protocol,ecog,ECOG,categorical,Patient,Protocol the specimen was collected under,Clinical
-protocol,eganaml,EganAML,categorical,Patient,Protocol the specimen was collected under,Clinical
-protocol,externalcollaborator,External Collaborator,categorical,Patient,Protocol the specimen was collected under,Clinical
-protocol,fh_1278,P1278,categorical,Patient,Protocol the specimen was collected under,Clinical
-protocol,fh_1690,P1690,categorical,Patient,Protocol the specimen was collected under,Clinical
-protocol,fh_1713,P1713,categorical,Patient,Protocol the specimen was collected under,Clinical
-protocol,fh_2524,P2524,categorical,Patient,Protocol the specimen was collected under,Clinical
-protocol,icus,ICUS,categorical,Patient,Protocol the specimen was collected under,Clinical
-protocol,noannot,Not relevant or No protocol applicable (but still a protected specimen),categorical,Patient,Protocol the specimen was collected under,Clinical
-protocol,p334_00,P334_00,categorical,Patient,Protocol the specimen was collected under,Clinical
-protocol,publiclyavailable,Publicly Available Specimen (no protocol applicable),categorical,Patient,Protocol the specimen was collected under,Clinical
-protocol,residualmaterial,ResidualMaterial,categorical,Patient,Protocol the specimen was collected under,Clinical
-protocol,sanofi_ard12181,Sanofi-ARD12181,categorical,Patient,Protocol the specimen was collected under,Clinical
-protocol,swog_s0106,SWOG-S0106,categorical,Patient,Protocol the specimen was collected under,Clinical
-protocol,swog_s0112,SWOG-S01121,categorical,Patient,Protocol the specimen was collected under,Clinical
-protocol,swog_s0301,SWOG-S0301,categorical,Patient,Protocol the specimen was collected under,Clinical
-protocol,swog_s0325,SWOG-S0325,categorical,Patient,Protocol the specimen was collected under,Clinical
-protocol,swog_s8600,SWOG-S8600,categorical,Patient,Protocol the specimen was collected under,Clinical
-protocol,swog_s9031,SWOG-S9031,categorical,Patient,Protocol the specimen was collected under,Clinical
-protocol,swog_s9034,SWOG-S9034,categorical,Patient,Protocol the specimen was collected under,Clinical
-protocol,swog_s9126,SWOG-S9126,categorical,Patient,Protocol the specimen was collected under,Clinical
-protocol,swog_s9333,SWOG-S9333,categorical,Patient,Protocol the specimen was collected under,Clinical
-protocol,swog_s9500,SWOG-S9500,categorical,Patient,Protocol the specimen was collected under,Clinical
-protocol,swog_s9918,SWOG-S9918,categorical,Patient,Protocol the specimen was collected under,Clinical
-protocol_org,CALGB,CALGB,categorical,Patient,Organization that initated or managed the protocol under which a specimen was banked. ,Clinical
-protocol_org,ECOG,ECOG,categorical,Patient,Organization that initated or managed the protocol under which a specimen was banked. ,Clinical
-protocol_org,External_Pharma,External Pharmaceutical Company Initiated,categorical,Patient,Organization that initated or managed the protocol under which a specimen was banked. ,Clinical
-protocol_org,External_PI,External PI Initiated,categorical,Patient,Organization that initated or managed the protocol under which a specimen was banked. ,Clinical
-protocol_org,FredHutch_CCEH,Fred Hutch Co-Operative Center for Excellence in Hematology (CCEH),categorical,Patient,Organization that initated or managed the protocol under which a specimen was banked. ,Clinical
-protocol_org,FredHutch_LeukemiaRepo,Fred Hutch Leukemia Lymphoma Repository,categorical,Patient,Organization that initated or managed the protocol under which a specimen was banked. ,Clinical
-protocol_org,FredHutch_PI,Fred Hutch PI Initiated,categorical,Patient,Organization that initated or managed the protocol under which a specimen was banked. ,Clinical
-protocol_org,PubliclyAvailable,Publicly Available Specimen (no protocol applicable),categorical,Patient,Organization that initated or managed the protocol under which a specimen was banked. ,Clinical
-protocol_org,SWOG,SWOG,categorical,Patient,Organization that initated or managed the protocol under which a specimen was banked. ,Clinical
-protocol_org,UW_ResidualClinical,Univ. of Washington Residual Clinical Material,categorical,Patient,Organization that initated or managed the protocol under which a specimen was banked. ,Clinical
-race,asianpacificislander,"Asian, Pacific Islander",categorical,Patient,Race of the patient,Clinical
-race,black,Black,categorical,Patient,Race of the patient,Clinical
-race,other,Other,categorical,Patient,Race of the patient,Clinical
-race,unknown,Unknown,categorical,Patient,Race of the patient,Clinical
-race,white,White,categorical,Patient,Race of the patient,Clinical
-sex,female,F,categorical,Patient,Sex of the patient,Clinical
-sex,male,M,categorical,Patient,Sex of the patient,Clinical
-sex,unknown,Unknown,categorical,Patient,Sex of the patient,Clinical
-subtype,FAB_M0,FAB-M0,categorical,Patient,"Disease subtype, if applicable, currently AML FAB designations",Clinical
-subtype,FAB_M1,FAB-M1,categorical,Patient,"Disease subtype, if applicable, currently AML FAB designations",Clinical
-subtype,FAB_M2,FAB-M2,categorical,Patient,"Disease subtype, if applicable, currently AML FAB designations",Clinical
-subtype,FAB_M3,FAB-M3,categorical,Patient,"Disease subtype, if applicable, currently AML FAB designations",Clinical
-subtype,FAB_M4,FAB-M4,categorical,Patient,"Disease subtype, if applicable, currently AML FAB designations",Clinical
-subtype,FAB_M5,FAB-M5,categorical,Patient,"Disease subtype, if applicable, currently AML FAB designations",Clinical
-subtype,FAB_M6,FAB-M6,categorical,Patient,"Disease subtype, if applicable, currently AML FAB designations",Clinical
-subtype,FAB_M7,FAB-M7,categorical,Patient,"Disease subtype, if applicable, currently AML FAB designations",Clinical
-dead_at_last_contact,yes,"Yes, patient was dead at last contact",categorical,Patient,Survival status at date of last contact by study staff,Clinical
-dead_at_last_contact,no,"No, patient was alive at last contact",categorical,Patient,Survival status at date of last contact by study staff,Clinical
-dead_at_last_contact,unknown,"Unknown, no follow up occurred, or patient was lost to follow up.",categorical,Patient,Survival status at date of last contact by study staff,Clinical
-survival_time,NA,NA,numeric,Patient,Survival time after enrolling in the study in days,Clinical
-event_free_survival,NA,NA,numeric,Patient,Event free survival time in days,Clinical
-event_indicator,CR_prog_death,"Did not achive a CR, had progression, or death (CARDINAL)",categorical,Patient,The event indicator describes the type of event that occurred as described by the event free survival time.,Clinical
-relapse_free_survival,NA,NA,numeric,Patient,Relapse free survival time in days,Clinical
-relapse_indicator,yes,"Yes, the patient was known to have relapsed",categorical,Patient,Specifies if a patient relapse after this specimen was acquired. ,Clinical
-relapse_indicator,no,"No, the patient was known not to have relapsed",categorical,Patient,Specifies if a patient relapse after this specimen was acquired. ,Clinical
-relapse_indicator,unknown,"Unknown, it cannot be known if the patient relapsed or not, including lost to follow up.",categorical,Patient,Specifies if a patient relapse after this specimen was acquired. ,Clinical
-cr_achieved,yes,"Yes, a CR was achieved",categorical,Patient,Whether a Complete Remission achieved after the treatment given immediately after this specimen was acquired.  ,Clinical
-cr_achieved,no,"No, a CR was not achieved",categorical,Patient,Whether a Complete Remission achieved after the treatment given immediately after this specimen was acquired.  ,Clinical
-cr_achieved,unknown,Unknown if a CR was achived or was lost to follow up,categorical,Patient,Whether a Complete Remission achieved after the treatment given immediately after this specimen was acquired.  ,Clinical
-GGWorkflowName,ConsensusGeneExp,"Gene level expression pipeline using HiSat2/htseqcount and salmon in parallel for human,  paired end, RNA sequencing data",categorical,Bioinformatics,"Globus Genomics curated workflow unique ID, via Translational Genomics",Genomics
-GGWorkflowName,ConsensusVariants,"Consensus variant calling pipeline using GATK Haplotype Caller and samtools mpileup with annotation via ANNOVAR and QC stats via GATK, for human, targeted DNA sequencing, with unpaired samples and paired end sequencing",categorical,Bioinformatics,"Globus Genomics curated workflow unique ID, via Translational Genomics",Genomics
-informaticsPlatform,GenomeStudio,Fred Hutch instance of Globus Genomics,categorical,Bioinformatics,Platform used to perform the bioinformatic processing of the raw data to a processed dataset,Genomics
-informaticsPlatform,GlobusGenomics,Fred Hutch instance of Globus Genomics,categorical,Bioinformatics,Platform used to perform the bioinformatic processing of the raw data to a processed dataset,Genomics
-informaticsPlatform,Manual,Custom bioinformatics work not using a FH supported workflow or pipelining platform,categorical,Bioinformatics,Platform used to perform the bioinformatic processing of the raw data to a processed dataset,Genomics
-processedContentType,ampliconSeqQC,NA,categorical,Bioinformatics,Type of processed dataset dependent on both genomics data type and the specific bioinformatic workflow performed to generate the file,Genomics
-processedContentType,annotatedVariants,NA,categorical,Bioinformatics,Type of processed dataset dependent on both genomics data type and the specific bioinformatic workflow performed to generate the file,Genomics
-processedContentType,genelevelCounts,NA,categorical,Bioinformatics,Type of processed dataset dependent on both genomics data type and the specific bioinformatic workflow performed to generate the file,Genomics
-processedContentType,genelevelNormalized,NA,categorical,Bioinformatics,Type of processed dataset dependent on both genomics data type and the specific bioinformatic workflow performed to generate the file,Genomics
-processedContentType,probelevelNormalized,NA,categorical,Bioinformatics,Type of processed dataset dependent on both genomics data type and the specific bioinformatic workflow performed to generate the file,Genomics
-processedContentType,probelevelQuantileNormed,NA,categorical,Bioinformatics,Type of processed dataset dependent on both genomics data type and the specific bioinformatic workflow performed to generate the file,Genomics
-processedContentType,QCStats,NA,categorical,Bioinformatics,Type of processed dataset dependent on both genomics data type and the specific bioinformatic workflow performed to generate the file,Genomics
-processedContentType,rawVariants,NA,categorical,Bioinformatics,Type of processed dataset dependent on both genomics data type and the specific bioinformatic workflow performed to generate the file,Genomics
-processedContentType,snparrayFinalReport,NA,categorical,Bioinformatics,Type of processed dataset dependent on both genomics data type and the specific bioinformatic workflow performed to generate the file,Genomics
-processedContentType,consensusVariants,NA,categorical,Bioinformatics,Type of processed dataset dependent on both genomics data type and the specific bioinformatic workflow performed to generate the file,Genomics
-stage,probelevelnormalized,Probe level normalized gene expression array data,categorical,Bioinformatics,Stage of processing of a molecular data set,Genomics
-stage,snpfinalreport,SNP array final report usually from Genome Studio,categorical,Bioinformatics,Stage of processing of a molecular data set,Genomics
-stage,processed,Molecular data set in a processed form,categorical,Bioinformatics,Stage of processing of a molecular data set,Genomics
-stage,QC,A quality control data set generated to describe a molecular data set,categorical,Bioinformatics,Stage of processing of a molecular data set,Genomics
-stage,raw,Molecular data set in it's raw form,categorical,Bioinformatics,Stage of processing of a molecular data set,Genomics
-stage,analyzed,An analyzed form of a processed data set.  ,categorical,Bioinformatics,Stage of processing of a molecular data set,Genomics
-toolSource,GATKDepthofCoverage,NA,categorical,Bioinformatics,Bioinformatics tool that produced the output file/processed content from a genomics data set,Genomics
-toolSource,GATKHaplotypeCaller,NA,categorical,Bioinformatics,Bioinformatics tool that produced the output file/processed content from a genomics data set,Genomics
-toolSource,GenomeStudio,NA,categorical,Bioinformatics,Bioinformatics tool that produced the output file/processed content from a genomics data set,Genomics
-toolSource,HiSat2/htseq-count,NA,categorical,Bioinformatics,Bioinformatics tool that produced the output file/processed content from a genomics data set,Genomics
-toolSource,Manual,NA,categorical,Bioinformatics,Bioinformatics tool that produced the output file/processed content from a genomics data set,Genomics
-toolSource,salmon,NA,categorical,Bioinformatics,Bioinformatics tool that produced the output file/processed content from a genomics data set,Genomics
-toolSource,samtoolsMpileup,NA,categorical,Bioinformatics,Bioinformatics tool that produced the output file/processed content from a genomics data set,Genomics
-toolSource,ITHAnalysis,NA,categorical,Bioinformatics,Bioinformatics tool that produced the output file/processed content from a genomics data set,Genomics
-workflowID,GG.id.0a3ad9dd82afd4ef,"Unique Version, Script Name or GitHub URL",categorical,Bioinformatics,Unique string identifying a specific Translational Genomics curated Globus Genomics bioinformatics workflow and version or script name or GitHub URL of script used to analyze the processed data set,Genomics
-workflowID,GG.id.9ea43fe535d3b430,"Unique Version, Script Name or GitHub URL",categorical,Bioinformatics,Unique string identifying a specific Translational Genomics curated Globus Genomics bioinformatics workflow and version or script name or GitHub URL of script used to analyze the processed data set,Genomics
-workflowID,GG.id.b9729ab0dd6febd8,"Unique Version, Script Name or GitHub URL",categorical,Bioinformatics,Unique string identifying a specific Translational Genomics curated Globus Genomics bioinformatics workflow and version or script name or GitHub URL of script used to analyze the processed data set,Genomics
-workflowID,consensusVariantsParallel.R,"Unique Version, Script Name or GitHub URL",categorical,Bioinformatics,Unique string identifying a specific Translational Genomics curated Globus Genomics bioinformatics workflow and version or script name or GitHub URL of script used to analyze the processed data set,Genomics
-array_type,hg19hx3,HG19 HX3 Methylation Array (Cornell),categorical,Genomics,Type of microarray that was used to generate the raw genomics dataset,Genomics
-array_type,ht12,HumanHT-12 Expression BeadChip (Illumina) v4,categorical,Genomics,Type of microarray that was used to generate the raw genomics dataset,Genomics
-array_type,infiniumomni2m8,Illumina Omni 2.5M,categorical,Genomics,Type of microarray that was used to generate the raw genomics dataset,Genomics
-array_type,infiniumomni2m8v1to3,Illumina Omni 2.5M v1-3,categorical,Genomics,Type of microarray that was used to generate the raw genomics dataset,Genomics
-array_type,infiniumomni5mquad,Illumina Omni 5M,categorical,Genomics,Type of microarray that was used to generate the raw genomics dataset,Genomics
-flowcell_type,HiSeqRapidFlowCellv2,HiSeq Rapid Flow Cell v2,categorical,Genomics,Sequencing flow cell type that generated the raw data,Genomics
-genomics_types,dnaseq,DNA sequencing,categorical,Genomics,Type of  raw genomics data generated from this assay material,Genomics
-genomics_types,exparray,Gene expression array,categorical,Genomics,Type of  raw genomics data generated from this assay material,Genomics
-genomics_types,methylarray,Methylation array,categorical,Genomics,Type of  raw genomics data generated from this assay material,Genomics
-genomics_types,mirnaarray,miRNA array,categorical,Genomics,Type of  raw genomics data generated from this assay material,Genomics
-genomics_types,rnaseq,RNA sequencing,categorical,Genomics,Type of  raw genomics data generated from this assay material,Genomics
-genomics_types,singleCell,Single cell based sequencing assay,categorical,Genomics,Type of  raw genomics data generated from this assay material,Genomics
-genomics_types,snparray,SNP array,categorical,Genomics,Type of  raw genomics data generated from this assay material,Genomics
-protocol_data,p547,Fred Hutch; Protocol 547; Jerald Radich,categorical,Genomics,IRB Protocol/File associated with the original generation or acquisition by the study PI of the dataset (include Institution of IRB of record; protocol number; PI name).,Genomics
-protocol_data,unknown,Unknown at this time; TBD,categorical,Genomics,IRB Protocol/File associated with the original generation or acquisition by the study PI of the dataset (include Institution of IRB of record; protocol number; PI name).,Genomics
-omics_contact_id,apaguiri,Amy Paguirigan,categorical,Genomics,"Contact ID of investigator responsible for omics dataset generation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Genomics
-omics_contact_id,apaguirigan,Amy Paguirigan,categorical,Genomics,"Contact ID of investigator responsible for omics dataset generation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Genomics
-omics_contact_id,csmith,Catherine Smith (UCSF),categorical,Genomics,"Contact ID of investigator responsible for omics dataset generation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Genomics
-omics_contact_id,degan,Dan Egan,categorical,Genomics,"Contact ID of investigator responsible for omics dataset generation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Genomics
-omics_contact_id,dstirewalt,Derek Stirewalt,categorical,Genomics,"Contact ID of investigator responsible for omics dataset generation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Genomics
-omics_contact_id,dyadock,David Yadock,categorical,Genomics,"Contact ID of investigator responsible for omics dataset generation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Genomics
-omics_contact_id,epogosova,Era Pogosova,categorical,Genomics,"Contact ID of investigator responsible for omics dataset generation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Genomics
-omics_contact_id,estevens,Emily Stevens,categorical,Genomics,"Contact ID of investigator responsible for omics dataset generation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Genomics
-omics_contact_id,jdeeg,Joachim Deeg,categorical,Genomics,"Contact ID of investigator responsible for omics dataset generation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Genomics
-omics_contact_id,jfromm,Jonathan Fromm,categorical,Genomics,"Contact ID of investigator responsible for omics dataset generation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Genomics
-omics_contact_id,jradich,Jerry Radich,categorical,Genomics,"Contact ID of investigator responsible for omics dataset generation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Genomics
-omics_contact_id,pbecker,Pam Becker,categorical,Genomics,"Contact ID of investigator responsible for omics dataset generation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Genomics
-run_mode,RapidRun,RapidRun,categorical,Genomics,Mode the sequencing platform was run in during data acquisition,Genomics
-seq_libtype,agssex5,Agilent SureSelect v5 Exome All Exon,categorical,Genomics,Library preparation type for Illumina sequencing data,Genomics
-seq_libtype,agssex6,Agilent SureSelect v6 Exome,categorical,Genomics,Library preparation type for Illumina sequencing data,Genomics
-seq_libtype,clon,"Clontech SMARTer STranded Total RNA-Seq Kit pico, Mammalian",categorical,Genomics,Library preparation type for Illumina sequencing data,Genomics
-seq_libtype,one,Illumina TruSight One Panel,categorical,Genomics,Library preparation type for Illumina sequencing data,Genomics
-seq_libtype,tapestriAMLPanel,Mission Bio Tapestri Single Cell AML panel,categorical,Genomics,Library preparation type for Illumina sequencing data,Genomics
-seq_libtype,truseq,Illumina TruSeq RNA v2,categorical,Genomics,Library preparation type for Illumina sequencing data,Genomics
-seq_libtype,tsm,Illumina TruSight Myeloid Panel,categorical,Genomics,Library preparation type for Illumina sequencing data,Genomics
-seq_libtype,washu,Washington University AML Panel,categorical,Genomics,Library preparation type for Illumina sequencing data,Genomics
-seq_paired,no,FALSE,categorical,Genomics,Paired end sequencing?,Genomics
-seq_paired,yes,TRUE,categorical,Genomics,Paired end sequencing?,Genomics
-seq_platform,HiSeq,HiSeq,categorical,Genomics,Sequencing platform which generated the raw data,Genomics
-seq_platform,MiSeq,MiSeq,categorical,Genomics,Sequencing platform which generated the raw data,Genomics
-seq_readlength,49,50 base made @ Genomics SR PRIOR to 8/20/2014,categorical,Genomics,Read length of sequencing,Genomics
-seq_readlength,50,50 base,categorical,Genomics,Read length of sequencing,Genomics
-seq_readlength,99,100base made @ Genomics SR PRIOR to 8/20/2014,categorical,Genomics,Read length of sequencing,Genomics
-seq_readlength,100,100 base,categorical,Genomics,Read length of sequencing,Genomics
-seq_readlength,150,150 base,categorical,Genomics,Read length of sequencing,Genomics
-seq_readlength,300,300 base,categorical,Genomics,Read length of sequencing,Genomics
-extraction_type,column,Column,categorical,Assay Material,Extraction protocol used to isolate the assay material from a lysate,Laboratory
-extraction_type,directlysis,Direct lysis in plate (for sorted cells),categorical,Assay Material,Extraction protocol used to isolate the assay material from a lysate,Laboratory
-extraction_type,magneticbead,Magnetic bead,categorical,Assay Material,Extraction protocol used to isolate the assay material from a lysate,Laboratory
-extraction_type,paxgenerna,PAXgene RNA,categorical,Assay Material,Extraction protocol used to isolate the assay material from a lysate,Laboratory
-extraction_type,precipitation,Precipitation,categorical,Assay Material,Extraction protocol used to isolate the assay material from a lysate,Laboratory
-extraction_type,trizol,Trizol,categorical,Assay Material,Extraction protocol used to isolate the assay material from a lysate,Laboratory
-extraction_type,unknown,Unknown method,categorical,Assay Material,Extraction protocol used to isolate the assay material from a lysate,Laboratory
-material_contact_id,apaguirigan,Amy Paguirigan,categorical,Assay Material,"Contact ID of investigator responsible for assay material isolation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory
-material_contact_id,csmith,Catherine Smith (UCSF),categorical,Assay Material,"Contact ID of investigator responsible for assay material isolation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory
-material_contact_id,degan,Dan Egan,categorical,Assay Material,"Contact ID of investigator responsible for assay material isolation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory
-material_contact_id,dstirewalt,Derek Stirewalt,categorical,Assay Material,"Contact ID of investigator responsible for assay material isolation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory
-material_contact_id,dyadock,David Yadock,categorical,Assay Material,"Contact ID of investigator responsible for assay material isolation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory
-material_contact_id,epogosova,Era Pogosova,categorical,Assay Material,"Contact ID of investigator responsible for assay material isolation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory
-material_contact_id,estevens,Emily Stevens,categorical,Assay Material,"Contact ID of investigator responsible for assay material isolation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory
-material_contact_id,jdeeg,Joachim Deeg,categorical,Assay Material,"Contact ID of investigator responsible for assay material isolation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory
-material_contact_id,jfromm,Jonathan Fromm,categorical,Assay Material,"Contact ID of investigator responsible for assay material isolation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory
-material_contact_id,jradich,Jerry Radich,categorical,Assay Material,"Contact ID of investigator responsible for assay material isolation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory
-material_contact_id,pbecker,Pam Becker,categorical,Assay Material,"Contact ID of investigator responsible for assay material isolation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory
-material_type,beadRNA,Bead based extracted total RNA without DNase treatment,categorical,Assay Material,Type of assay material,Laboratory
-material_type,cellSuspension,Cell Suspension,categorical,Assay Material,Type of assay material,Laboratory
-material_type,DNA,Genomic DNA,categorical,Assay Material,Type of assay material,Laboratory
-material_type,lysate,"Direct to Lysate, intended for downstream analysis of DNA",categorical,Assay Material,Type of assay material,Laboratory
-material_type,PAX_RNA,PAXgene isolated total RNA,categorical,Assay Material,Type of assay material,Laboratory
-material_type,RNA,"Total RNA, assumes small RNAs are not specifically retained",categorical,Assay Material,Type of assay material,Laboratory
-rin_range,highquality,RIN value of >7,categorical,Assay Material,RIN range if assay material is RNA,Laboratory
-rin_range,lowquality,RIN value of < 4.9,categorical,Assay Material,RIN range if assay material is RNA,Laboratory
-rin_range,mediumquality,RIN value of 5-6.9,categorical,Assay Material,RIN range if assay material is RNA,Laboratory
-rin_range,notdetermined,Not Determined,categorical,Assay Material,RIN range if assay material is RNA,Laboratory
-bead_pop,cd19_or_cd3,"CD19+ or CD3+, CD19+ or CD3+ magnetic bead positive selection (lymphoid)",categorical,Experimental,Type of cell population isolated via antibody conjugated magnetic bead selection prior to generation of a lysate,Laboratory
-bead_pop,cd33_or_cd66b,CD33+ or CD66b+ magnetic bead positive selection prior to lysis (myeloid),categorical,Experimental,Type of cell population isolated via antibody conjugated magnetic bead selection prior to generation of a lysate,Laboratory
-bead_pop,negative_for_cd19_cd3_cd33_cd66b,CD19- CD3- CD33- CD66b- (neither lymphoid or myeloid; remainder from lymph/myelo selection),categorical,Experimental,Type of cell population isolated via antibody conjugated magnetic bead selection prior to generation of a lysate,Laboratory
-derivative_process,exposedsubclone,Subcloning after drug or other condition exposure,categorical,Experimental,What type of derivative process was used to generate this specimen from the originally acquired specimen?,Laboratory
-derivative_process,immortalized,Immortalized cell line creation (spontaneous or via viral transduction),categorical,Experimental,What type of derivative process was used to generate this specimen from the originally acquired specimen?,Laboratory
-derivative_process,isolatedsubclone,Subcloning after a selection process (i.e. Flow cytometry or single cell sorting),categorical,Experimental,What type of derivative process was used to generate this specimen from the originally acquired specimen?,Laboratory
-derivative_specimen,noannot,No,categorical,Experimental,Is this specimen a laboratory derivative of an original human specimen?,Laboratory
-derivative_specimen,yes,Yes,categorical,Experimental,Is this specimen a laboratory derivative of an original human specimen?,Laboratory
-flow_pop,cd14_live,"CD14 positive, live (monocytes)",categorical,Experimental,Type of Population Isolated via Flow Cytometry prior to generation of the assay material,Laboratory
-flow_pop,cd19_or_cd3_live,"CD19 OR CD3 positive, live (lymphoid)",categorical,Experimental,Type of Population Isolated via Flow Cytometry prior to generation of the assay material,Laboratory
-flow_pop,cd3_live,"CD13 positive, live (t-cells)",categorical,Experimental,Type of Population Isolated via Flow Cytometry prior to generation of the assay material,Laboratory
-flow_pop,cd33_cd14_live,"CD33 and CD14 positive, live (monocytes)",categorical,Experimental,Type of Population Isolated via Flow Cytometry prior to generation of the assay material,Laboratory
-flow_pop,cd33_cd34_cd14neg_live,"CD33 and CD34 positive, CD14 negative, live (progenitor, without monocytic differentiation)",categorical,Experimental,Type of Population Isolated via Flow Cytometry prior to generation of the assay material,Laboratory
-flow_pop,cd33_cd34_live,"CD33 and CD34 positive, live (progenitor)",categorical,Experimental,Type of Population Isolated via Flow Cytometry prior to generation of the assay material,Laboratory
-flow_pop,cd33_live,"CD33 positive, live (myeloid)",categorical,Experimental,Type of Population Isolated via Flow Cytometry prior to generation of the assay material,Laboratory
-flow_pop,cd34_live,"CD34 positive, live (blast)",categorical,Experimental,Type of Population Isolated via Flow Cytometry prior to generation of the assay material,Laboratory
-flow_pop,cd64_cd14neg_live,"CD64 positive and CD14 negative, live (blast with no monocytic differentiation)",categorical,Experimental,Type of Population Isolated via Flow Cytometry prior to generation of the assay material,Laboratory
-flow_pop,cd71_live,"CD71 positive, live (erythroid)",categorical,Experimental,Type of Population Isolated via Flow Cytometry prior to generation of the assay material,Laboratory
-flow_pop,customcocktail,Custom cocktail (describe in notes),categorical,Experimental,Type of Population Isolated via Flow Cytometry prior to generation of the assay material,Laboratory
-flow_pop,differentiatedmyeloidcocktail,"Differentiated Myeloid cocktail (CD33+ and CD14+ or CD66b+, live)",categorical,Experimental,Type of Population Isolated via Flow Cytometry prior to generation of the assay material,Laboratory
-flow_pop,enrichedblastcocktail,"Enriched Blast cocktail (not differentiated myeloid, nor lymphoid (via CD19+ or CD3+))",categorical,Experimental,Type of Population Isolated via Flow Cytometry prior to generation of the assay material,Laboratory
-flow_pop,live,Live,categorical,Experimental,Type of Population Isolated via Flow Cytometry prior to generation of the assay material,Laboratory
-collection_event,2ndrelapse,Second Relapse,categorical,Specimen,"Event at specimen collection, currently in relationship to disease phase in myeloid malignancies",Laboratory
-collection_event,day0,Day 0 Post HCT,categorical,Specimen,"Event at specimen collection, currently in relationship to disease phase in myeloid malignancies",Laboratory
-collection_event,day28,Day 28 Post HCT,categorical,Specimen,"Event at specimen collection, currently in relationship to disease phase in myeloid malignancies",Laboratory
-collection_event,diagnosis,Diagnosis,categorical,Specimen,"Event at specimen collection, currently in relationship to disease phase in myeloid malignancies",Laboratory
-collection_event,noannot,Not relevant/Unknown and we won't know,categorical,Specimen,"Event at specimen collection, currently in relationship to disease phase in myeloid malignancies",Laboratory
-collection_event,normal,Normal Donation,categorical,Specimen,"Event at specimen collection, currently in relationship to disease phase in myeloid malignancies",Laboratory
-collection_event,postinduction,Post-Induction,categorical,Specimen,"Event at specimen collection, currently in relationship to disease phase in myeloid malignancies",Laboratory
-collection_event,prediagnosis,Pre-Diagnosis,categorical,Specimen,"Event at specimen collection, currently in relationship to disease phase in myeloid malignancies",Laboratory
-collection_event,prehct,Pre-HCT,categorical,Specimen,"Event at specimen collection, currently in relationship to disease phase in myeloid malignancies",Laboratory
-collection_event,relapse,Relapse,categorical,Specimen,"Event at specimen collection, currently in relationship to disease phase in myeloid malignancies",Laboratory
-collection_event,remission,Remission,categorical,Specimen,"Event at specimen collection, currently in relationship to disease phase in myeloid malignancies",Laboratory
-collection_type,acd,ACD,categorical,Specimen,Hematological specimen collection tube type,Laboratory
-collection_type,edta,EDTA,categorical,Specimen,Hematological specimen collection tube type,Laboratory
-collection_type,heparin,Sodium Heparin,categorical,Specimen,Hematological specimen collection tube type,Laboratory
-collection_type,other,Other,categorical,Specimen,Hematological specimen collection tube type,Laboratory
-collection_type,paxdna,PAXgene DNA,categorical,Specimen,Hematological specimen collection tube type,Laboratory
-collection_type,paxrna,PAXgene RNA,categorical,Specimen,Hematological specimen collection tube type,Laboratory
-collection_type,unknown,Unknown,categorical,Specimen,Hematological specimen collection tube type,Laboratory
-processing_type,cellline,Cell Culture (document conditions in notes),categorical,Specimen,"Specimen processing type immediately after acquisition from the patient prior to preservation, experimentation or preparation for assay material isolation",Laboratory
-processing_type,mononuclearcells,Mononuclear Cells,categorical,Specimen,"Specimen processing type immediately after acquisition from the patient prior to preservation, experimentation or preparation for assay material isolation",Laboratory
-processing_type,paxgene,PAXgene,categorical,Specimen,"Specimen processing type immediately after acquisition from the patient prior to preservation, experimentation or preparation for assay material isolation",Laboratory
-processing_type,polymorphonuclearcells,Polymorphonuclear Cells,categorical,Specimen,"Specimen processing type immediately after acquisition from the patient prior to preservation, experimentation or preparation for assay material isolation",Laboratory
-processing_type,redbloodcelllysis,RBC Lysis,categorical,Specimen,"Specimen processing type immediately after acquisition from the patient prior to preservation, experimentation or preparation for assay material isolation",Laboratory
-processing_type,unknown,Unknown,categorical,Specimen,"Specimen processing type immediately after acquisition from the patient prior to preservation, experimentation or preparation for assay material isolation",Laboratory
-shipping,fresh,Yes: the freshly isolated specimen was shipped prior to preservation,categorical,Specimen,"Identifies if the specimen, or any of it's possible parent specimens were shipped prior to generation of assay material",Laboratory
-shipping,notapplicable,No: the specimen was never shipped,categorical,Specimen,"Identifies if the specimen, or any of it's possible parent specimens were shipped prior to generation of assay material",Laboratory
-shipping,preserved,"Yes: the specimen was shipped in a preserved form (i.e., cryopreserved aliqout)",categorical,Specimen,"Identifies if the specimen, or any of it's possible parent specimens were shipped prior to generation of assay material",Laboratory
-shipping,shipped,"Yes: the specimen was shipped at some point, but the status at the time is unknown",categorical,Specimen,"Identifies if the specimen, or any of it's possible parent specimens were shipped prior to generation of assay material",Laboratory
-specimen_contact_id,apaguirigan,Amy Paguirigan,categorical,Specimen,"Contact ID of investigator responsible for specimen acquisition (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory
-specimen_contact_id,csmith,Catherine Smith (UCSF),categorical,Specimen,"Contact ID of investigator responsible for specimen acquisition (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory
-specimen_contact_id,degan,Dan Egan,categorical,Specimen,"Contact ID of investigator responsible for specimen acquisition (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory
-specimen_contact_id,dstirewalt,Derek Stirewalt,categorical,Specimen,"Contact ID of investigator responsible for specimen acquisition (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory
-specimen_contact_id,dyadock,David Yadock,categorical,Specimen,"Contact ID of investigator responsible for specimen acquisition (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory
-specimen_contact_id,epogosova,Era Pogosova,categorical,Specimen,"Contact ID of investigator responsible for specimen acquisition (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory
-specimen_contact_id,estevens,Emily Stevens,categorical,Specimen,"Contact ID of investigator responsible for specimen acquisition (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory
-specimen_contact_id,jdeeg,Joachim Deeg,categorical,Specimen,"Contact ID of investigator responsible for specimen acquisition (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory
-specimen_contact_id,jfromm,Jonathan Fromm,categorical,Specimen,"Contact ID of investigator responsible for specimen acquisition (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory
-specimen_contact_id,jradich,Jerry Radich,categorical,Specimen,"Contact ID of investigator responsible for specimen acquisition (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory
-specimen_contact_id,pbecker,Pam Becker,categorical,Specimen,"Contact ID of investigator responsible for specimen acquisition (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory
-storage,cryopreserved,Yes: The specimen was cryopreserved,categorical,Specimen,"Identifies if the specimen, or any of it's possible parent specimens were cryopreserved prior to generation of assay material",Laboratory
-storage,notapplicable,No: the specimen was not cryopreserved,categorical,Specimen,"Identifies if the specimen, or any of it's possible parent specimens were cryopreserved prior to generation of assay material",Laboratory
-time_to_processing,12to23h,12-23.9 hours,categorical,Specimen,"Time range from hematological specimen collection (i.e., blood/bone marrow draw) until specimen processing performed to preserve the specimen (i.e., process to lyse in Trizol or cryopreserve)",Laboratory
-time_to_processing,24to47h,24-47.9 hours,categorical,Specimen,"Time range from hematological specimen collection (i.e., blood/bone marrow draw) until specimen processing performed to preserve the specimen (i.e., process to lyse in Trizol or cryopreserve)",Laboratory
-time_to_processing,3to6h,3-6.9 hours,categorical,Specimen,"Time range from hematological specimen collection (i.e., blood/bone marrow draw) until specimen processing performed to preserve the specimen (i.e., process to lyse in Trizol or cryopreserve)",Laboratory
-time_to_processing,48hplus,48+ hours,categorical,Specimen,"Time range from hematological specimen collection (i.e., blood/bone marrow draw) until specimen processing performed to preserve the specimen (i.e., process to lyse in Trizol or cryopreserve)",Laboratory
-time_to_processing,7to11h,7-11.9 hours,categorical,Specimen,"Time range from hematological specimen collection (i.e., blood/bone marrow draw) until specimen processing performed to preserve the specimen (i.e., process to lyse in Trizol or cryopreserve)",Laboratory
-time_to_processing,noannot,"Not Relevant (such as for cell lines, or other non-primary human sample)",categorical,Specimen,"Time range from hematological specimen collection (i.e., blood/bone marrow draw) until specimen processing performed to preserve the specimen (i.e., process to lyse in Trizol or cryopreserve)",Laboratory
-time_to_processing,notapplicable,"Not Applicable (such as for cell lines, or other non-primary human sample)",categorical,Specimen,"Time range from hematological specimen collection (i.e., blood/bone marrow draw) until specimen processing performed to preserve the specimen (i.e., process to lyse in Trizol or cryopreserve)",Laboratory
-time_to_processing,paxgene,PAXgene,categorical,Specimen,"Time range from hematological specimen collection (i.e., blood/bone marrow draw) until specimen processing performed to preserve the specimen (i.e., process to lyse in Trizol or cryopreserve)",Laboratory
-time_to_processing,repositoryprocessing,Repository Processing (times/shipping unknown but not rapid),categorical,Specimen,"Time range from hematological specimen collection (i.e., blood/bone marrow draw) until specimen processing performed to preserve the specimen (i.e., process to lyse in Trizol or cryopreserve)",Laboratory
-time_to_processing,under3h,< 3 hours,categorical,Specimen,"Time range from hematological specimen collection (i.e., blood/bone marrow draw) until specimen processing performed to preserve the specimen (i.e., process to lyse in Trizol or cryopreserve)",Laboratory
-time_to_processing,unknown,Unknown,categorical,Specimen,"Time range from hematological specimen collection (i.e., blood/bone marrow draw) until specimen processing performed to preserve the specimen (i.e., process to lyse in Trizol or cryopreserve)",Laboratory
-tissue_type,apheresis,Apheresis,categorical,Specimen,Tissue type of the specimen collected from a patient,Laboratory
-tissue_type,bonemarrow,Bone Marrow,categorical,Specimen,Tissue type of the specimen collected from a patient,Laboratory
-tissue_type,cellline,Cell Line,categorical,Specimen,Tissue type of the specimen collected from a patient,Laboratory
-tissue_type,fibroblasts,Expanded fibroblasts,categorical,Specimen,Tissue type of the specimen collected from a patient,Laboratory
-tissue_type,pbpaxdna,Peripheral Blood PAXgene DNA,categorical,Specimen,Tissue type of the specimen collected from a patient,Laboratory
-tissue_type,pbpaxrna,Peripheral Blood PAXgene RNA,categorical,Specimen,Tissue type of the specimen collected from a patient,Laboratory
-tissue_type,peripheralblood,Peripheral Blood,categorical,Specimen,Tissue type of the specimen collected from a patient,Laboratory
-tissue_type,skinbiopsy,Skin Biopsy,categorical,Specimen,Tissue type of the specimen collected from a patient,Laboratory
-tissue_type_origin,bonemarrow,Bone Marrow,categorical,Specimen,"If the specimen is a cell line or a derivative of some parent specimen, what was the tissue type of origin of the original specimen",Laboratory
-tissue_type_origin,fibroblasts,Fibroblasts,categorical,Specimen,"If the specimen is a cell line or a derivative of some parent specimen, what was the tissue type of origin of the original specimen",Laboratory
-tissue_type_origin,peripheralblood,Peripheral Blood,categorical,Specimen,"If the specimen is a cell line or a derivative of some parent specimen, what was the tissue type of origin of the original specimen",Laboratory
-array_image_date,NA,NA,date,Genomics,"Array Image Date (addresses sample prep batches for array based data, both expression and SNP), YY-MM-DD",Genomics
-omics_date,NA,NA,date,Genomics,"Date data set was generated. If the data set is the result of a merge of two or more sequencing runs, this is the date of the earliest run in the format YY-MM-DD after 00/01/01.  ",Genomics
-acquisition_date,NA,NA,date,Specimen,"Original specimen acquisition date from the patient, YY-MM-DD",Laboratory
-cytogenetics,NA,NA,freetext,Biomarkers,Cytogenetics full detail,Clinical
-consent_datause_ds_type,NA,NA,freetext,Consent,Disease that data consent group is limited to,Clinical
-array_position_id,NA,NA,freetext,Genomics,The position of the assay material in the microarray,Genomics
-omics_sample_name,NA,NA,freetext,Genomics,Name of the sample used in the process of generating the raw genomics dataset.  ,Genomics
-seq_flowcell_id,NA,NA,freetext,Genomics,Flowcell Identifier for sequencing data (addresses batch of samples run on the sequencer together),Genomics
-seq_index,NA,NA,freetext,Genomics,Illumina index sequence used for this sample,Genomics
-seq_platelocation,NA,NA,freetext,Genomics,Plate location of the nucleic acid if submitted for sequencing in a plate layout,Genomics
-seq_pool,NA,NA,freetext,Genomics,Sequencing pool name if submitted for sequencing (addresses batch for samples prepared for sequencing together),Genomics
-batch_extraction,NA,NA,freetext,Assay Material,Lab-defined Batch ID for assay material extraction batch,Laboratory
-batch_thaw,NA,NA,freetext,Assay Material,Lab-defined Batch ID for cryopreserved specimen thaw batch,Laboratory
-material_name,NA,Assay material name if different from the acquisition_id,freetext,Assay Material,Assay material name if different from the acquisition_id,Laboratory
-acquisition_id,NA,NA,freetext,Specimen,Unique Specimen Identifier given by group who acquired the sample ,Laboratory
-assay_material_id,NA,NA,identifier,Identifiers,Assay Material ID from LabMatrix,NA
-biospecimen_id,NA,NA,identifier,Identifiers,Biospecimen unique identifier,NA
-molecular_id,NA,NA,identifier,Identifiers,Unique record identifier of a single genomic data set,NA
-study_id,NA,NA,identifier,Identifiers,Study/Project unique identifier,NA
-subject_id,NA,NA,identifier,Identifiers,Subject/Patient unique identifier,NA
-ext_biospecimen_id,NA,NA,identifier,Identifiers,Externally defined biospecimen unique identifier,NA
-dataset_member_id,NA,NA,identifier,Identifiers,"Unique identifier of a dataset collection member, such as a single cell dataset that is part of a larger dataset with a molecular_id",NA
-blast_flow,NA,NA,numeric,Biomarkers,"Percentage of blasts in the specimen from which this assay material originated, identified by Flow Cytometry, integer from 0-100",Clinical
-blast_morph,NA,NA,numeric,Biomarkers,"Percentage of blasts in the specimen from which this assay material originated, identified by Morphology, integer from 0-100",Clinical
-flt3itd_ar,NA,NA,numeric,Biomarkers,FLT3-ITD allele ratio (ITD intensity/WT intensity) ,Clinical
-flt3itd_length,NA,NA,numeric,Biomarkers,Length of FLT3-ITD insertion in number of bases,Clinical
-age_at_acq,NA,NA,numeric,Patient,"Age at Sample Acquisition in years, integer value, 0-120",Clinical
-array_slide_id,NA,NA,numeric,Genomics,"Array slide ID (barcode of the individual array this sample was run on), currently limited to integers",Genomics
-array_totalinput,NA,NA,numeric,Genomics,"Total nucleic acid input amount (in ng), integer greater than 0",Genomics
-seq_totalinput,NA,NA,numeric,Genomics,"Total nucleic acid input amount (in ng), integer greater than 0",Genomics
-na_260230,NA,NA,numeric,Assay Material,"Nanodrop A260/A230 for nucleic acid assay materials, numeric between 0-3",Laboratory
-na_260280,NA,NA,numeric,Assay Material,"Nanodrop A260/A280 for nucleic acid assay materials, numeric between 0-3",Laboratory
-rin,NA,NA,numeric,Assay Material,"RIN value for assay materials that are RNA, numeric between 0-12",Laboratory
-viability,NA,NA,numeric,Assay Material,"Viability of thawed specimen prior to creating a lysate from which an assay material would be isolated, integer values, 0-100",Laboratory
+Annotation,Value,ValueDescription,Type,Category,AnnotationDescription,TabGroup,DiseaseSpecific
+cyto_group,BCRABL,"Any BCR-ABL (t(9,22)) translocation",categorical,Biomarkers,Cytogenetics group,Clinical,Hematopoeitic
+cyto_group,complex,Complex cytogenetics (3 or more chromosomal abnormalities),categorical,Biomarkers,Cytogenetics group,Clinical,Hematopoeitic
+cyto_group,inv16,Inversion(16),categorical,Biomarkers,Cytogenetics group,Clinical,Hematopoeitic
+cyto_group,noannot,Not relevant/Do not annotate in Synapse,categorical,Biomarkers,Cytogenetics group,Clinical,Hematopoeitic
+cyto_group,normal,Normal Karyotype,categorical,Biomarkers,Cytogenetics group,Clinical,Hematopoeitic
+cyto_group,other_nondefined,Other non-defined cytogenetic abnormality,categorical,Biomarkers,Cytogenetics group,Clinical,Hematopoeitic
+cyto_group,other_nondefined_del7,"Deletion(7) and one non-defined cytogenetic abnormality,",categorical,Biomarkers,Cytogenetics group,Clinical,Hematopoeitic
+cyto_group,other_nondefined_inv16,Inversion(16) and one non-defined cytogenetic abnormality,categorical,Biomarkers,Cytogenetics group,Clinical,Hematopoeitic
+cyto_group,t821,Translocation(8;21),categorical,Biomarkers,Cytogenetics group,Clinical,Hematopoeitic
+genotype_calr,negative,Negative,categorical,Biomarkers,CALR Status,Clinical,Hematopoeitic
+genotype_calr,notdetermined,Not Determined,categorical,Biomarkers,CALR Status,Clinical,Hematopoeitic
+genotype_calr,positive,Positive,categorical,Biomarkers,CALR Status,Clinical,Hematopoeitic
+genotype_cebpa,negative,Negative,categorical,Biomarkers,CEBPA Status,Clinical,Hematopoeitic
+genotype_cebpa,notdetermined,Not Determined,categorical,Biomarkers,CEBPA Status,Clinical,Hematopoeitic
+genotype_cebpa,positive,Positive,categorical,Biomarkers,CEBPA Status,Clinical,Hematopoeitic
+genotype_dnmt3a,negative,Negative,categorical,Biomarkers,DNMT3A Status,Clinical,Hematopoeitic
+genotype_dnmt3a,notdetermined,Not Determined,categorical,Biomarkers,DNMT3A Status,Clinical,Hematopoeitic
+genotype_dnmt3a,positive,Positive,categorical,Biomarkers,DNMT3A Status,Clinical,Hematopoeitic
+genotype_flt3d835,negative,Negative,categorical,Biomarkers,FLT3 D835 Status,Clinical,Hematopoeitic
+genotype_flt3d835,notdetermined,Not Determined,categorical,Biomarkers,FLT3 D835 Status,Clinical,Hematopoeitic
+genotype_flt3d835,positive,Positive,categorical,Biomarkers,FLT3 D835 Status,Clinical,Hematopoeitic
+genotype_flt3itd,negative,Negative,categorical,Biomarkers,FLT3-ITD Status,Clinical,Hematopoeitic
+genotype_flt3itd,notdetermined,Not Determined,categorical,Biomarkers,FLT3-ITD Status,Clinical,Hematopoeitic
+genotype_flt3itd,positive,Positive,categorical,Biomarkers,FLT3-ITD Status,Clinical,Hematopoeitic
+genotype_jak2,negative,Negative,categorical,Biomarkers,JAK2 Status,Clinical,Hematopoeitic
+genotype_jak2,notdetermined,Not Determined,categorical,Biomarkers,JAK2 Status,Clinical,Hematopoeitic
+genotype_jak2,positive,Positive,categorical,Biomarkers,JAK2 Status,Clinical,Hematopoeitic
+genotype_mpl,negative,Negative,categorical,Biomarkers,MPL Status,Clinical,Hematopoeitic
+genotype_mpl,notdetermined,Not Determined,categorical,Biomarkers,MPL Status,Clinical,Hematopoeitic
+genotype_mpl,positive,Positive,categorical,Biomarkers,MPL Status,Clinical,Hematopoeitic
+genotype_npm1,negative,Negative,categorical,Biomarkers,NPM1 Status,Clinical,Hematopoeitic
+genotype_npm1,notdetermined,Not Determined,categorical,Biomarkers,NPM1 Status,Clinical,Hematopoeitic
+genotype_npm1,positive,Positive,categorical,Biomarkers,NPM1 Status,Clinical,Hematopoeitic
+genotype_nras,negative,Negative,categorical,Biomarkers,NRAS Status (for Q61/G12/G13),Clinical,Hematopoeitic
+genotype_nras,notdetermined,Not Determined,categorical,Biomarkers,NRAS Status (for Q61/G12/G13),Clinical,Hematopoeitic
+genotype_nras,positive,Positive,categorical,Biomarkers,NRAS Status (for Q61/G12/G13),Clinical,Hematopoeitic
+consent_datause_group,diseasespecific,Disease-specific -- (Use of the data must be related to the specified disease.),categorical,Consent,Data Use Limitations for a genomic data set as defined by the NIH/Genomic Data Policy,Clinical,NA
+consent_datause_group,generalresearchuse,General Research Use -- (no limitations),categorical,Consent,Data Use Limitations for a genomic data set as defined by the NIH/Genomic Data Policy,Clinical,NA
+consent_datause_group,healthmedicalbiomedical,"Health/Medical/Biomedical -- (Use of the data is limited to health/medical/biomedical purposes, does not include the study of population origins or ancestry.)",categorical,Consent,Data Use Limitations for a genomic data set as defined by the NIH/Genomic Data Policy,Clinical,NA
+consent_datause_group,other,Other,categorical,Consent,Data Use Limitations for a genomic data set as defined by the NIH/Genomic Data Policy,Clinical,NA
+consent_datause_mod_col,collaborationrequired,Yes,categorical,Consent,Data Use Limitation Modifier:  Collaboration required -- (Requestor must provide a letter of collaboration with the primary study investigator(s).),Clinical,NA
+consent_datause_mod_col,notapplicable,No,categorical,Consent,Data Use Limitation Modifier:  Collaboration required -- (Requestor must provide a letter of collaboration with the primary study investigator(s).),Clinical,NA
+consent_datause_mod_gso,geneticstudiesonly,Yes,categorical,Consent,Data Use Limitation Modifier: Genetic studies only -- (Use of the data is limited to genetic studies only.),Clinical,NA
+consent_datause_mod_gso,notapplicable,No,categorical,Consent,Data Use Limitation Modifier: Genetic studies only -- (Use of the data is limited to genetic studies only.),Clinical,NA
+consent_datause_mod_irb,irbrequired,Yes,categorical,Consent,Data Use Limitation Modifier: IRB approval required -- (Requestor must provide documentation of local IRB approval.),Clinical,NA
+consent_datause_mod_irb,notapplicable,No,categorical,Consent,Data Use Limitation Modifier: IRB approval required -- (Requestor must provide documentation of local IRB approval.),Clinical,NA
+consent_datause_mod_mds,methods,Yes,categorical,Consent,"Data Use Limitation Modifier: Methods -- (Use of the data includes methods development research (e.g., development of software or algorithms).)",Clinical,NA
+consent_datause_mod_mds,notapplicable,No,categorical,Consent,"Data Use Limitation Modifier: Methods -- (Use of the data includes methods development research (e.g., development of software or algorithms).)",Clinical,NA
+consent_datause_mod_npu,notapplicable,No,categorical,Consent,Data Use Limitation Modifier: Not-for-profit use only -- (Use of the data is limited to not-for-profit organizations.),Clinical,NA
+consent_datause_mod_npu,notforprofituse,Yes,categorical,Consent,Data Use Limitation Modifier: Not-for-profit use only -- (Use of the data is limited to not-for-profit organizations.),Clinical,NA
+consent_datause_mod_pub,notapplicable,No,categorical,Consent,Data Use Limitation Modifier: Publication required -- (Requestor agrees to make results of studies using the data available to the larger scientific community.),Clinical,NA
+consent_datause_mod_pub,publicationrequired,Yes,categorical,Consent,Data Use Limitation Modifier: Publication required -- (Requestor agrees to make results of studies using the data available to the larger scientific community.),Clinical,NA
+consent_research_celllines,no,No,categorical,Consent,Specifies if a patient consented to the generation of cell line(s) from their specimen.,Clinical,NA
+consent_research_celllines,unknown,Unknown,categorical,Consent,Specifies if a patient consented to the generation of cell line(s) from their specimen.,Clinical,NA
+consent_research_celllines,yes,Yes,categorical,Consent,Specifies if a patient consented to the generation of cell line(s) from their specimen.,Clinical,NA
+consent_research_future,no,No,categorical,Consent,Specifies if a patient consented to researchers keeping DNA and/or cells and health information for future research,Clinical,NA
+consent_research_future,unknown,Unknown,categorical,Consent,Specifies if a patient consented to researchers keeping DNA and/or cells and health information for future research,Clinical,NA
+consent_research_future,yes,Yes,categorical,Consent,Specifies if a patient consented to researchers keeping DNA and/or cells and health information for future research,Clinical,NA
+consent_research_genomics,no,No,categorical,Consent,Specifies if a patient consented to the generation of large scale genomic and/or sequencing data from their specimen (such as 1690 Part D consent).,Clinical,NA
+consent_research_genomics,unknown,Unknown,categorical,Consent,Specifies if a patient consented to the generation of large scale genomic and/or sequencing data from their specimen (such as 1690 Part D consent).,Clinical,NA
+consent_research_genomics,yes,Yes,categorical,Consent,Specifies if a patient consented to the generation of large scale genomic and/or sequencing data from their specimen (such as 1690 Part D consent).,Clinical,NA
+specimen_gdspolicy,required,On or after Jan 25th 2015 - GDS policy required,categorical,Consent,"Was this specimen originally acquired from the subject on or after January 25th, 2015 when the NIH requirements for Genomic Data Sharing consenting requirements changed?  This relates to whether a waiver can be applied for for use of data originating from a specimen banked prior to the requirement that all consents have Genomic Data Sharing language in them.  ",Clinical,NA
+specimen_gdspolicy,unknown,Consult Magic 8 ball,categorical,Consent,"Was this specimen originally acquired from the subject on or after January 25th, 2015 when the NIH requirements for Genomic Data Sharing consenting requirements changed?  This relates to whether a waiver can be applied for for use of data originating from a specimen banked prior to the requirement that all consents have Genomic Data Sharing language in them.  ",Clinical,NA
+specimen_gdspolicy,waiver,Before January 25th 2015 - GDS policy waiver possible,categorical,Consent,"Was this specimen originally acquired from the subject on or after January 25th, 2015 when the NIH requirements for Genomic Data Sharing consenting requirements changed?  This relates to whether a waiver can be applied for for use of data originating from a specimen banked prior to the requirement that all consents have Genomic Data Sharing language in them.  ",Clinical,NA
+specimen_privacy,protected,Protected Specimen with restrictions on privacy,categorical,Consent,What is the privacy type of this specimen? i.e. Is this specimen from a human source associated with private clinical information or is this specimen from a publicly accessible cell line or other reference specimen?,Clinical,NA
+specimen_privacy,publiclyavailable,Publicly Available Specimen with no restrictions on privacy,categorical,Consent,What is the privacy type of this specimen? i.e. Is this specimen from a human source associated with private clinical information or is this specimen from a publicly accessible cell line or other reference specimen?,Clinical,NA
+age_range,adult18to60,Adult ages 18-60  years old,categorical,Patient,Age Range at the time of specimen acquisition,Clinical,NA
+age_range,elderly61,Elderly ages 61+  years old,categorical,Patient,Age Range at the time of specimen acquisition,Clinical,NA
+age_range,pediatric17,Pediatric ages 0-17 years old,categorical,Patient,Age Range at the time of specimen acquisition,Clinical,NA
+age_range,unknown,Unknown age,categorical,Patient,Age Range at the time of specimen acquisition,Clinical,NA
+diagnosis,aa,Aplastic Anemia,categorical,Patient,"Diagnosis at collection or immediately prior, such that the implications of the disease would be relevant for interpretation of the data from the specimen",Clinical,NA
+diagnosis,all,Acute Lymphoblastic Leukemia,categorical,Patient,"Diagnosis at collection or immediately prior, such that the implications of the disease would be relevant for interpretation of the data from the specimen",Clinical,NA
+diagnosis,aml,Acute Myeloid Leukemia,categorical,Patient,"Diagnosis at collection or immediately prior, such that the implications of the disease would be relevant for interpretation of the data from the specimen",Clinical,NA
+diagnosis,cml,Chronic Myeloid Leukemia,categorical,Patient,"Diagnosis at collection or immediately prior, such that the implications of the disease would be relevant for interpretation of the data from the specimen",Clinical,NA
+diagnosis,et,Essential Thrombocytothemia,categorical,Patient,"Diagnosis at collection or immediately prior, such that the implications of the disease would be relevant for interpretation of the data from the specimen",Clinical,NA
+diagnosis,icus,ICUS,categorical,Patient,"Diagnosis at collection or immediately prior, such that the implications of the disease would be relevant for interpretation of the data from the specimen",Clinical,NA
+diagnosis,mds,Myelodysplastic Syndrome,categorical,Patient,"Diagnosis at collection or immediately prior, such that the implications of the disease would be relevant for interpretation of the data from the specimen",Clinical,NA
+diagnosis,mf,Primary Myelofibrosis,categorical,Patient,"Diagnosis at collection or immediately prior, such that the implications of the disease would be relevant for interpretation of the data from the specimen",Clinical,NA
+diagnosis,mpn,Myeloproliferative Neoplasm,categorical,Patient,"Diagnosis at collection or immediately prior, such that the implications of the disease would be relevant for interpretation of the data from the specimen",Clinical,NA
+diagnosis,normal,Normal Donation,categorical,Patient,"Diagnosis at collection or immediately prior, such that the implications of the disease would be relevant for interpretation of the data from the specimen",Clinical,NA
+diagnosis,pv,Polycythemia Vera,categorical,Patient,"Diagnosis at collection or immediately prior, such that the implications of the disease would be relevant for interpretation of the data from the specimen",Clinical,NA
+diagnosis,secondaryaml,Secondary Acute Myeloid Leukemia,categorical,Patient,"Diagnosis at collection or immediately prior, such that the implications of the disease would be relevant for interpretation of the data from the specimen",Clinical,NA
+diagnosis,therapyaml,Therapy-Induced Acute Myeloid Leukemia,categorical,Patient,"Diagnosis at collection or immediately prior, such that the implications of the disease would be relevant for interpretation of the data from the specimen",Clinical,NA
+diagnosis,undetermined,Undetermined or Complex Diagnosis,categorical,Patient,"Diagnosis at collection or immediately prior, such that the implications of the disease would be relevant for interpretation of the data from the specimen",Clinical,NA
+protocol,bloodbank,BloodBank,categorical,Patient,Protocol the specimen was collected under,Clinical,NA
+protocol,calgb_10201,CALGB-10201,categorical,Patient,Protocol the specimen was collected under,Clinical,NA
+protocol,calgb_19808,CALGB-19808,categorical,Patient,Protocol the specimen was collected under,Clinical,NA
+protocol,calgb_8525,CALGB-8525,categorical,Patient,Protocol the specimen was collected under,Clinical,NA
+protocol,calgb_9621,CALGB-9621,categorical,Patient,Protocol the specimen was collected under,Clinical,NA
+protocol,calgb_9720,CALGB-9720,categorical,Patient,Protocol the specimen was collected under,Clinical,NA
+protocol,cceh,CCEH,categorical,Patient,Protocol the specimen was collected under,Clinical,NA
+protocol,ecog,ECOG,categorical,Patient,Protocol the specimen was collected under,Clinical,NA
+protocol,eganaml,EganAML,categorical,Patient,Protocol the specimen was collected under,Clinical,NA
+protocol,externalcollaborator,External Collaborator,categorical,Patient,Protocol the specimen was collected under,Clinical,NA
+protocol,fh_1278,P1278,categorical,Patient,Protocol the specimen was collected under,Clinical,NA
+protocol,fh_1690,P1690,categorical,Patient,Protocol the specimen was collected under,Clinical,NA
+protocol,fh_1713,P1713,categorical,Patient,Protocol the specimen was collected under,Clinical,NA
+protocol,fh_2524,P2524,categorical,Patient,Protocol the specimen was collected under,Clinical,NA
+protocol,icus,ICUS,categorical,Patient,Protocol the specimen was collected under,Clinical,NA
+protocol,noannot,Not relevant or No protocol applicable (but still a protected specimen),categorical,Patient,Protocol the specimen was collected under,Clinical,NA
+protocol,p334_00,P334_00,categorical,Patient,Protocol the specimen was collected under,Clinical,NA
+protocol,publiclyavailable,Publicly Available Specimen (no protocol applicable),categorical,Patient,Protocol the specimen was collected under,Clinical,NA
+protocol,residualmaterial,ResidualMaterial,categorical,Patient,Protocol the specimen was collected under,Clinical,NA
+protocol,sanofi_ard12181,Sanofi-ARD12181,categorical,Patient,Protocol the specimen was collected under,Clinical,NA
+protocol,swog_s0106,SWOG-S0106,categorical,Patient,Protocol the specimen was collected under,Clinical,NA
+protocol,swog_s0112,SWOG-S01121,categorical,Patient,Protocol the specimen was collected under,Clinical,NA
+protocol,swog_s0301,SWOG-S0301,categorical,Patient,Protocol the specimen was collected under,Clinical,NA
+protocol,swog_s0325,SWOG-S0325,categorical,Patient,Protocol the specimen was collected under,Clinical,NA
+protocol,swog_s8600,SWOG-S8600,categorical,Patient,Protocol the specimen was collected under,Clinical,NA
+protocol,swog_s9031,SWOG-S9031,categorical,Patient,Protocol the specimen was collected under,Clinical,NA
+protocol,swog_s9034,SWOG-S9034,categorical,Patient,Protocol the specimen was collected under,Clinical,NA
+protocol,swog_s9126,SWOG-S9126,categorical,Patient,Protocol the specimen was collected under,Clinical,NA
+protocol,swog_s9333,SWOG-S9333,categorical,Patient,Protocol the specimen was collected under,Clinical,NA
+protocol,swog_s9500,SWOG-S9500,categorical,Patient,Protocol the specimen was collected under,Clinical,NA
+protocol,swog_s9918,SWOG-S9918,categorical,Patient,Protocol the specimen was collected under,Clinical,NA
+protocol_org,CALGB,CALGB,categorical,Patient,Organization that initated or managed the protocol under which a specimen was banked. ,Clinical,NA
+protocol_org,ECOG,ECOG,categorical,Patient,Organization that initated or managed the protocol under which a specimen was banked. ,Clinical,NA
+protocol_org,External_Pharma,External Pharmaceutical Company Initiated,categorical,Patient,Organization that initated or managed the protocol under which a specimen was banked. ,Clinical,NA
+protocol_org,External_PI,External PI Initiated,categorical,Patient,Organization that initated or managed the protocol under which a specimen was banked. ,Clinical,NA
+protocol_org,FredHutch_CCEH,Fred Hutch Co-Operative Center for Excellence in Hematology (CCEH),categorical,Patient,Organization that initated or managed the protocol under which a specimen was banked. ,Clinical,NA
+protocol_org,FredHutch_LeukemiaRepo,Fred Hutch Leukemia Lymphoma Repository,categorical,Patient,Organization that initated or managed the protocol under which a specimen was banked. ,Clinical,NA
+protocol_org,FredHutch_PI,Fred Hutch PI Initiated,categorical,Patient,Organization that initated or managed the protocol under which a specimen was banked. ,Clinical,NA
+protocol_org,PubliclyAvailable,Publicly Available Specimen (no protocol applicable),categorical,Patient,Organization that initated or managed the protocol under which a specimen was banked. ,Clinical,NA
+protocol_org,SWOG,SWOG,categorical,Patient,Organization that initated or managed the protocol under which a specimen was banked. ,Clinical,NA
+protocol_org,UW_ResidualClinical,Univ. of Washington Residual Clinical Material,categorical,Patient,Organization that initated or managed the protocol under which a specimen was banked. ,Clinical,NA
+race,asianpacificislander,"Asian, Pacific Islander",categorical,Patient,Race of the patient,Clinical,NA
+race,black,Black,categorical,Patient,Race of the patient,Clinical,NA
+race,other,Other,categorical,Patient,Race of the patient,Clinical,NA
+race,unknown,Unknown,categorical,Patient,Race of the patient,Clinical,NA
+race,white,White,categorical,Patient,Race of the patient,Clinical,NA
+sex,female,F,categorical,Patient,Sex of the patient,Clinical,NA
+sex,male,M,categorical,Patient,Sex of the patient,Clinical,NA
+sex,unknown,Unknown,categorical,Patient,Sex of the patient,Clinical,NA
+subtype,FAB_M0,FAB-M0,categorical,Patient,"Disease subtype, if applicable, currently AML FAB designations",Clinical,NA
+subtype,FAB_M1,FAB-M1,categorical,Patient,"Disease subtype, if applicable, currently AML FAB designations",Clinical,NA
+subtype,FAB_M2,FAB-M2,categorical,Patient,"Disease subtype, if applicable, currently AML FAB designations",Clinical,NA
+subtype,FAB_M3,FAB-M3,categorical,Patient,"Disease subtype, if applicable, currently AML FAB designations",Clinical,NA
+subtype,FAB_M4,FAB-M4,categorical,Patient,"Disease subtype, if applicable, currently AML FAB designations",Clinical,NA
+subtype,FAB_M5,FAB-M5,categorical,Patient,"Disease subtype, if applicable, currently AML FAB designations",Clinical,NA
+subtype,FAB_M6,FAB-M6,categorical,Patient,"Disease subtype, if applicable, currently AML FAB designations",Clinical,NA
+subtype,FAB_M7,FAB-M7,categorical,Patient,"Disease subtype, if applicable, currently AML FAB designations",Clinical,NA
+dead_at_last_contact,yes,"Yes, patient was dead at last contact",categorical,Patient,Survival status at date of last contact by study staff,Clinical,NA
+dead_at_last_contact,no,"No, patient was alive at last contact",categorical,Patient,Survival status at date of last contact by study staff,Clinical,NA
+dead_at_last_contact,unknown,"Unknown, no follow up occurred, or patient was lost to follow up.",categorical,Patient,Survival status at date of last contact by study staff,Clinical,NA
+survival_time,NA,NA,numeric,Patient,Survival time after enrolling in the study in days,Clinical,NA
+event_free_survival,NA,NA,numeric,Patient,Event free survival time in days,Clinical,NA
+event_indicator,CR_prog_death,"Did not achive a CR, had progression, or death (CARDINAL)",categorical,Patient,The event indicator describes the type of event that occurred as described by the event free survival time.,Clinical,NA
+relapse_free_survival,NA,NA,numeric,Patient,Relapse free survival time in days,Clinical,NA
+relapse_indicator,yes,"Yes, the patient was known to have relapsed",categorical,Patient,Specifies if a patient relapse after this specimen was acquired. ,Clinical,NA
+relapse_indicator,no,"No, the patient was known not to have relapsed",categorical,Patient,Specifies if a patient relapse after this specimen was acquired. ,Clinical,NA
+relapse_indicator,unknown,"Unknown, it cannot be known if the patient relapsed or not, including lost to follow up.",categorical,Patient,Specifies if a patient relapse after this specimen was acquired. ,Clinical,NA
+cr_achieved,yes,"Yes, a CR was achieved",categorical,Patient,Whether a Complete Remission achieved after the treatment given immediately after this specimen was acquired.  ,Clinical,NA
+cr_achieved,no,"No, a CR was not achieved",categorical,Patient,Whether a Complete Remission achieved after the treatment given immediately after this specimen was acquired.  ,Clinical,NA
+cr_achieved,unknown,Unknown if a CR was achived or was lost to follow up,categorical,Patient,Whether a Complete Remission achieved after the treatment given immediately after this specimen was acquired.  ,Clinical,NA
+GGWorkflowName,ConsensusGeneExp,"Gene level expression pipeline using HiSat2/htseqcount and salmon in parallel for human,  paired end, RNA sequencing data",categorical,Bioinformatics,"Globus Genomics curated workflow unique ID, via Translational Genomics",Genomics,NA
+GGWorkflowName,ConsensusVariants,"Consensus variant calling pipeline using GATK Haplotype Caller and samtools mpileup with annotation via ANNOVAR and QC stats via GATK, for human, targeted DNA sequencing, with unpaired samples and paired end sequencing",categorical,Bioinformatics,"Globus Genomics curated workflow unique ID, via Translational Genomics",Genomics,NA
+informaticsPlatform,GenomeStudio,Fred Hutch instance of Globus Genomics,categorical,Bioinformatics,Platform used to perform the bioinformatic processing of the raw data to a processed dataset,Genomics,NA
+informaticsPlatform,GlobusGenomics,Fred Hutch instance of Globus Genomics,categorical,Bioinformatics,Platform used to perform the bioinformatic processing of the raw data to a processed dataset,Genomics,NA
+informaticsPlatform,Manual,Custom bioinformatics work not using a FH supported workflow or pipelining platform,categorical,Bioinformatics,Platform used to perform the bioinformatic processing of the raw data to a processed dataset,Genomics,NA
+processedContentType,ampliconSeqQC,NA,categorical,Bioinformatics,Type of processed dataset dependent on both genomics data type and the specific bioinformatic workflow performed to generate the file,Genomics,NA
+processedContentType,annotatedVariants,NA,categorical,Bioinformatics,Type of processed dataset dependent on both genomics data type and the specific bioinformatic workflow performed to generate the file,Genomics,NA
+processedContentType,genelevelCounts,NA,categorical,Bioinformatics,Type of processed dataset dependent on both genomics data type and the specific bioinformatic workflow performed to generate the file,Genomics,NA
+processedContentType,genelevelNormalized,NA,categorical,Bioinformatics,Type of processed dataset dependent on both genomics data type and the specific bioinformatic workflow performed to generate the file,Genomics,NA
+processedContentType,probelevelNormalized,NA,categorical,Bioinformatics,Type of processed dataset dependent on both genomics data type and the specific bioinformatic workflow performed to generate the file,Genomics,NA
+processedContentType,probelevelQuantileNormed,NA,categorical,Bioinformatics,Type of processed dataset dependent on both genomics data type and the specific bioinformatic workflow performed to generate the file,Genomics,NA
+processedContentType,QCStats,NA,categorical,Bioinformatics,Type of processed dataset dependent on both genomics data type and the specific bioinformatic workflow performed to generate the file,Genomics,NA
+processedContentType,rawVariants,NA,categorical,Bioinformatics,Type of processed dataset dependent on both genomics data type and the specific bioinformatic workflow performed to generate the file,Genomics,NA
+processedContentType,snparrayFinalReport,NA,categorical,Bioinformatics,Type of processed dataset dependent on both genomics data type and the specific bioinformatic workflow performed to generate the file,Genomics,NA
+processedContentType,consensusVariants,NA,categorical,Bioinformatics,Type of processed dataset dependent on both genomics data type and the specific bioinformatic workflow performed to generate the file,Genomics,NA
+stage,probelevelnormalized,Probe level normalized gene expression array data,categorical,Bioinformatics,Stage of processing of a molecular data set,Genomics,NA
+stage,snpfinalreport,SNP array final report usually from Genome Studio,categorical,Bioinformatics,Stage of processing of a molecular data set,Genomics,NA
+stage,processed,Molecular data set in a processed form,categorical,Bioinformatics,Stage of processing of a molecular data set,Genomics,NA
+stage,QC,A quality control data set generated to describe a molecular data set,categorical,Bioinformatics,Stage of processing of a molecular data set,Genomics,NA
+stage,raw,Molecular data set in it's raw form,categorical,Bioinformatics,Stage of processing of a molecular data set,Genomics,NA
+stage,analyzed,An analyzed form of a processed data set.  ,categorical,Bioinformatics,Stage of processing of a molecular data set,Genomics,NA
+toolSource,GATKDepthofCoverage,NA,categorical,Bioinformatics,Bioinformatics tool that produced the output file/processed content from a genomics data set,Genomics,NA
+toolSource,GATKHaplotypeCaller,NA,categorical,Bioinformatics,Bioinformatics tool that produced the output file/processed content from a genomics data set,Genomics,NA
+toolSource,GenomeStudio,NA,categorical,Bioinformatics,Bioinformatics tool that produced the output file/processed content from a genomics data set,Genomics,NA
+toolSource,HiSat2/htseq-count,NA,categorical,Bioinformatics,Bioinformatics tool that produced the output file/processed content from a genomics data set,Genomics,NA
+toolSource,Manual,NA,categorical,Bioinformatics,Bioinformatics tool that produced the output file/processed content from a genomics data set,Genomics,NA
+toolSource,salmon,NA,categorical,Bioinformatics,Bioinformatics tool that produced the output file/processed content from a genomics data set,Genomics,NA
+toolSource,samtoolsMpileup,NA,categorical,Bioinformatics,Bioinformatics tool that produced the output file/processed content from a genomics data set,Genomics,NA
+toolSource,ITHAnalysis,NA,categorical,Bioinformatics,Bioinformatics tool that produced the output file/processed content from a genomics data set,Genomics,NA
+workflowID,GG.id.0a3ad9dd82afd4ef,"Unique Version, Script Name or GitHub URL",categorical,Bioinformatics,Unique string identifying a specific Translational Genomics curated Globus Genomics bioinformatics workflow and version or script name or GitHub URL of script used to analyze the processed data set,Genomics,NA
+workflowID,GG.id.9ea43fe535d3b430,"Unique Version, Script Name or GitHub URL",categorical,Bioinformatics,Unique string identifying a specific Translational Genomics curated Globus Genomics bioinformatics workflow and version or script name or GitHub URL of script used to analyze the processed data set,Genomics,NA
+workflowID,GG.id.b9729ab0dd6febd8,"Unique Version, Script Name or GitHub URL",categorical,Bioinformatics,Unique string identifying a specific Translational Genomics curated Globus Genomics bioinformatics workflow and version or script name or GitHub URL of script used to analyze the processed data set,Genomics,NA
+workflowID,consensusVariantsParallel.R,"Unique Version, Script Name or GitHub URL",categorical,Bioinformatics,Unique string identifying a specific Translational Genomics curated Globus Genomics bioinformatics workflow and version or script name or GitHub URL of script used to analyze the processed data set,Genomics,NA
+array_type,hg19hx3,HG19 HX3 Methylation Array (Cornell),categorical,Genomics,Type of microarray that was used to generate the raw genomics dataset,Genomics,NA
+array_type,ht12,HumanHT-12 Expression BeadChip (Illumina) v4,categorical,Genomics,Type of microarray that was used to generate the raw genomics dataset,Genomics,NA
+array_type,infiniumomni2m8,Illumina Omni 2.5M,categorical,Genomics,Type of microarray that was used to generate the raw genomics dataset,Genomics,NA
+array_type,infiniumomni2m8v1to3,Illumina Omni 2.5M v1-3,categorical,Genomics,Type of microarray that was used to generate the raw genomics dataset,Genomics,NA
+array_type,infiniumomni5mquad,Illumina Omni 5M,categorical,Genomics,Type of microarray that was used to generate the raw genomics dataset,Genomics,NA
+flowcell_type,HiSeqRapidFlowCellv2,HiSeq Rapid Flow Cell v2,categorical,Genomics,Sequencing flow cell type that generated the raw data,Genomics,NA
+genomics_types,dnaseq,DNA sequencing,categorical,Genomics,Type of  raw genomics data generated from this assay material,Genomics,NA
+genomics_types,exparray,Gene expression array,categorical,Genomics,Type of  raw genomics data generated from this assay material,Genomics,NA
+genomics_types,methylarray,Methylation array,categorical,Genomics,Type of  raw genomics data generated from this assay material,Genomics,NA
+genomics_types,mirnaarray,miRNA array,categorical,Genomics,Type of  raw genomics data generated from this assay material,Genomics,NA
+genomics_types,rnaseq,RNA sequencing,categorical,Genomics,Type of  raw genomics data generated from this assay material,Genomics,NA
+genomics_types,singleCell,Single cell based sequencing assay,categorical,Genomics,Type of  raw genomics data generated from this assay material,Genomics,NA
+genomics_types,snparray,SNP array,categorical,Genomics,Type of  raw genomics data generated from this assay material,Genomics,NA
+protocol_data,p547,Fred Hutch; Protocol 547; Jerald Radich,categorical,Genomics,IRB Protocol/File associated with the original generation or acquisition by the study PI of the dataset (include Institution of IRB of record; protocol number; PI name).,Genomics,NA
+protocol_data,unknown,Unknown at this time; TBD,categorical,Genomics,IRB Protocol/File associated with the original generation or acquisition by the study PI of the dataset (include Institution of IRB of record; protocol number; PI name).,Genomics,NA
+omics_contact_id,apaguiri,Amy Paguirigan,categorical,Genomics,"Contact ID of investigator responsible for omics dataset generation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Genomics,NA
+omics_contact_id,apaguirigan,Amy Paguirigan,categorical,Genomics,"Contact ID of investigator responsible for omics dataset generation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Genomics,NA
+omics_contact_id,csmith,Catherine Smith (UCSF),categorical,Genomics,"Contact ID of investigator responsible for omics dataset generation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Genomics,NA
+omics_contact_id,degan,Dan Egan,categorical,Genomics,"Contact ID of investigator responsible for omics dataset generation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Genomics,NA
+omics_contact_id,dstirewalt,Derek Stirewalt,categorical,Genomics,"Contact ID of investigator responsible for omics dataset generation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Genomics,NA
+omics_contact_id,dyadock,David Yadock,categorical,Genomics,"Contact ID of investigator responsible for omics dataset generation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Genomics,NA
+omics_contact_id,epogosova,Era Pogosova,categorical,Genomics,"Contact ID of investigator responsible for omics dataset generation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Genomics,NA
+omics_contact_id,estevens,Emily Stevens,categorical,Genomics,"Contact ID of investigator responsible for omics dataset generation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Genomics,NA
+omics_contact_id,jdeeg,Joachim Deeg,categorical,Genomics,"Contact ID of investigator responsible for omics dataset generation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Genomics,NA
+omics_contact_id,jfromm,Jonathan Fromm,categorical,Genomics,"Contact ID of investigator responsible for omics dataset generation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Genomics,NA
+omics_contact_id,jradich,Jerry Radich,categorical,Genomics,"Contact ID of investigator responsible for omics dataset generation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Genomics,NA
+omics_contact_id,pbecker,Pam Becker,categorical,Genomics,"Contact ID of investigator responsible for omics dataset generation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Genomics,NA
+run_mode,RapidRun,RapidRun,categorical,Genomics,Mode the sequencing platform was run in during data acquisition,Genomics,NA
+seq_libtype,agssex5,Agilent SureSelect v5 Exome All Exon,categorical,Genomics,Library preparation type for Illumina sequencing data,Genomics,NA
+seq_libtype,agssex6,Agilent SureSelect v6 Exome,categorical,Genomics,Library preparation type for Illumina sequencing data,Genomics,NA
+seq_libtype,clon,"Clontech SMARTer STranded Total RNA-Seq Kit pico, Mammalian",categorical,Genomics,Library preparation type for Illumina sequencing data,Genomics,NA
+seq_libtype,one,Illumina TruSight One Panel,categorical,Genomics,Library preparation type for Illumina sequencing data,Genomics,NA
+seq_libtype,tapestriAMLPanel,Mission Bio Tapestri Single Cell AML panel,categorical,Genomics,Library preparation type for Illumina sequencing data,Genomics,NA
+seq_libtype,truseq,Illumina TruSeq RNA v2,categorical,Genomics,Library preparation type for Illumina sequencing data,Genomics,NA
+seq_libtype,tsm,Illumina TruSight Myeloid Panel,categorical,Genomics,Library preparation type for Illumina sequencing data,Genomics,NA
+seq_libtype,washu,Washington University AML Panel,categorical,Genomics,Library preparation type for Illumina sequencing data,Genomics,NA
+seq_paired,no,FALSE,categorical,Genomics,Paired end sequencing?,Genomics,NA
+seq_paired,yes,TRUE,categorical,Genomics,Paired end sequencing?,Genomics,NA
+seq_platform,HiSeq,HiSeq,categorical,Genomics,Sequencing platform which generated the raw data,Genomics,NA
+seq_platform,MiSeq,MiSeq,categorical,Genomics,Sequencing platform which generated the raw data,Genomics,NA
+seq_readlength,49,50 base made @ Genomics SR PRIOR to 8/20/2014,categorical,Genomics,Read length of sequencing,Genomics,NA
+seq_readlength,50,50 base,categorical,Genomics,Read length of sequencing,Genomics,NA
+seq_readlength,99,100base made @ Genomics SR PRIOR to 8/20/2014,categorical,Genomics,Read length of sequencing,Genomics,NA
+seq_readlength,100,100 base,categorical,Genomics,Read length of sequencing,Genomics,NA
+seq_readlength,150,150 base,categorical,Genomics,Read length of sequencing,Genomics,NA
+seq_readlength,300,300 base,categorical,Genomics,Read length of sequencing,Genomics,NA
+extraction_type,column,Column,categorical,Assay Material,Extraction protocol used to isolate the assay material from a lysate,Laboratory,NA
+extraction_type,directlysis,Direct lysis in plate (for sorted cells),categorical,Assay Material,Extraction protocol used to isolate the assay material from a lysate,Laboratory,NA
+extraction_type,magneticbead,Magnetic bead,categorical,Assay Material,Extraction protocol used to isolate the assay material from a lysate,Laboratory,NA
+extraction_type,paxgenerna,PAXgene RNA,categorical,Assay Material,Extraction protocol used to isolate the assay material from a lysate,Laboratory,NA
+extraction_type,precipitation,Precipitation,categorical,Assay Material,Extraction protocol used to isolate the assay material from a lysate,Laboratory,NA
+extraction_type,trizol,Trizol,categorical,Assay Material,Extraction protocol used to isolate the assay material from a lysate,Laboratory,NA
+extraction_type,unknown,Unknown method,categorical,Assay Material,Extraction protocol used to isolate the assay material from a lysate,Laboratory,NA
+material_contact_id,apaguirigan,Amy Paguirigan,categorical,Assay Material,"Contact ID of investigator responsible for assay material isolation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory,NA
+material_contact_id,csmith,Catherine Smith (UCSF),categorical,Assay Material,"Contact ID of investigator responsible for assay material isolation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory,NA
+material_contact_id,degan,Dan Egan,categorical,Assay Material,"Contact ID of investigator responsible for assay material isolation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory,NA
+material_contact_id,dstirewalt,Derek Stirewalt,categorical,Assay Material,"Contact ID of investigator responsible for assay material isolation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory,NA
+material_contact_id,dyadock,David Yadock,categorical,Assay Material,"Contact ID of investigator responsible for assay material isolation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory,NA
+material_contact_id,epogosova,Era Pogosova,categorical,Assay Material,"Contact ID of investigator responsible for assay material isolation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory,NA
+material_contact_id,estevens,Emily Stevens,categorical,Assay Material,"Contact ID of investigator responsible for assay material isolation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory,NA
+material_contact_id,jdeeg,Joachim Deeg,categorical,Assay Material,"Contact ID of investigator responsible for assay material isolation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory,NA
+material_contact_id,jfromm,Jonathan Fromm,categorical,Assay Material,"Contact ID of investigator responsible for assay material isolation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory,NA
+material_contact_id,jradich,Jerry Radich,categorical,Assay Material,"Contact ID of investigator responsible for assay material isolation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory,NA
+material_contact_id,pbecker,Pam Becker,categorical,Assay Material,"Contact ID of investigator responsible for assay material isolation (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory,NA
+material_type,beadRNA,Bead based extracted total RNA without DNase treatment,categorical,Assay Material,Type of assay material,Laboratory,NA
+material_type,cellSuspension,Cell Suspension,categorical,Assay Material,Type of assay material,Laboratory,NA
+material_type,DNA,Genomic DNA,categorical,Assay Material,Type of assay material,Laboratory,NA
+material_type,lysate,"Direct to Lysate, intended for downstream analysis of DNA",categorical,Assay Material,Type of assay material,Laboratory,NA
+material_type,PAX_RNA,PAXgene isolated total RNA,categorical,Assay Material,Type of assay material,Laboratory,NA
+material_type,RNA,"Total RNA, assumes small RNAs are not specifically retained",categorical,Assay Material,Type of assay material,Laboratory,NA
+rin_range,highquality,RIN value of >7,categorical,Assay Material,RIN range if assay material is RNA,Laboratory,NA
+rin_range,lowquality,RIN value of < 4.9,categorical,Assay Material,RIN range if assay material is RNA,Laboratory,NA
+rin_range,mediumquality,RIN value of 5-6.9,categorical,Assay Material,RIN range if assay material is RNA,Laboratory,NA
+rin_range,notdetermined,Not Determined,categorical,Assay Material,RIN range if assay material is RNA,Laboratory,NA
+bead_pop,cd19_or_cd3,"CD19+ or CD3+, CD19+ or CD3+ magnetic bead positive selection (lymphoid)",categorical,Experimental,Type of cell population isolated via antibody conjugated magnetic bead selection prior to generation of a lysate,Laboratory,NA
+bead_pop,cd33_or_cd66b,CD33+ or CD66b+ magnetic bead positive selection prior to lysis (myeloid),categorical,Experimental,Type of cell population isolated via antibody conjugated magnetic bead selection prior to generation of a lysate,Laboratory,NA
+bead_pop,negative_for_cd19_cd3_cd33_cd66b,CD19- CD3- CD33- CD66b- (neither lymphoid or myeloid; remainder from lymph/myelo selection),categorical,Experimental,Type of cell population isolated via antibody conjugated magnetic bead selection prior to generation of a lysate,Laboratory,NA
+derivative_process,exposedsubclone,Subcloning after drug or other condition exposure,categorical,Experimental,What type of derivative process was used to generate this specimen from the originally acquired specimen?,Laboratory,NA
+derivative_process,immortalized,Immortalized cell line creation (spontaneous or via viral transduction),categorical,Experimental,What type of derivative process was used to generate this specimen from the originally acquired specimen?,Laboratory,NA
+derivative_process,isolatedsubclone,Subcloning after a selection process (i.e. Flow cytometry or single cell sorting),categorical,Experimental,What type of derivative process was used to generate this specimen from the originally acquired specimen?,Laboratory,NA
+derivative_specimen,noannot,No,categorical,Experimental,Is this specimen a laboratory derivative of an original human specimen?,Laboratory,NA
+derivative_specimen,yes,Yes,categorical,Experimental,Is this specimen a laboratory derivative of an original human specimen?,Laboratory,NA
+flow_pop,cd14_live,"CD14 positive, live (monocytes)",categorical,Experimental,Type of Population Isolated via Flow Cytometry prior to generation of the assay material,Laboratory,NA
+flow_pop,cd19_or_cd3_live,"CD19 OR CD3 positive, live (lymphoid)",categorical,Experimental,Type of Population Isolated via Flow Cytometry prior to generation of the assay material,Laboratory,NA
+flow_pop,cd3_live,"CD13 positive, live (t-cells)",categorical,Experimental,Type of Population Isolated via Flow Cytometry prior to generation of the assay material,Laboratory,NA
+flow_pop,cd33_cd14_live,"CD33 and CD14 positive, live (monocytes)",categorical,Experimental,Type of Population Isolated via Flow Cytometry prior to generation of the assay material,Laboratory,NA
+flow_pop,cd33_cd34_cd14neg_live,"CD33 and CD34 positive, CD14 negative, live (progenitor, without monocytic differentiation)",categorical,Experimental,Type of Population Isolated via Flow Cytometry prior to generation of the assay material,Laboratory,NA
+flow_pop,cd33_cd34_live,"CD33 and CD34 positive, live (progenitor)",categorical,Experimental,Type of Population Isolated via Flow Cytometry prior to generation of the assay material,Laboratory,NA
+flow_pop,cd33_live,"CD33 positive, live (myeloid)",categorical,Experimental,Type of Population Isolated via Flow Cytometry prior to generation of the assay material,Laboratory,NA
+flow_pop,cd34_live,"CD34 positive, live (blast)",categorical,Experimental,Type of Population Isolated via Flow Cytometry prior to generation of the assay material,Laboratory,NA
+flow_pop,cd64_cd14neg_live,"CD64 positive and CD14 negative, live (blast with no monocytic differentiation)",categorical,Experimental,Type of Population Isolated via Flow Cytometry prior to generation of the assay material,Laboratory,NA
+flow_pop,cd71_live,"CD71 positive, live (erythroid)",categorical,Experimental,Type of Population Isolated via Flow Cytometry prior to generation of the assay material,Laboratory,NA
+flow_pop,customcocktail,Custom cocktail (describe in notes),categorical,Experimental,Type of Population Isolated via Flow Cytometry prior to generation of the assay material,Laboratory,NA
+flow_pop,differentiatedmyeloidcocktail,"Differentiated Myeloid cocktail (CD33+ and CD14+ or CD66b+, live)",categorical,Experimental,Type of Population Isolated via Flow Cytometry prior to generation of the assay material,Laboratory,NA
+flow_pop,enrichedblastcocktail,"Enriched Blast cocktail (not differentiated myeloid, nor lymphoid (via CD19+ or CD3+))",categorical,Experimental,Type of Population Isolated via Flow Cytometry prior to generation of the assay material,Laboratory,NA
+flow_pop,live,Live,categorical,Experimental,Type of Population Isolated via Flow Cytometry prior to generation of the assay material,Laboratory,NA
+collection_event,2ndrelapse,Second Relapse,categorical,Specimen,"Event at specimen collection, currently in relationship to disease phase in myeloid malignancies",Laboratory,NA
+collection_event,day0,Day 0 Post HCT,categorical,Specimen,"Event at specimen collection, currently in relationship to disease phase in myeloid malignancies",Laboratory,NA
+collection_event,day28,Day 28 Post HCT,categorical,Specimen,"Event at specimen collection, currently in relationship to disease phase in myeloid malignancies",Laboratory,NA
+collection_event,diagnosis,Diagnosis,categorical,Specimen,"Event at specimen collection, currently in relationship to disease phase in myeloid malignancies",Laboratory,NA
+collection_event,noannot,Not relevant/Unknown and we won't know,categorical,Specimen,"Event at specimen collection, currently in relationship to disease phase in myeloid malignancies",Laboratory,NA
+collection_event,normal,Normal Donation,categorical,Specimen,"Event at specimen collection, currently in relationship to disease phase in myeloid malignancies",Laboratory,NA
+collection_event,postinduction,Post-Induction,categorical,Specimen,"Event at specimen collection, currently in relationship to disease phase in myeloid malignancies",Laboratory,NA
+collection_event,prediagnosis,Pre-Diagnosis,categorical,Specimen,"Event at specimen collection, currently in relationship to disease phase in myeloid malignancies",Laboratory,NA
+collection_event,prehct,Pre-HCT,categorical,Specimen,"Event at specimen collection, currently in relationship to disease phase in myeloid malignancies",Laboratory,NA
+collection_event,relapse,Relapse,categorical,Specimen,"Event at specimen collection, currently in relationship to disease phase in myeloid malignancies",Laboratory,NA
+collection_event,remission,Remission,categorical,Specimen,"Event at specimen collection, currently in relationship to disease phase in myeloid malignancies",Laboratory,NA
+collection_type,acd,ACD,categorical,Specimen,Hematological specimen collection tube type,Laboratory,NA
+collection_type,edta,EDTA,categorical,Specimen,Hematological specimen collection tube type,Laboratory,NA
+collection_type,heparin,Sodium Heparin,categorical,Specimen,Hematological specimen collection tube type,Laboratory,NA
+collection_type,other,Other,categorical,Specimen,Hematological specimen collection tube type,Laboratory,NA
+collection_type,paxdna,PAXgene DNA,categorical,Specimen,Hematological specimen collection tube type,Laboratory,NA
+collection_type,paxrna,PAXgene RNA,categorical,Specimen,Hematological specimen collection tube type,Laboratory,NA
+collection_type,unknown,Unknown,categorical,Specimen,Hematological specimen collection tube type,Laboratory,NA
+processing_type,cellline,Cell Culture (document conditions in notes),categorical,Specimen,"Specimen processing type immediately after acquisition from the patient prior to preservation, experimentation or preparation for assay material isolation",Laboratory,NA
+processing_type,mononuclearcells,Mononuclear Cells,categorical,Specimen,"Specimen processing type immediately after acquisition from the patient prior to preservation, experimentation or preparation for assay material isolation",Laboratory,NA
+processing_type,paxgene,PAXgene,categorical,Specimen,"Specimen processing type immediately after acquisition from the patient prior to preservation, experimentation or preparation for assay material isolation",Laboratory,NA
+processing_type,polymorphonuclearcells,Polymorphonuclear Cells,categorical,Specimen,"Specimen processing type immediately after acquisition from the patient prior to preservation, experimentation or preparation for assay material isolation",Laboratory,NA
+processing_type,redbloodcelllysis,RBC Lysis,categorical,Specimen,"Specimen processing type immediately after acquisition from the patient prior to preservation, experimentation or preparation for assay material isolation",Laboratory,NA
+processing_type,unknown,Unknown,categorical,Specimen,"Specimen processing type immediately after acquisition from the patient prior to preservation, experimentation or preparation for assay material isolation",Laboratory,NA
+shipping,fresh,Yes: the freshly isolated specimen was shipped prior to preservation,categorical,Specimen,"Identifies if the specimen, or any of it's possible parent specimens were shipped prior to generation of assay material",Laboratory,NA
+shipping,notapplicable,No: the specimen was never shipped,categorical,Specimen,"Identifies if the specimen, or any of it's possible parent specimens were shipped prior to generation of assay material",Laboratory,NA
+shipping,preserved,"Yes: the specimen was shipped in a preserved form (i.e., cryopreserved aliqout)",categorical,Specimen,"Identifies if the specimen, or any of it's possible parent specimens were shipped prior to generation of assay material",Laboratory,NA
+shipping,shipped,"Yes: the specimen was shipped at some point, but the status at the time is unknown",categorical,Specimen,"Identifies if the specimen, or any of it's possible parent specimens were shipped prior to generation of assay material",Laboratory,NA
+specimen_contact_id,apaguirigan,Amy Paguirigan,categorical,Specimen,"Contact ID of investigator responsible for specimen acquisition (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory,NA
+specimen_contact_id,csmith,Catherine Smith (UCSF),categorical,Specimen,"Contact ID of investigator responsible for specimen acquisition (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory,NA
+specimen_contact_id,degan,Dan Egan,categorical,Specimen,"Contact ID of investigator responsible for specimen acquisition (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory,NA
+specimen_contact_id,dstirewalt,Derek Stirewalt,categorical,Specimen,"Contact ID of investigator responsible for specimen acquisition (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory,NA
+specimen_contact_id,dyadock,David Yadock,categorical,Specimen,"Contact ID of investigator responsible for specimen acquisition (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory,NA
+specimen_contact_id,epogosova,Era Pogosova,categorical,Specimen,"Contact ID of investigator responsible for specimen acquisition (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory,NA
+specimen_contact_id,estevens,Emily Stevens,categorical,Specimen,"Contact ID of investigator responsible for specimen acquisition (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory,NA
+specimen_contact_id,jdeeg,Joachim Deeg,categorical,Specimen,"Contact ID of investigator responsible for specimen acquisition (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory,NA
+specimen_contact_id,jfromm,Jonathan Fromm,categorical,Specimen,"Contact ID of investigator responsible for specimen acquisition (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory,NA
+specimen_contact_id,jradich,Jerry Radich,categorical,Specimen,"Contact ID of investigator responsible for specimen acquisition (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory,NA
+specimen_contact_id,pbecker,Pam Becker,categorical,Specimen,"Contact ID of investigator responsible for specimen acquisition (email, phone number, etc. listed in DHArMA participant Unique ID list)",Laboratory,NA
+storage,cryopreserved,Yes: The specimen was cryopreserved,categorical,Specimen,"Identifies if the specimen, or any of it's possible parent specimens were cryopreserved prior to generation of assay material",Laboratory,NA
+storage,notapplicable,No: the specimen was not cryopreserved,categorical,Specimen,"Identifies if the specimen, or any of it's possible parent specimens were cryopreserved prior to generation of assay material",Laboratory,NA
+time_to_processing,12to23h,12-23.9 hours,categorical,Specimen,"Time range from hematological specimen collection (i.e., blood/bone marrow draw) until specimen processing performed to preserve the specimen (i.e., process to lyse in Trizol or cryopreserve)",Laboratory,NA
+time_to_processing,24to47h,24-47.9 hours,categorical,Specimen,"Time range from hematological specimen collection (i.e., blood/bone marrow draw) until specimen processing performed to preserve the specimen (i.e., process to lyse in Trizol or cryopreserve)",Laboratory,NA
+time_to_processing,3to6h,3-6.9 hours,categorical,Specimen,"Time range from hematological specimen collection (i.e., blood/bone marrow draw) until specimen processing performed to preserve the specimen (i.e., process to lyse in Trizol or cryopreserve)",Laboratory,NA
+time_to_processing,48hplus,48+ hours,categorical,Specimen,"Time range from hematological specimen collection (i.e., blood/bone marrow draw) until specimen processing performed to preserve the specimen (i.e., process to lyse in Trizol or cryopreserve)",Laboratory,NA
+time_to_processing,7to11h,7-11.9 hours,categorical,Specimen,"Time range from hematological specimen collection (i.e., blood/bone marrow draw) until specimen processing performed to preserve the specimen (i.e., process to lyse in Trizol or cryopreserve)",Laboratory,NA
+time_to_processing,noannot,"Not Relevant (such as for cell lines, or other non-primary human sample)",categorical,Specimen,"Time range from hematological specimen collection (i.e., blood/bone marrow draw) until specimen processing performed to preserve the specimen (i.e., process to lyse in Trizol or cryopreserve)",Laboratory,NA
+time_to_processing,notapplicable,"Not Applicable (such as for cell lines, or other non-primary human sample)",categorical,Specimen,"Time range from hematological specimen collection (i.e., blood/bone marrow draw) until specimen processing performed to preserve the specimen (i.e., process to lyse in Trizol or cryopreserve)",Laboratory,NA
+time_to_processing,paxgene,PAXgene,categorical,Specimen,"Time range from hematological specimen collection (i.e., blood/bone marrow draw) until specimen processing performed to preserve the specimen (i.e., process to lyse in Trizol or cryopreserve)",Laboratory,NA
+time_to_processing,repositoryprocessing,Repository Processing (times/shipping unknown but not rapid),categorical,Specimen,"Time range from hematological specimen collection (i.e., blood/bone marrow draw) until specimen processing performed to preserve the specimen (i.e., process to lyse in Trizol or cryopreserve)",Laboratory,NA
+time_to_processing,under3h,< 3 hours,categorical,Specimen,"Time range from hematological specimen collection (i.e., blood/bone marrow draw) until specimen processing performed to preserve the specimen (i.e., process to lyse in Trizol or cryopreserve)",Laboratory,NA
+time_to_processing,unknown,Unknown,categorical,Specimen,"Time range from hematological specimen collection (i.e., blood/bone marrow draw) until specimen processing performed to preserve the specimen (i.e., process to lyse in Trizol or cryopreserve)",Laboratory,NA
+tissue_type,apheresis,Apheresis,categorical,Specimen,Tissue type of the specimen collected from a patient,Laboratory,NA
+tissue_type,bonemarrow,Bone Marrow,categorical,Specimen,Tissue type of the specimen collected from a patient,Laboratory,NA
+tissue_type,cellline,Cell Line,categorical,Specimen,Tissue type of the specimen collected from a patient,Laboratory,NA
+tissue_type,fibroblasts,Expanded fibroblasts,categorical,Specimen,Tissue type of the specimen collected from a patient,Laboratory,NA
+tissue_type,pbpaxdna,Peripheral Blood PAXgene DNA,categorical,Specimen,Tissue type of the specimen collected from a patient,Laboratory,NA
+tissue_type,pbpaxrna,Peripheral Blood PAXgene RNA,categorical,Specimen,Tissue type of the specimen collected from a patient,Laboratory,NA
+tissue_type,peripheralblood,Peripheral Blood,categorical,Specimen,Tissue type of the specimen collected from a patient,Laboratory,NA
+tissue_type,skinbiopsy,Skin Biopsy,categorical,Specimen,Tissue type of the specimen collected from a patient,Laboratory,NA
+tissue_type_origin,bonemarrow,Bone Marrow,categorical,Specimen,"If the specimen is a cell line or a derivative of some parent specimen, what was the tissue type of origin of the original specimen",Laboratory,NA
+tissue_type_origin,fibroblasts,Fibroblasts,categorical,Specimen,"If the specimen is a cell line or a derivative of some parent specimen, what was the tissue type of origin of the original specimen",Laboratory,NA
+tissue_type_origin,peripheralblood,Peripheral Blood,categorical,Specimen,"If the specimen is a cell line or a derivative of some parent specimen, what was the tissue type of origin of the original specimen",Laboratory,NA
+array_image_date,NA,NA,date,Genomics,"Array Image Date (addresses sample prep batches for array based data, both expression and SNP), YY-MM-DD",Genomics,NA
+omics_date,NA,NA,date,Genomics,"Date data set was generated. If the data set is the result of a merge of two or more sequencing runs, this is the date of the earliest run in the format YY-MM-DD after 00/01/01.  ",Genomics,NA
+acquisition_date,NA,NA,date,Specimen,"Original specimen acquisition date from the patient, YY-MM-DD",Laboratory,NA
+cytogenetics,NA,NA,freetext,Biomarkers,Cytogenetics full detail,Clinical,Hematopoeitic
+consent_datause_ds_type,NA,NA,freetext,Consent,Disease that data consent group is limited to,Clinical,NA
+array_position_id,NA,NA,freetext,Genomics,The position of the assay material in the microarray,Genomics,NA
+omics_sample_name,NA,NA,freetext,Genomics,Name of the sample used in the process of generating the raw genomics dataset.  ,Genomics,NA
+seq_flowcell_id,NA,NA,freetext,Genomics,Flowcell Identifier for sequencing data (addresses batch of samples run on the sequencer together),Genomics,NA
+seq_index,NA,NA,freetext,Genomics,Illumina index sequence used for this sample,Genomics,NA
+seq_platelocation,NA,NA,freetext,Genomics,Plate location of the nucleic acid if submitted for sequencing in a plate layout,Genomics,NA
+seq_pool,NA,NA,freetext,Genomics,Sequencing pool name if submitted for sequencing (addresses batch for samples prepared for sequencing together),Genomics,NA
+batch_extraction,NA,NA,freetext,Assay Material,Lab-defined Batch ID for assay material extraction batch,Laboratory,NA
+batch_thaw,NA,NA,freetext,Assay Material,Lab-defined Batch ID for cryopreserved specimen thaw batch,Laboratory,NA
+material_name,NA,Assay material name if different from the acquisition_id,freetext,Assay Material,Assay material name if different from the acquisition_id,Laboratory,NA
+acquisition_id,NA,NA,freetext,Specimen,Unique Specimen Identifier given by group who acquired the sample ,Laboratory,NA
+assay_material_id,NA,NA,identifier,Identifiers,Assay Material ID from LabMatrix,NA,NA
+biospecimen_id,NA,NA,identifier,Identifiers,Biospecimen unique identifier,NA,NA
+molecular_id,NA,NA,identifier,Identifiers,Unique record identifier of a single genomic data set,NA,NA
+study_id,NA,NA,identifier,Identifiers,Study/Project unique identifier,NA,NA
+subject_id,NA,NA,identifier,Identifiers,Subject/Patient unique identifier,NA,NA
+ext_biospecimen_id,NA,NA,identifier,Identifiers,Externally defined biospecimen unique identifier,NA,NA
+dataset_member_id,NA,NA,identifier,Identifiers,"Unique identifier of a dataset collection member, such as a single cell dataset that is part of a larger dataset with a molecular_id",NA,NA
+blast_flow,NA,NA,numeric,Biomarkers,"Percentage of blasts in the specimen from which this assay material originated, identified by Flow Cytometry, integer from 0-100",Clinical,Hematopoeitic
+blast_morph,NA,NA,numeric,Biomarkers,"Percentage of blasts in the specimen from which this assay material originated, identified by Morphology, integer from 0-100",Clinical,Hematopoeitic
+flt3itd_ar,NA,NA,numeric,Biomarkers,FLT3-ITD allele ratio (ITD intensity/WT intensity) ,Clinical,Hematopoeitic
+flt3itd_length,NA,NA,numeric,Biomarkers,Length of FLT3-ITD insertion in number of bases,Clinical,Hematopoeitic
+age_at_acq,NA,NA,numeric,Patient,"Age at Sample Acquisition in years, integer value, 0-120",Clinical,NA
+array_slide_id,NA,NA,numeric,Genomics,"Array slide ID (barcode of the individual array this sample was run on), currently limited to integers",Genomics,NA
+array_totalinput,NA,NA,numeric,Genomics,"Total nucleic acid input amount (in ng), integer greater than 0",Genomics,NA
+seq_totalinput,NA,NA,numeric,Genomics,"Total nucleic acid input amount (in ng), integer greater than 0",Genomics,NA
+na_260230,NA,NA,numeric,Assay Material,"Nanodrop A260/A230 for nucleic acid assay materials, numeric between 0-3",Laboratory,NA
+na_260280,NA,NA,numeric,Assay Material,"Nanodrop A260/A280 for nucleic acid assay materials, numeric between 0-3",Laboratory,NA
+rin,NA,NA,numeric,Assay Material,"RIN value for assay materials that are RNA, numeric between 0-12",Laboratory,NA
+viability,NA,NA,numeric,Assay Material,"Viability of thawed specimen prior to creating a lysate from which an assay material would be isolated, integer values, 0-100",Laboratory,NA
+redcap_data_access_group,paguirigana,"Paguirigan, A data",identifier,Identifiers,Data Access Group ,NA,NA
+blast_bm_morph,NA,NA,numeric,Biomarkers,Bone marrow blast count via Morphology,Clinical,Hematopoeitic
+blast_bm_flow,NA,NA,numeric,Biomarkers,Bone marrow blast count via flow cytometry,Clinical,Hematopoeitic
+blast_pb,NA,NA,numeric,Biomarkers,Peripheral blood blast count via flow cytometry,Clinical,Hematopoeitic
+current_treatment,NA,NA,freetext,Patient,Currently defined as per Fred Hutch Leukemia Repository (p1690),Clinical,NA
+response,NA,NA,freetext,Patient,Currently defined as per Fred Hutch Leukemia Repository (p1690),Clinical,NA
+prior_treatment,NA,NA,freetext,Patient,Currently defined as per Fred Hutch Leukemia Repository (p1690),Clinical,NA
+prior_hct,NA,NA,freetext,Patient,Currently defined as per Fred Hutch Leukemia Repository (p1690),Clinical,NA
+genomics_note,NA,NA,freetext,Genomics,Note field,NA,NA
