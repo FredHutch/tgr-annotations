@@ -380,3 +380,4 @@ na_260280,NA,NA,numeric,Assay Material,"Nanodrop A260/A280 for nucleic acid assa
 rin,NA,NA,numeric,Assay Material,"RIN value for assay materials that are RNA, numeric between 0-12",Laboratory,NA
 viability,NA,NA,numeric,Assay Material,"Viability of thawed specimen prior to creating a lysate from which an assay material would be isolated, integer values, 0-100",Laboratory,NA
 redcap_data_access_group,paguirigana,"Paguirigan, A data",identifier,Identifiers,Data Access Group ,NA,NA
+genomics_note,NA,NA,freetext,Genomics,Note field for Genomics annotations,Genomics,NA
