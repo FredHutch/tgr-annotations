@@ -380,11 +380,3 @@ na_260280,NA,NA,numeric,Assay Material,"Nanodrop A260/A280 for nucleic acid assa
 rin,NA,NA,numeric,Assay Material,"RIN value for assay materials that are RNA, numeric between 0-12",Laboratory,NA
 viability,NA,NA,numeric,Assay Material,"Viability of thawed specimen prior to creating a lysate from which an assay material would be isolated, integer values, 0-100",Laboratory,NA
 redcap_data_access_group,paguirigana,"Paguirigan, A data",identifier,Identifiers,Data Access Group ,NA,NA
-blast_bm_morph,NA,NA,numeric,Biomarkers,Bone marrow blast count via Morphology,Clinical,Hematopoeitic
-blast_bm_flow,NA,NA,numeric,Biomarkers,Bone marrow blast count via flow cytometry,Clinical,Hematopoeitic
-blast_pb,NA,NA,numeric,Biomarkers,Peripheral blood blast count via flow cytometry,Clinical,Hematopoeitic
-current_treatment,NA,NA,freetext,Patient,Currently defined as per Fred Hutch Leukemia Repository (p1690),Clinical,NA
-response,NA,NA,freetext,Patient,Currently defined as per Fred Hutch Leukemia Repository (p1690),Clinical,NA
-prior_treatment,NA,NA,freetext,Patient,Currently defined as per Fred Hutch Leukemia Repository (p1690),Clinical,NA
-prior_hct,NA,NA,freetext,Patient,Currently defined as per Fred Hutch Leukemia Repository (p1690),Clinical,NA
-genomics_note,NA,NA,freetext,Genomics,Note field,NA,NA
