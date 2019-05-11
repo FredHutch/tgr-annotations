@@ -126,11 +126,10 @@ diagnosis,nsclc,Non Small Cell Lung Cancer,categorical,Patient,"Diagnosis at col
 event_free_survival,NA,NA,numeric,Patient,Event free survival time in days,Clinical,NA,NA,NA,NA
 event_indicator,CR_prog_death,"Did not achive a CR, had progression, or death (CARDINAL)",categorical,Patient,The event indicator describes the type of event that occurred as described by the event free survival time.,Clinical,NA,NA,NA,NA
 ext_biospecimen_id,NA,NA,identifier,Identifiers,Externally defined biospecimen unique identifier,NA,NA,NA,NA,NA
-extraction_modifier,NA,NA,categorical,Assay Material,Any modifier relating to the extraction type that may influence downstream data. ,Laboratory,NA,NA,NA,NA
-extraction_modifier,Qiagen Deparaffinization Solution/QIAamp DNA FFPE,,,,,,,,,
-extraction_modifier,Xylene/QIAamp DNA FFPE,,,,,,,,,
-extraction_modifier,5 prime,,,,,,,,,
-extraction_modifier,Phenol,,,,,,,,,
+extraction_modifier,Qiagen Deparaffinization Solution/QIAamp DNA FFPE,Qiagen Deparaffinization Solution/QIAamp DNA FFPE,categorical,Assay Material,Any modifier relating to the extraction type that may influence downstream data. ,Laboratory,NA,NA,NA,NA
+extraction_modifier,Xylene/QIAamp DNA FFPE,Xylene/QIAamp DNA FFPE,categorical,Assay Material,Any modifier relating to the extraction type that may influence downstream data. ,Laboratory,NA,NA,NA,NA
+extraction_modifier,5 prime,5 prime Kit,categorical,Assay Material,Any modifier relating to the extraction type that may influence downstream data. ,Laboratory,NA,NA,NA,NA
+extraction_modifier,Phenol,Phenol,categorical,Assay Material,Any modifier relating to the extraction type that may influence downstream data. ,Laboratory,NA,NA,NA,NA
 extraction_type,column,Column,categorical,Assay Material,Extraction protocol used to isolate the assay material from a lysate,Laboratory,NA,NA,NA,NA
 extraction_type,directlysis,Direct lysis in plate (for sorted cells),categorical,Assay Material,Extraction protocol used to isolate the assay material from a lysate,Laboratory,NA,NA,NA,NA
 extraction_type,magneticbead,Magnetic bead,categorical,Assay Material,Extraction protocol used to isolate the assay material from a lysate,Laboratory,NA,NA,NA,NA
