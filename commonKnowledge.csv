@@ -18,12 +18,15 @@ array_type,infiniumomni5mquad,Illumina Omni 5M,categorical,Genomics,Type of micr
 assay_material_id,NA,NA,identifier,Identifiers,Assay Material ID from LabMatrix,NA,NA,NA,NA,NA
 batch_extraction,NA,NA,freetext,Assay Material,Lab-defined Batch ID for assay material extraction batch,Laboratory,NA,NA,NA,NA
 batch_thaw,NA,NA,freetext,Assay Material,Lab-defined Batch ID for cryopreserved specimen thaw batch,Laboratory,NA,NA,NA,NA
-bead_pop,cd19_or_cd3, CD19+ or CD3+ magnetic bead positive selection (lymphoid),categorical,Experimental,Type of cell population isolated via antibody conjugated magnetic bead selection prior to generation of a lysate,Laboratory,NA,subPopulation,NA,NA
+bead_pop,cd19_or_cd3,CD19+ or CD3+ magnetic bead positive selection (lymphoid),categorical,Experimental,Type of cell population isolated via antibody conjugated magnetic bead selection prior to generation of a lysate,Laboratory,NA,subPopulation,NA,NA
 bead_pop,cd33_or_cd66b,CD33+ or CD66b+ magnetic bead positive selection prior to lysis (myeloid),categorical,Experimental,Type of cell population isolated via antibody conjugated magnetic bead selection prior to generation of a lysate,Laboratory,NA,subPopulation,NA,NA
 bead_pop,negative_for_cd19_cd3_cd33_cd66b,CD19- CD3- CD33- CD66b- (neither lymphoid or myeloid; remainder from lymph/myelo selection),categorical,Experimental,Type of cell population isolated via antibody conjugated magnetic bead selection prior to generation of a lysate,Laboratory,NA,subPopulation,NA,NA
 biospecimen_id,NA,NA,identifier,Identifiers,Biospecimen unique identifier,NA,NA,NA,NA,NA
 blast_flow,NA,NA,numeric,Biomarkers,Percentage of blasts in the specimen from which this assay material originated;  identified by Flow Cytometry,Clinical,Hematopoeitic,NA,NA,NA
 blast_morph,NA,NA,numeric,Biomarkers,Percentage of blasts in the specimen from which this assay material originated;  identified by Morphology,Clinical,Hematopoeitic,NA,NA,NA
+cell_line_id,MDA-MD-231,MDA-MD-231 breast cancer cells,categorical,Specimen,Name of the cell line,Laboratory,NA,NA,NA,NA
+cell_line_id,AGS,Human transformed gastric epithelial cells,categorical,Specimen,Name of the cell line,Laboratory,NA,NA,NA,NA
+cell_line_id,glio-0827,Glioblastoma 0827 line,categorical,Specimen,Name of the cell line,Laboratory,NA,NA,NA,NA
 cohortLevelID,NA,NA,categorical,Bioinformatics,Name of the cohort (dataset_qc_cohort) that a file belongs to.,Genomics,NA,NA,NA,NA
 collection_event,2ndrelapse,Second Relapse,categorical,Specimen,Event at specimen collection,Laboratory,NA,NA,NA,NA
 collection_event,day0,Day 0 Post HCT,categorical,Specimen,Event at specimen collection,Laboratory,NA,NA,NA,NA
@@ -146,6 +149,7 @@ flow_pop,cd33_cd34_cd14neg_live,CD33 and CD34 positive CD14 negative live (proge
 flow_pop,cd33_cd34_live,CD33 and CD34 positive live (progenitor),categorical,Experimental,Type of Population Isolated via Flow Cytometry prior to generation of the assay material,Laboratory,NA,subPopulation,NA,NA
 flow_pop,cd33_live,CD33 positive live (myeloid),categorical,Experimental,Type of Population Isolated via Flow Cytometry prior to generation of the assay material,Laboratory,NA,subPopulation,NA,NA
 flow_pop,cd34_live,CD34 positive live (blast),categorical,Experimental,Type of Population Isolated via Flow Cytometry prior to generation of the assay material,Laboratory,NA,subPopulation,NA,NA
+flow_pop,cd4_cd8,CD4 positive and CD8 positive,categorical,Experimental,Type of Population Isolated via Flow Cytometry prior to generation of the assay material,Laboratory,NA,subPopulation,NA,NA
 flow_pop,cd64_cd14neg_live,CD64 positive and CD14 negative live (blast with no monocytic differentiation),categorical,Experimental,Type of Population Isolated via Flow Cytometry prior to generation of the assay material,Laboratory,NA,subPopulation,NA,NA
 flow_pop,cd71_live,CD71 positive,categorical,Experimental,Type of Population Isolated via Flow Cytometry prior to generation of the assay material,Laboratory,NA,subPopulation,NA,NA
 flow_pop,customcocktail,Custom cocktail (describe in notes),categorical,Experimental,Type of Population Isolated via Flow Cytometry prior to generation of the assay material,Laboratory,NA,subPopulation,NA,NA
@@ -343,8 +347,9 @@ shipping,notapplicable,No: the specimen was never shipped,categorical,Specimen,I
 shipping,preserved,Yes: the specimen was shipped in a preserved form (i.e. cryopreserved aliqout),categorical,Specimen,Identifies if the specimen  or any of it's possible parent specimens were shipped prior to generation of assay material,Laboratory,NA,NA,NA,NA
 shipping,shipped,Yes: the specimen was shipped at some point but the status at the time is unknown,categorical,Specimen,Identifies if the specimen  or any of it's possible parent specimens were shipped prior to generation of assay material,Laboratory,NA,NA,NA,NA
 species,dog,Dog,categorical,Genomics,Species of reference for analysis of genomic data.,Genomics,NA,NA,NA,NA
-species,human,Human,categorical,Genomics,Species of reference for analysis of genomic data.,Genomics,NA,NA,NA,NA
 species,drosophila,Dropsophila,categorical,Genomics,Species of reference for analysis of genomic data.,Genomics,NA,NA,NA,NA
+species,human,Human,categorical,Genomics,Species of reference for analysis of genomic data.,Genomics,NA,NA,NA,NA
+species,mouse,Mouse,categorical,Genomics,Species of reference for analysis of genomic data.,Genomics,NA,NA,NA,NA
 specimen_contact_id,apaguirigan,Amy Paguirigan,categorical,Specimen,Contact ID of investigator responsible for specimen acquisition,Laboratory,NA,NA,NA,NA
 specimen_contact_id,csmith,Catherine Smith (UCSF),categorical,Specimen,Contact ID of investigator responsible for specimen acquisition,Laboratory,NA,NA,NA,NA
 specimen_contact_id,degan,Dan Egan,categorical,Specimen,Contact ID of investigator responsible for specimen acquisition,Laboratory,NA,NA,NA,NA
@@ -360,6 +365,7 @@ specimen_contact_id,pbecker,Pam Becker,categorical,Specimen,Contact ID of invest
 specimen_gdspolicy,required,On or after Jan 25th 2015 - GDS policy required,categorical,Consent,Was this specimen originally acquired from the subject on or after January 25th;  2015 when the NIH requirements for Genomic Data Sharing consenting requirements changed?  This relates to whether a waiver can be applied for for use of data originating from a specimen banked prior to the requirement that all consents have Genomic Data Sharing language in them.,Clinical,NA,NA,NA,NA
 specimen_gdspolicy,unknown,Consult Magic 8 ball,categorical,Consent,Was this specimen originally acquired from the subject on or after January 25th;  2015 when the NIH requirements for Genomic Data Sharing consenting requirements changed?  This relates to whether a waiver can be applied for for use of data originating from a specimen banked prior to the requirement that all consents have Genomic Data Sharing language in them.,Clinical,NA,NA,NA,NA
 specimen_gdspolicy,waiver,Before January 25th 2015 - GDS policy waiver possible,categorical,Consent,Was this specimen originally acquired from the subject on or after January 25th;  2015 when the NIH requirements for Genomic Data Sharing consenting requirements changed?  This relates to whether a waiver can be applied for for use of data originating from a specimen banked prior to the requirement that all consents have Genomic Data Sharing language in them.,Clinical,NA,NA,NA,NA
+specimen_privacy,modelorganism,Model Organism,categorical,Consent,Was this specimen originally acquired from the subject on or after January 25th;  2015 when the NIH requirements for Genomic Data Sharing consenting requirements changed?  This relates to whether a waiver can be applied for for use of data originating fro,Clinical,NA,NA,NA,NA
 specimen_privacy,protected,Protected Specimen with restrictions on privacy,categorical,Consent,What is the privacy type of this specimen? i.e. Is this specimen from a human source associated with private clinical information or is this specimen from a publicly accessible cell line or other reference specimen?,Clinical,NA,NA,NA,NA
 specimen_privacy,publiclyavailable,Publicly Available Specimen with no restrictions on privacy,categorical,Consent,What is the privacy type of this specimen? i.e. Is this specimen from a human source associated with private clinical information or is this specimen from a publicly accessible cell line or other reference specimen?,Clinical,NA,NA,NA,NA
 stage,analyzed,An analyzed form of a processed data set.,categorical,Bioinformatics,Stage of processing of a molecular data set,Genomics,NA,NA,NA,NA
@@ -402,6 +408,7 @@ tissue_type,pbpaxdna,Peripheral Blood PAXgene DNA,categorical,Specimen,Tissue ty
 tissue_type,pbpaxrna,Peripheral Blood PAXgene RNA,categorical,Specimen,Tissue type of the specimen collected from a patient,Laboratory,NA,NA,NA,NA
 tissue_type,peripheralblood,Peripheral Blood,categorical,Specimen,Tissue type of the specimen collected from a patient,Laboratory,NA,NA,NA,NA
 tissue_type,skinbiopsy,Skin Biopsy,categorical,Specimen,Tissue type of the specimen collected from a patient,Laboratory,NA,NA,NA,NA
+tissue_type,thymus,NA,NA,NA,NA,NA,NA,NA,NA,NA
 tissue_type,unknownhematopoeitic,Unknown specimen type of hematopoietic origin,categorical,Specimen,Tissue type of the specimen collected from a patient,Laboratory,NA,NA,NA,NA
 tissue_type_origin,bonemarrow,Bone Marrow,categorical,Specimen,If the specimen is a cell line or a derivative of some parent specimen; what was the tissue type of origin of the original specimen,Laboratory,NA,NA,NA,NA
 tissue_type_origin,breast,Breast Cancer,categorical,Specimen,If the specimen is a cell line or a derivative of some parent specimen; what was the tissue type of origin of the original specimen,Laboratory,NA,NA,NA,NA
