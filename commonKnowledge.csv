@@ -27,6 +27,7 @@ blast_morph,NA,NA,numeric,Biomarkers,Percentage of blasts in the specimen from w
 cell_line_id,MDA-MD-231,MDA-MD-231 breast cancer cells,categorical,Specimen,Name of the cell line,Laboratory,NA,NA,NA,NA
 cell_line_id,AGS,Human transformed gastric epithelial cells,categorical,Specimen,Name of the cell line,Laboratory,NA,NA,NA,NA
 cell_line_id,glio-0827,Glioblastoma 0827 line,categorical,Specimen,Name of the cell line,Laboratory,NA,NA,NA,NA
+cell_line_id,DS1-GFP,GFP DS1 dog MSC stromal cell line,categorical,Specimen,Name of the cell line,Laboratory,NA,NA,NA,NA
 cohortLevelID,NA,NA,categorical,Bioinformatics,Name of the cohort (dataset_qc_cohort) that a file belongs to.,Genomics,NA,NA,NA,NA
 collection_event,2ndrelapse,Second Relapse,categorical,Specimen,Event at specimen collection,Laboratory,NA,NA,NA,NA
 collection_event,day0,Day 0 Post HCT,categorical,Specimen,Event at specimen collection,Laboratory,NA,NA,NA,NA
@@ -408,7 +409,7 @@ tissue_type,pbpaxdna,Peripheral Blood PAXgene DNA,categorical,Specimen,Tissue ty
 tissue_type,pbpaxrna,Peripheral Blood PAXgene RNA,categorical,Specimen,Tissue type of the specimen collected from a patient,Laboratory,NA,NA,NA,NA
 tissue_type,peripheralblood,Peripheral Blood,categorical,Specimen,Tissue type of the specimen collected from a patient,Laboratory,NA,NA,NA,NA
 tissue_type,skinbiopsy,Skin Biopsy,categorical,Specimen,Tissue type of the specimen collected from a patient,Laboratory,NA,NA,NA,NA
-tissue_type,thymus,NA,NA,NA,NA,NA,NA,NA,NA,NA
+tissue_type,thymus,Thymus,categorical,Specimen,Tissue type of the specimen collected from a patient,Laboratory,NA,NA,NA,NA
 tissue_type,unknownhematopoeitic,Unknown specimen type of hematopoietic origin,categorical,Specimen,Tissue type of the specimen collected from a patient,Laboratory,NA,NA,NA,NA
 tissue_type_origin,bonemarrow,Bone Marrow,categorical,Specimen,If the specimen is a cell line or a derivative of some parent specimen; what was the tissue type of origin of the original specimen,Laboratory,NA,NA,NA,NA
 tissue_type_origin,breast,Breast Cancer,categorical,Specimen,If the specimen is a cell line or a derivative of some parent specimen; what was the tissue type of origin of the original specimen,Laboratory,NA,NA,NA,NA
