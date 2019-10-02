@@ -12,20 +12,6 @@ extraction_type,paxgenerna,PAXgene RNA,categorical,Assay Material,Extraction pro
 extraction_type,precipitation,Precipitation,categorical,Assay Material,Extraction protocol used to isolate the assay material from a lysate,Laboratory,NA,NA,NA,NA
 extraction_type,trizol,Trizol,categorical,Assay Material,Extraction protocol used to isolate the assay material from a lysate,Laboratory,NA,NA,NA,NA
 extraction_type,unknown,Unknown method,categorical,Assay Material,Extraction protocol used to isolate the assay material from a lysate,Laboratory,NA,NA,NA,NA
-material_contact_id,aberger,Alice Berger,categorical,Assay Material,Contact ID of investigator responsible for assay material isolation,Laboratory,NA,NA,NA,NA
-material_contact_id,aberger,Alice Berger,categorical,Assay Material,Contact ID of investigator responsible for assay material isolation,Laboratory,NA,NA,NA,NA
-material_contact_id,apaguirigan,Amy Paguirigan,categorical,Assay Material,Contact ID of investigator responsible for assay material isolation,Laboratory,NA,NA,NA,NA
-material_contact_id,csmith,Catherine Smith (UCSF),categorical,Assay Material,Contact ID of investigator responsible for assay material isolation,Laboratory,NA,NA,NA,NA
-material_contact_id,degan,Dan Egan,categorical,Assay Material,Contact ID of investigator responsible for assay material isolation,Laboratory,NA,NA,NA,NA
-material_contact_id,dstirewalt,Derek Stirewalt,categorical,Assay Material,Contact ID of investigator responsible for assay material isolation,Laboratory,NA,NA,NA,NA
-material_contact_id,dyadock,David Yadock,categorical,Assay Material,Contact ID of investigator responsible for assay material isolation,Laboratory,NA,NA,NA,NA
-material_contact_id,epogosova,Era Pogosova,categorical,Assay Material,Contact ID of investigator responsible for assay material isolation,Laboratory,NA,NA,NA,NA
-material_contact_id,estevens,Emily Stevens,categorical,Assay Material,Contact ID of investigator responsible for assay material isolation,Laboratory,NA,NA,NA,NA
-material_contact_id,jdeeg,Joachim Deeg,categorical,Assay Material,Contact ID of investigator responsible for assay material isolation,Laboratory,NA,NA,NA,NA
-material_contact_id,jfromm,Jonathan Fromm,categorical,Assay Material,Contact ID of investigator responsible for assay material isolation,Laboratory,NA,NA,NA,NA
-material_contact_id,jradich,Jerry Radich,categorical,Assay Material,Contact ID of investigator responsible for assay material isolation,Laboratory,NA,NA,NA,NA
-material_contact_id,pathways-ship,Pathways-SHIP projects,categorical,Assay Material,Contact ID of investigator responsible for assay material isolation,Laboratory,NA,NA,NA,NA
-material_contact_id,pbecker,Pam Becker,categorical,Assay Material,Contact ID of investigator responsible for assay material isolation,Laboratory,NA,NA,NA,NA
 material_name,NA,Assay material name if different from the acquisition_id,freetext,Assay Material,Assay material name if different from the acquisition_id,Laboratory,NA,NA,NA,NA
 material_type,beadRNA,Bead based extracted total RNA without DNase treatment,categorical,Assay Material,Type of assay material,Laboratory,NA,NA,NA,NA
 material_type,cellSuspension,Cell Suspension,categorical,Assay Material,Type of assay material,Laboratory,NA,NA,NA,NA
@@ -193,9 +179,6 @@ omics_contact_id,pathways-ship,Pathways-SHIP projects,categorical,Genomics,Conta
 omics_contact_id,pbecker,Pam Becker,categorical,Genomics,Contact ID of investigator responsible for omics dataset generation,Genomics,NA,NA,NA,NA
 omics_date,NA,NA,date,Genomics,Date data set was generated. If the data set is the result of a merge of two or more sequencing runs this is the date of the earliest run in the format YY-MM-DD after 00/01/01.,Genomics,NA,NA,NA,NA
 omics_sample_name,NA,NA,freetext,Genomics,Name of the sample used in the process of generating the raw genomics dataset.,Genomics,NA,NA,NA,NA
-protocol_data,p547,Fred Hutch; Protocol 547; Jerald Radich,categorical,Genomics,IRB Protocol/File associated with the original generation or acquisition by the study PI of the dataset (include Institution of IRB of record; protocol number; PI name).,Genomics,NA,NA,NA,NA
-protocol_data,pathways-ship,Pathways-SHIP projects,categorical,Genomics,IRB Protocol/File associated with the original generation or acquisition by the study PI of the dataset (include Institution of IRB of record; protocol number; PI name).,genomics,NA,NA,NA,NA
-protocol_data,unknown,Unknown at this time; TBD,categorical,Genomics,IRB Protocol/File associated with the original generation or acquisition by the study PI of the dataset (include Institution of IRB of record; protocol number; PI name).,Genomics,NA,NA,NA,NA
 run_mode,RapidRun,RapidRun,categorical,Genomics,Mode the sequencing platform was run in during data acquisition,Genomics,NA,NA,NA,NA
 seq_flowcell_id,NA,NA,freetext,Genomics,Flowcell Identifier for sequencing data (addresses batch of samples run on the sequencer together),Genomics,NA,NA,NA,NA
 seq_index,NA,NA,freetext,Genomics,Illumina index sequence used for this sample,Genomics,NA,NA,NA,NA
@@ -228,7 +211,6 @@ species,human,Human,categorical,Genomics,Species of reference for analysis of ge
 species,mouse,Mouse,categorical,Genomics,Species of reference for analysis of genomic data.,Genomics,NA,NA,NA,NA
 assay_material_id,NA,NA,identifier,Identifiers,Assay Material ID from LabMatrix,NA,NA,NA,NA,NA
 biospecimen_id,NA,NA,identifier,Identifiers,Biospecimen unique identifier,NA,NA,NA,NA,NA
-dataset_member_id,NA,NA,identifier,Identifiers,Unique identifier of a dataset collection member such as a single cell dataset that is part of a larger dataset with a molecular_id,Genomics,NA,NA,NA,NA
 ext_biospecimen_id,NA,NA,identifier,Identifiers,Externally defined biospecimen unique identifier,NA,NA,NA,NA,NA
 molecular_id,NA,NA,identifier,Identifiers,Unique record identifier of a single genomic data set,NA,NA,NA,NA,NA
 redcap_data_access_group,bergera,Berger A data,identifier,Identifiers,Data Access Group,NA,NA,NA,NA,NA
