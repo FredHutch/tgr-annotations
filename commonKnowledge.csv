@@ -87,35 +87,35 @@ genotype_npm1,positive,Positive,categorical,Biomarkers,NPM1 Status,Clinical,Hema
 genotype_nras,negative,Negative,categorical,Biomarkers,NRAS Status (for Q61/G12/G13),Clinical,Hematopoeitic,NA,NA,NA
 genotype_nras,notdetermined,Not Determined,categorical,Biomarkers,NRAS Status (for Q61/G12/G13),Clinical,Hematopoeitic,NA,NA,NA
 genotype_nras,positive,Positive,categorical,Biomarkers,NRAS Status (for Q61/G12/G13),Clinical,Hematopoeitic,NA,NA,NA
+collaboration_required,NA,NA,truefalse,ConsentDataUse,This requirement indicates that the requestor must agree to collaboration with the primary study investigator(s).; DUO:0000020,Clinical,NA,NA,NA,NA
+consent_data_use_review,NA,NA,truefalse,ConsentDataUse,Has this dataset been assigned Consent and Data Use designations by an approved review (IRB or other entity)?,Clinical,NA,NA,NA,NA
+disease_specific_research,NA,NA,freetext,ConsentDataUse,This primary category consent code indicates that use is allowed provided it is related to the specified disease.; DUO:0000007,Clinical,NA,NA,NA,NA
+educational_use_only,NA,NA,truefalse,ConsentDataUse,"Educational use only, no publication",Clinical,NA,NA,NA,NA
+ethics_approval_required,NA,NA,truefalse,ConsentDataUse,This requirement indicates that the requestor must provide documentation of local IRB/ERB approval.; DUO:0000021,Clinical,NA,NA,NA,NA
+general_research_use,NA,NA,truefalse,ConsentDataUse,This primary category consent code indicates that use is allowed for general research use for any research purpose.; DUO:0000042,Clinical,NA,NA,NA,NA
+general_research_use_and_clinical_care,NA,NA,truefalse,ConsentDataUse,"This primary category consent code indicates that use is allowed for health/medical/biomedical purposes and other biological research, including the study of population origins or ancestry.; DUO:0000005",Clinical,NA,NA,NA,NA
+genetic_studies_only,NA,NA,truefalse,ConsentDataUse,"This secondary category consent code indicates that use is limited to genetic studies only (i.e., no phenotype-only research); DUO:0000016",Clinical,NA,NA,NA,NA
+geographical_restriction,NA,NA,truefalse,ConsentDataUse,This requirement indicates that use is limited to within a specific geographic region.; DUO:0000022,Clinical,NA,NA,NA,NA
+health_or_medical_or_biomedical_research,NA,NA,truefalse,ConsentDataUse,This primary category consent code indicates that use is allowed for health/medical/biomedical purposes; does not include the study of population origins or ancestry.; DUO:0000006,Clinical,NA,NA,NA,NA
+institution_specific_restriction,NA,NA,truefalse,ConsentDataUse,This requirement indicates that use is limited to use within an approved institution.; DUO:0000028,Clinical,NA,NA,NA,NA
+no_general_methods_research,NA,NA,truefalse,ConsentDataUse,"This secondary category consent code indicates that use includes methods development research(e.g., development of software or algorithms) only within the bounds of other use limitations.; DUO:0000015",Clinical,NA,NA,NA,NA
+no_restriction,NA,NA,truefalse,ConsentDataUse,This primary category consent code indicates there is no restriction on use.; DUO:0000004,Clinical,NA,NA,NA,NA
+not_for_profit_use_only,NA,NA,truefalse,ConsentDataUse,"This requirement indicates that use of the data is limited to not-for-profit organizations and not-for-profit use, non-commercial use.; DUO:0000018",Clinical,NA,NA,NA,NA
+population_origins_or_ancestry_research,NA,NA,truefalse,ConsentDataUse,This primary category consent code indicates that use of the data is limited to the study of population origins or ancestry.; DUO:0000011,Clinical,NA,NA,NA,NA
+project_specific_restriction,NA,NA,truefalse,ConsentDataUse,This requirement indicates that use is limited to use within an approved project.; DUO:0000027,Clinical,NA,NA,NA,NA
+publication_moratorium,NA,NA,truefalse,ConsentDataUse,This requirement indicates that requestor agrees not to publish results of studies until a specific date; DUO:0000024,Clinical,NA,NA,NA,NA
+publication_required,NA,NA,truefalse,ConsentDataUse,This requirement indicates that requestor agrees to make results of studies using the data available to the larger scientific community.; DUO:0000019,Clinical,NA,NA,NA,NA
+research_specific_restrictions,NA,NA,truefalse,ConsentDataUse,This secondary category consent code indicates that use is limited to studies of a certain research type.; DUO:0000012,Clinical,NA,NA,NA,NA
+research_use_only,NA,NA,truefalse,ConsentDataUse,"This secondary category consent code indicates that use is limited to research purposes (e.g., does not include its use in clinical care).; DUO:0000014",Clinical,NA,NA,NA,NA
+return_to_database_or_resource,NA,NA,truefalse,ConsentDataUse,This requirement indicates that the requestor must return derived/enriched data to the database/resource.; DUO:0000029,Clinical,NA,NA,NA,NA
 specimen_gdspolicy,required,On or after Jan 25th 2015 - GDS policy required,categorical,ConsentDataUse,Was this specimen originally acquired from the subject on or after January 25th;  2015 when the NIH requirements for Genomic Data Sharing consenting requirements changed?  This relates to whether a waiver can be applied for for use of data originating from a specimen banked prior to the requirement that all consents have Genomic Data Sharing language in them.,Clinical,NA,NA,NA,NA
 specimen_gdspolicy,unknown,Consult Magic 8 ball,categorical,ConsentDataUse,Was this specimen originally acquired from the subject on or after January 25th;  2015 when the NIH requirements for Genomic Data Sharing consenting requirements changed?  This relates to whether a waiver can be applied for for use of data originating from a specimen banked prior to the requirement that all consents have Genomic Data Sharing language in them.,Clinical,NA,NA,NA,NA
 specimen_gdspolicy,waiver,Before January 25th 2015 - GDS policy waiver possible,categorical,ConsentDataUse,Was this specimen originally acquired from the subject on or after January 25th;  2015 when the NIH requirements for Genomic Data Sharing consenting requirements changed?  This relates to whether a waiver can be applied for for use of data originating from a specimen banked prior to the requirement that all consents have Genomic Data Sharing language in them.,Clinical,NA,NA,NA,NA
 specimen_privacy,modelorganism,Model Organism,categorical,ConsentDataUse,Was this specimen originally acquired from the subject on or after January 25th;  2015 when the NIH requirements for Genomic Data Sharing consenting requirements changed?  This relates to whether a waiver can be applied for for use of data originating fro,Clinical,NA,NA,NA,NA
 specimen_privacy,protected,Protected Specimen with restrictions on privacy,categorical,ConsentDataUse,What is the privacy type of this specimen? i.e. Is this specimen from a human source associated with private clinical information or is this specimen from a publicly accessible cell line or other reference specimen?,Clinical,NA,NA,NA,NA
 specimen_privacy,publiclyavailable,Publicly Available Specimen with no restrictions on privacy,categorical,ConsentDataUse,What is the privacy type of this specimen? i.e. Is this specimen from a human source associated with private clinical information or is this specimen from a publicly accessible cell line or other reference specimen?,Clinical,NA,NA,NA,NA
-collaboration_required,,,truefalse,ConsentDataUse,This requirement indicates that the requestor must agree to collaboration with the primary study investigator(s).; DUO:0000020,Clinical,,,,
-consent_data_use_review,,,truefalse,ConsentDataUse,Has this dataset been assigned Consent and Data Use designations by an approved review (IRB or other entity)?,Clinical,,,,
-disease_specific_research,,,freetext,ConsentDataUse,This primary category consent code indicates that use is allowed provided it is related to the specified disease.; DUO:0000007,Clinical,,,,
-educational_use_only,,,truefalse,ConsentDataUse,"Educational use only, no publication",Clinical,,,,
-ethics_approval_required,,,truefalse,ConsentDataUse,This requirement indicates that the requestor must provide documentation of local IRB/ERB approval.; DUO:0000021,Clinical,,,,
-general_research_use,,,truefalse,ConsentDataUse,This primary category consent code indicates that use is allowed for general research use for any research purpose.; DUO:0000042,Clinical,,,,
-general_research_use_and_clinical_care,,,truefalse,ConsentDataUse,"This primary category consent code indicates that use is allowed for health/medical/biomedical purposes and other biological research, including the study of population origins or ancestry.; DUO:0000005",Clinical,,,,
-genetic_studies_only,,,truefalse,ConsentDataUse,"This secondary category consent code indicates that use is limited to genetic studies only (i.e., no phenotype-only research); DUO:0000016",Clinical,,,,
-geographical_restriction,,,truefalse,ConsentDataUse,This requirement indicates that use is limited to within a specific geographic region.; DUO:0000022,Clinical,,,,
-health_or_medical_or_biomedical_research,,,truefalse,ConsentDataUse,This primary category consent code indicates that use is allowed for health/medical/biomedical purposes; does not include the study of population origins or ancestry.; DUO:0000006,Clinical,,,,
-institution_specific_restriction,,,truefalse,ConsentDataUse,This requirement indicates that use is limited to use within an approved institution.; DUO:0000028,Clinical,,,,
-no_general_methods_research,,,truefalse,ConsentDataUse,"This secondary category consent code indicates that use includes methods development research(e.g., development of software or algorithms) only within the bounds of other use limitations.; DUO:0000015",Clinical,,,,
-no_restriction,,,truefalse,ConsentDataUse,This primary category consent code indicates there is no restriction on use.; DUO:0000004,Clinical,,,,
-not_for_profit_use_only,,,truefalse,ConsentDataUse,"This requirement indicates that use of the data is limited to not-for-profit organizations and not-for-profit use, non-commercial use.; DUO:0000018",Clinical,,,,
-population_origins_or_ancestry_research,,,truefalse,ConsentDataUse,This primary category consent code indicates that use of the data is limited to the study of population origins or ancestry.; DUO:0000011,Clinical,,,,
-project_specific_restriction,,,truefalse,ConsentDataUse,This requirement indicates that use is limited to use within an approved project.; DUO:0000027,Clinical,,,,
-publication_moratorium,,,truefalse,ConsentDataUse,This requirement indicates that requestor agrees not to publish results of studies until a specific date; DUO:0000024,Clinical,,,,
-publication_required,,,truefalse,ConsentDataUse,This requirement indicates that requestor agrees to make results of studies using the data available to the larger scientific community.; DUO:0000019,Clinical,,,,
-research_specific_restrictions,,,truefalse,ConsentDataUse,This secondary category consent code indicates that use is limited to studies of a certain research type.; DUO:0000012,Clinical,,,,
-research_use_only,,,truefalse,ConsentDataUse,"This secondary category consent code indicates that use is limited to research purposes (e.g., does not include its use in clinical care).; DUO:0000014",Clinical,,,,
-return_to_database_or_resource,,,truefalse,ConsentDataUse,This requirement indicates that the requestor must return derived/enriched data to the database/resource.; DUO:0000029,Clinical,,,,
-time_limit_on_use,,,truefalse,ConsentDataUse,This requirement indicates that use is approved for a specific number of months.; DUO:0000025,Clinical,,,,
-user_specific_restriction,,,truefalse,ConsentDataUse,This requirement indicates that use is limited to use by approved users.; DUO:0000026,Clinical,,,,
+time_limit_on_use,NA,NA,truefalse,ConsentDataUse,This requirement indicates that use is approved for a specific number of months.; DUO:0000025,Clinical,,,,
+user_specific_restriction,NA,NA,truefalse,ConsentDataUse,This requirement indicates that use is limited to use by approved users.; DUO:0000026,Clinical,,,,
 bead_pop,cd19_or_cd3,CD19+ or CD3+ magnetic bead positive selection (lymphoid),categorical,Experimental,Type of cell population isolated via antibody conjugated magnetic bead selection prior to generation of a lysate,Laboratory,NA,subPopulation,NA,NA
 bead_pop,cd33_or_cd66b,CD33+ or CD66b+ magnetic bead positive selection prior to lysis (myeloid),categorical,Experimental,Type of cell population isolated via antibody conjugated magnetic bead selection prior to generation of a lysate,Laboratory,NA,subPopulation,NA,NA
 bead_pop,negative_for_cd19_cd3_cd33_cd66b,CD19- CD3- CD33- CD66b- (neither lymphoid or myeloid; remainder from lymph/myelo selection),categorical,Experimental,Type of cell population isolated via antibody conjugated magnetic bead selection prior to generation of a lysate,Laboratory,NA,subPopulation,NA,NA
@@ -150,7 +150,9 @@ array_type,infiniumomni5mquad,Illumina Omni 5M,categorical,Genomics,Type of micr
 dataset_qc,highLibraryReadDepth,Higher than expected overall library read depth,categorical,Genomics,The type of quality concerns or considerations that apply to this dataset that might impact their analysis.,Genomics,NA,NA,NA,NA
 dataset_qc,lowLibraryReadDepth,Lower than expected overall library read depth,categorical,Genomics,The type of quality concerns or considerations that apply to this dataset that might impact their analysis.,Genomics,NA,NA,NA,NA
 dataset_qc_cohort,CARDINAL,Washington Univ DNA Seq for CARDINAL project,categorical,Genomics,The unique name of the cohort this dataset should be compared against for basic QC purposes.,Genomics,NA,NA,NA,NA
-dataset_qc_cohort,dfci-pilot,"Berger, A; DFCI Pilot cohort",categorical,Genomics,What is the privacy type of this specimen? i.e. Is this specimen from a human source associated with private clinical information or is this specimen from a publicly accessible cell line or other reference specimen?,Genomics,,,,
+dataset_qc_cohort,dfci-cohort2,"Berger, A; DFCI Cohort 2",categorical,Genomics,The unique name of the cohort this dataset should be compared against for basic QC purposes.,Genomics,NA,NA,NA,NA
+dataset_qc_cohort,dfci-pilot,"Berger, A; DFCI Pilot cohort",categorical,Genomics,The unique name of the cohort this dataset should be compared against for basic QC purposes.,Genomics,NA,NA,NA,NA
+dataset_qc_cohort,HALO-validation,HALO-validation,categorical,Genomics,The unique name of the cohort this dataset should be compared against for basic QC purposes.,Genomics,NA,NA,NA,NA
 dataset_qc_cohort,ITHOnePilot,TruSight One DNA seq panel for ITH pilot minted 2019-04-22,categorical,Genomics,The unique name of the cohort this dataset should be compared against for basic QC purposes.,Genomics,NA,NA,NA,NA
 dataset_qc_cohort,LILAC-FARBER,LILAC specimen data from Dana Farber,categorical,Genomics,The unique name of the cohort this dataset should be compared against for basic QC purposes.,Genomics,NA,NA,NA,NA
 dataset_qc_cohort,paguiriganTSM,TruSight Myeloid DNA seq minted 2019-04-22,categorical,Genomics,The unique name of the cohort this dataset should be compared against for basic QC purposes.,Genomics,NA,NA,NA,NA
@@ -205,6 +207,9 @@ seq_readlength,100,100 base,categorical,Genomics,Read length of sequencing,Genom
 seq_readlength,150,150 base,categorical,Genomics,Read length of sequencing,Genomics,NA,NA,NA,NA
 seq_readlength,300,300 base,categorical,Genomics,Read length of sequencing,Genomics,NA,NA,NA,NA
 seq_totalinput,NA,NA,numeric,Genomics,Total nucleic acid input amount (in ng) ( integer greater than 0),Genomics,NA,NA,NA,NA
+sequencing_center,DFCI,Dana Farber Cancer Institute,categorical,Genomics,The sequencing provider for this dataset,Genomics,NA,NA,NA,NA
+sequencing_center,FHGenomics,Fred Hutch Genomics Core,categorical,Genomics,The sequencing provider for this dataset,Genomics,NA,NA,NA,NA
+sequencing_center,NYGC,New York Genome Center,categorical,Genomics,The sequencing provider for this dataset,Genomics,NA,NA,NA,NA
 species,dog,Dog,categorical,Genomics,Species of reference for analysis of genomic data.,Genomics,NA,NA,NA,NA
 species,drosophila,Dropsophila,categorical,Genomics,Species of reference for analysis of genomic data.,Genomics,NA,NA,NA,NA
 species,human,Human,categorical,Genomics,Species of reference for analysis of genomic data.,Genomics,NA,NA,NA,NA
@@ -217,8 +222,8 @@ redcap_data_access_group,bergera,Berger A data,identifier,Identifiers,Data Acces
 redcap_data_access_group,paguirigana,Paguirigan A data,identifier,Identifiers,Data Access Group,NA,NA,NA,NA,NA
 study_id,NA,NA,identifier,Identifiers,Study/Project unique identifier,NA,NA,NA,NA,NA
 subject_id,NA,NA,identifier,Identifiers,Subject/Patient unique identifier,NA,NA,NA,NA,NA
-submission_contact,,,freetext,Identifiers,Contact Name of person responsible for data submission,NA,,,,
-submission_id,,,identifier,Identifiers,Id of a data submission to the Repository,NA,,,,
+submission_contact,NA,NA,freetext,Identifiers,Contact Name of person responsible for data submission,NA,,,,
+submission_id,NA,NA,identifier,Identifiers,Id of a data submission to the Repository,NA,,,,
 age_at_acq,NA,NA,numeric,Patient,Age at Sample Acquisition in years; integer value; 0-120,Clinical,NA,NA,NA,NA
 age_range,adult18to60,Adult ages 18-60  years old,categorical,Patient,Age Range at the time of specimen acquisition,Clinical,NA,NA,NA,NA
 age_range,elderly61,Elderly ages 61+  years old,categorical,Patient,Age Range at the time of specimen acquisition,Clinical,NA,NA,NA,NA
@@ -233,11 +238,11 @@ dead_at_last_contact,yes,Yes patient was dead at last contact,categorical,Patien
 diagnosis,aa,Aplastic Anemia,categorical,Patient,Diagnosis at collection or immediately prior such that the implications of the disease would be relevant for interpretation of the data from the specimen,Clinical,NA,NA,NA,NA
 diagnosis,all,Acute Lymphoblastic Leukemia,categorical,Patient,Diagnosis at collection or immediately prior such that the implications of the disease would be relevant for interpretation of the data from the specimen,Clinical,NA,NA,NA,NA
 diagnosis,aml,Acute Myeloid Leukemia,categorical,Patient,Diagnosis at collection or immediately prior such that the implications of the disease would be relevant for interpretation of the data from the specimen,Clinical,NA,NA,NA,NA
-diagnosis,breastadenocarcinoma,Breast Adenocarcinoma,categorical,Patient,Diagnosis at collection or immediately prior such that the implications of the disease would be relevant for interpretation of the data from the specimen,Clinical,,,,
+diagnosis,breastadenocarcinoma,Breast Adenocarcinoma,categorical,Patient,Diagnosis at collection or immediately prior such that the implications of the disease would be relevant for interpretation of the data from the specimen,Clinical,NA,NA,NA,NA
 diagnosis,cml,Chronic Myeloid Leukemia,categorical,Patient,Diagnosis at collection or immediately prior such that the implications of the disease would be relevant for interpretation of the data from the specimen,Clinical,NA,NA,NA,NA
 diagnosis,et,Essential Thrombocytothemia,categorical,Patient,Diagnosis at collection or immediately prior such that the implications of the disease would be relevant for interpretation of the data from the specimen,Clinical,NA,NA,NA,NA
-diagnosis,gastricadenocarcinoma,Gastric Adenocarcinoma,categorical,Patient,Diagnosis at collection or immediately prior such that the implications of the disease would be relevant for interpretation of the data from the specimen,Clinical,,,,
-diagnosis,glioblastoma,Glioblastoma,categorical,Patient,Diagnosis at collection or immediately prior such that the implications of the disease would be relevant for interpretation of the data from the specimen,Clinical,,,,
+diagnosis,gastricadenocarcinoma,Gastric Adenocarcinoma,categorical,Patient,Diagnosis at collection or immediately prior such that the implications of the disease would be relevant for interpretation of the data from the specimen,Clinical,NA,NA,NA,NA
+diagnosis,glioblastoma,Glioblastoma,categorical,Patient,Diagnosis at collection or immediately prior such that the implications of the disease would be relevant for interpretation of the data from the specimen,Clinical,NA,NA,NA,NA
 diagnosis,icus,ICUS,categorical,Patient,Diagnosis at collection or immediately prior such that the implications of the disease would be relevant for interpretation of the data from the specimen,Clinical,NA,NA,NA,NA
 diagnosis,mds,Myelodysplastic Syndrome,categorical,Patient,Diagnosis at collection or immediately prior such that the implications of the disease would be relevant for interpretation of the data from the specimen,Clinical,NA,NA,NA,NA
 diagnosis,mf,Primary Myelofibrosis,categorical,Patient,Diagnosis at collection or immediately prior such that the implications of the disease would be relevant for interpretation of the data from the specimen,Clinical,NA,NA,NA,NA
@@ -303,8 +308,8 @@ relapse_free_survival,NA,NA,numeric,Patient,Relapse free survival time in days,C
 relapse_indicator,no,No the patient was known not to have relapsed,categorical,Patient,Specifies if a patient relapse after this specimen was acquired.,Clinical,NA,NA,NA,NA
 relapse_indicator,unknown,Unknown it cannot be known if the patient relapsed or not including lost to follow up.,categorical,Patient,Specifies if a patient relapse after this specimen was acquired.,Clinical,NA,NA,NA,NA
 relapse_indicator,yes,Yes the patient was known to have relapsed,categorical,Patient,Specifies if a patient relapse after this specimen was acquired.,Clinical,NA,NA,NA,NA
-sex,female,F,categorical,Patient,Sex of the patient,Clinical,NA,NA,NA,NA
-sex,male,M,categorical,Patient,Sex of the patient,Clinical,NA,NA,NA,NA
+sex,female,Female,categorical,Patient,Sex of the patient,Clinical,NA,NA,NA,NA
+sex,male,Male,categorical,Patient,Sex of the patient,Clinical,NA,NA,NA,NA
 sex,unknown,Unknown,categorical,Patient,Sex of the patient,Clinical,NA,NA,NA,NA
 subtype,FAB_M0,FAB-M0,categorical,Patient,Disease subtype if applicable,Clinical,NA,NA,NA,NA
 subtype,FAB_M1,FAB-M1,categorical,Patient,Disease subtype if applicable,Clinical,NA,NA,NA,NA
@@ -330,7 +335,6 @@ collection_event,2ndrelapse,Second Relapse,categorical,Specimen,Event at specime
 collection_event,day0,Day 0 Post HCT,categorical,Specimen,Event at specimen collection,Laboratory,NA,NA,NA,NA
 collection_event,day28,Day 28 Post HCT,categorical,Specimen,Event at specimen collection,Laboratory,NA,NA,NA,NA
 collection_event,diagnosis,Diagnosis,categorical,Specimen,Event at specimen collection,Laboratory,NA,NA,NA,NA
-collection_event,noannot,Not relevant/Unknown and we won't know,categorical,Specimen,Event at specimen collection,Laboratory,NA,NA,NA,NA
 collection_event,normal,Normal Donation,categorical,Specimen,Event at specimen collection,Laboratory,NA,NA,NA,NA
 collection_event,postinduction,Post-Induction,categorical,Specimen,Event at specimen collection,Laboratory,NA,NA,NA,NA
 collection_event,prediagnosis,Pre-Diagnosis,categorical,Specimen,Event at specimen collection,Laboratory,NA,NA,NA,NA
@@ -380,8 +384,9 @@ specimen_contact_id,pathways-ship,Pathways-SHIP projects,categorical,Specimen,Co
 specimen_contact_id,pbecker,Pam Becker,categorical,Specimen,Contact ID of investigator responsible for specimen acquisition,Laboratory,NA,NA,NA,NA
 specimen_type,normal,Normal reference,categorical,Specimen,"What is the type of specimen, as in what was it's purpose for being acquired?",Laboratory,,,,
 specimen_type,tumor,Tumor,categorical,Specimen,"What is the type of specimen, as in what was it's purpose for being acquired?",Laboratory,,,,
-storage,cryopreserved,Yes: The specimen was cryopreserved,categorical,Specimen,Identifies if the specimen or any of it's possible parent specimens were cryopreserved prior to generation of assay material,Laboratory,NA,NA,NA,NA
-storage,notapplicable,No: the specimen was not cryopreserved,categorical,Specimen,Identifies if the specimen or any of it's possible parent specimens were cryopreserved prior to generation of assay material,Laboratory,NA,NA,NA,NA
+specimen_type,tumorAdjacent,"Tumor adjacent, presumed normal tissue",categorical,Specimen,"What is the type of specimen, as in what was it's purpose for being acquired?",Laboratory,,,,
+storage,cryopreserved,The specimen was cryopreserved,categorical,Specimen,Identifies if the specimen or any of it's possible parent specimens were cryopreserved prior to generation of assay material,Laboratory,NA,NA,NA,NA
+storage,notapplicable,The specimen was not cryopreserved,categorical,Specimen,Identifies if the specimen or any of it's possible parent specimens were cryopreserved prior to generation of assay material,Laboratory,NA,NA,NA,NA
 time_to_processing,12to23h,12-23.9 hours,categorical,Specimen,Time range from hematological specimen collection (i.e. blood/bone marrow draw) until specimen processing performed to preserve the specimen (i.e. process to lyse in Trizol or cryopreserve),Laboratory,NA,NA,NA,NA
 time_to_processing,24to47h,24-47.9 hours,categorical,Specimen,Time range from hematological specimen collection (i.e. blood/bone marrow draw) until specimen processing performed to preserve the specimen (i.e. process to lyse in Trizol or cryopreserve),Laboratory,NA,NA,NA,NA
 time_to_processing,3to6h,3-6.9 hours,categorical,Specimen,Time range from hematological specimen collection (i.e. blood/bone marrow draw) until specimen processing performed to preserve the specimen (i.e. process to lyse in Trizol or cryopreserve),Laboratory,NA,NA,NA,NA
@@ -397,7 +402,9 @@ tissue_type,apheresis,Apheresis,categorical,Specimen,Tissue type of the specimen
 tissue_type,bonemarrow,Bone Marrow,categorical,Specimen,Tissue type of the specimen collected from a patient,Laboratory,NA,NA,NA,NA
 tissue_type,cellline,Cell Line,categorical,Specimen,Tissue type of the specimen collected from a patient,Laboratory,NA,NA,NA,NA
 tissue_type,embryo,Embryo,categorical,Specimen,Tissue type of the specimen collected from a patient,Laboratory,NA,NA,NA,NA
+tissue_type,esophageal,esophageal,categorical,Specimen,Tissue type of the specimen collected from a patient,Laboratory,NA,NA,NA,NA
 tissue_type,fibroblasts,Expanded fibroblasts,categorical,Specimen,Tissue type of the specimen collected from a patient,Laboratory,NA,NA,NA,NA
+tissue_type,gastric,Gastric,categorical,Specimen,Tissue type of the specimen collected from a patient,Laboratory,NA,NA,NA,NA
 tissue_type,lung,Lung,categorical,Specimen,Tissue type of the specimen collected from a patient,Laboratory,NA,NA,NA,NA
 tissue_type,pbpaxdna,Peripheral Blood PAXgene DNA,categorical,Specimen,Tissue type of the specimen collected from a patient,Laboratory,NA,NA,NA,NA
 tissue_type,pbpaxrna,Peripheral Blood PAXgene RNA,categorical,Specimen,Tissue type of the specimen collected from a patient,Laboratory,NA,NA,NA,NA
@@ -411,4 +418,4 @@ tissue_type_origin,fibroblasts,Fibroblasts,categorical,Specimen,If the specimen 
 tissue_type_origin,gastricepithelium,Gastric Epithelium,categorical,Specimen,If the specimen is a cell line or a derivative of some parent specimen; what was the tissue type of origin of the original specimen,Laboratory,NA,NA,NA,NA
 tissue_type_origin,glioblastoma,Glioblastoma,categorical,Specimen,If the specimen is a cell line or a derivative of some parent specimen; what was the tissue type of origin of the original specimen,Laboratory,NA,NA,NA,NA
 tissue_type_origin,peripheralblood,Peripheral Blood,categorical,Specimen,If the specimen is a cell line or a derivative of some parent specimen; what was the tissue type of origin of the original specimen,Laboratory,NA,NA,NA,NA
-tumor_fraction,,,numeric,Specimen,"Tumor cell fraction in the specimen (percentage, %).",Laboratory,,,,
+tumor_fraction,NA,NA,numeric,Specimen,"Tumor cell fraction in the specimen (percentage, %).",Laboratory,NA,NA,NA,NA
