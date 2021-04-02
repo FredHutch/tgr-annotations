@@ -1,0 +1,1463 @@
+[
+  {
+    "Annotation": "icd_subtype",
+    "AnnotationDescription": "Specimen subtype ICD",
+    "Category": "Specimen",
+    "TabGroup": "Clinical",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "morphology_grading",
+    "AnnotationDescription": "Clinical morphology designation",
+    "Category": "Specimen",
+    "TabGroup": "Clinical",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "seer_stage",
+    "AnnotationDescription": "SEER Stage (https://seer.cancer.gov/tools/ssm/)",
+    "Category": "Specimen",
+    "TabGroup": "Clinical",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "site_code",
+    "AnnotationDescription": "ICD Site code",
+    "Category": "Specimen",
+    "TabGroup": "Clinical",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "specimen_subtype",
+    "AnnotationDescription": "Specimen subtype (such as the histological category that a tumor sample might fall into within the overall disease designation)",
+    "Category": "Specimen",
+    "TabGroup": "Clinical",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "age_at_acq",
+    "AnnotationDescription": "Age at Sample Acquisition in years; integer value; 0-120",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
+    "Type": "numeric"
+  },
+  {
+    "Annotation": "age_at_diagnosis",
+    "AnnotationDescription": "Age range at diagnosis associated with this specimen in years",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "age_range",
+    "AnnotationDescription": "Age Range at the time of specimen acquisition",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "aml_response_category",
+    "AnnotationDescription": "AML Response Category (as defined by CARDINAL project requirements)",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "clin_var_note",
+    "AnnotationDescription": "Clinical Variable Notes",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
+    "Type": "freetext"
+  },
+  {
+    "Annotation": "cr_achieved",
+    "AnnotationDescription": "Whether a Complete Remission achieved after the treatment given immediately after this specimen was acquired.",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "current_treatment",
+    "AnnotationDescription": "Current Treatment (at time of sample acquisition)",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
+    "Type": "freetext"
+  },
+  {
+    "Annotation": "dead_at_last_contact",
+    "AnnotationDescription": "Survival status at date of last contact by study staff",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "diagnosis",
+    "AnnotationDescription": "Diagnosis at collection or immediately prior such that the implications of the disease would be relevant for interpretation of the data from the specimen",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "diagnosis_date",
+    "AnnotationDescription": "Date at diagnosis (enter \"99\" if day or month are unknown)",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
+    "Type": "date"
+  },
+  {
+    "Annotation": "ethnicity",
+    "AnnotationDescription": "Ethinicity",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "event_free_survival",
+    "AnnotationDescription": "Event free survival time in days",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
+    "Type": "numeric"
+  },
+  {
+    "Annotation": "event_indicator",
+    "AnnotationDescription": "The event indicator describes the type of event that occurred as described by the event free survival time.",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "previous_diagnosis",
+    "AnnotationDescription": "Prior diagnosed condition relevant to the current diagnosis or process",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
+    "Type": "freetext"
+  },
+  {
+    "Annotation": "prior_hct",
+    "AnnotationDescription": "Prior HCT?",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
+    "Type": "freetext"
+  },
+  {
+    "Annotation": "prior_treatment",
+    "AnnotationDescription": "Prior Treatment",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
+    "Type": "freetext"
+  },
+  {
+    "Annotation": "protocol",
+    "AnnotationDescription": "Protocol the specimen was collected under",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "protocol_org",
+    "AnnotationDescription": "Organization that initated or managed the protocol under which a specimen was banked.",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "race",
+    "AnnotationDescription": "Race of the patient",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "relapse_free_survival",
+    "AnnotationDescription": "Relapse free survival time in days",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
+    "Type": "numeric"
+  },
+  {
+    "Annotation": "relapse_indicator",
+    "AnnotationDescription": "Specifies if a patient relapse after this specimen was acquired.",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "response",
+    "AnnotationDescription": "Response to Therapy",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
+    "Type": "freetext"
+  },
+  {
+    "Annotation": "sex",
+    "AnnotationDescription": "Sex of the patient",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "subtype",
+    "AnnotationDescription": "Disease subtype if applicable",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "survival_time",
+    "AnnotationDescription": "Survival time after enrolling in the study in days",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
+    "Type": "numeric"
+  },
+  {
+    "Annotation": "swog_survival_time",
+    "AnnotationDescription": "Survival time in days",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
+    "Type": "numeric"
+  },
+  {
+    "Annotation": "collaboration_required",
+    "AnnotationDescription": "This requirement indicates that the requestor must agree to collaboration with the primary study investigator(s).; DUO:0000020",
+    "Category": "ConsentDataUse",
+    "TabGroup": "Clinical",
+    "Type": "truefalse"
+  },
+  {
+    "Annotation": "consent_data_use_review",
+    "AnnotationDescription": "Has this dataset been assigned Consent and Data Use designations by an approved review (IRB or other entity)?",
+    "Category": "ConsentDataUse",
+    "TabGroup": "Clinical",
+    "Type": "truefalse"
+  },
+  {
+    "Annotation": "disease_specific_research",
+    "AnnotationDescription": "This primary category consent code indicates that use is allowed provided it is related to the specified disease.; DUO:0000007",
+    "Category": "ConsentDataUse",
+    "TabGroup": "Clinical",
+    "Type": "freetext"
+  },
+  {
+    "Annotation": "educational_use_only",
+    "AnnotationDescription": "Educational use only;  no publication",
+    "Category": "ConsentDataUse",
+    "TabGroup": "Clinical",
+    "Type": "truefalse"
+  },
+  {
+    "Annotation": "ethics_approval_required",
+    "AnnotationDescription": "This requirement indicates that the requestor must provide documentation of local IRB/ERB approval.; DUO:0000021",
+    "Category": "ConsentDataUse",
+    "TabGroup": "Clinical",
+    "Type": "truefalse"
+  },
+  {
+    "Annotation": "general_research_use",
+    "AnnotationDescription": "This primary category consent code indicates that use is allowed for general research use for any research purpose.; DUO:0000042",
+    "Category": "ConsentDataUse",
+    "TabGroup": "Clinical",
+    "Type": "truefalse"
+  },
+  {
+    "Annotation": "general_research_use_and_clinical_care",
+    "AnnotationDescription": "This primary category consent code indicates that use is allowed for health/medical/biomedical purposes and other biological research including the study of population origins or ancestry.; DUO:0000005",
+    "Category": "ConsentDataUse",
+    "TabGroup": "Clinical",
+    "Type": "truefalse"
+  },
+  {
+    "Annotation": "genetic_studies_only",
+    "AnnotationDescription": "This secondary category consent code indicates that use is limited to genetic studies only (i.e. no phenotype-only research); DUO:0000016",
+    "Category": "ConsentDataUse",
+    "TabGroup": "Clinical",
+    "Type": "truefalse"
+  },
+  {
+    "Annotation": "geographical_restriction",
+    "AnnotationDescription": "This requirement indicates that use is limited to within a specific geographic region.; DUO:0000022",
+    "Category": "ConsentDataUse",
+    "TabGroup": "Clinical",
+    "Type": "truefalse"
+  },
+  {
+    "Annotation": "health_or_medical_or_biomedical_research",
+    "AnnotationDescription": "This primary category consent code indicates that use is allowed for health/medical/biomedical purposes; does not include the study of population origins or ancestry.; DUO:0000006",
+    "Category": "ConsentDataUse",
+    "TabGroup": "Clinical",
+    "Type": "truefalse"
+  },
+  {
+    "Annotation": "institution_specific_restriction",
+    "AnnotationDescription": "This requirement indicates that use is limited to use within an approved institution.; DUO:0000028",
+    "Category": "ConsentDataUse",
+    "TabGroup": "Clinical",
+    "Type": "truefalse"
+  },
+  {
+    "Annotation": "no_general_methods_research",
+    "AnnotationDescription": "This secondary category consent code indicates that use includes methods development research (e.g. development of software or algorithms) only within the bounds of other use limitations.; DUO:0000015",
+    "Category": "ConsentDataUse",
+    "TabGroup": "Clinical",
+    "Type": "truefalse"
+  },
+  {
+    "Annotation": "no_restriction",
+    "AnnotationDescription": "This primary category consent code indicates there is no restriction on use.; DUO:0000004",
+    "Category": "ConsentDataUse",
+    "TabGroup": "Clinical",
+    "Type": "truefalse"
+  },
+  {
+    "Annotation": "not_for_profit_use_only",
+    "AnnotationDescription": "This requirement indicates that use of the data is limited to not-for-profit organizations and not-for-profit use non-commercial use.; DUO:0000018",
+    "Category": "ConsentDataUse",
+    "TabGroup": "Clinical",
+    "Type": "truefalse"
+  },
+  {
+    "Annotation": "population_origins_or_ancestry_research",
+    "AnnotationDescription": "This primary category consent code indicates that use of the data is limited to the study of population origins or ancestry.; DUO:0000011",
+    "Category": "ConsentDataUse",
+    "TabGroup": "Clinical",
+    "Type": "truefalse"
+  },
+  {
+    "Annotation": "project_specific_restriction",
+    "AnnotationDescription": "This requirement indicates that use is limited to use within an approved project.; DUO:0000027",
+    "Category": "ConsentDataUse",
+    "TabGroup": "Clinical",
+    "Type": "truefalse"
+  },
+  {
+    "Annotation": "publication_moratorium",
+    "AnnotationDescription": "This requirement indicates that requestor agrees not to publish results of studies until a specific date; DUO:0000024",
+    "Category": "ConsentDataUse",
+    "TabGroup": "Clinical",
+    "Type": "truefalse"
+  },
+  {
+    "Annotation": "publication_required",
+    "AnnotationDescription": "This requirement indicates that requestor agrees to make results of studies using the data available to the larger scientific community.; DUO:0000019",
+    "Category": "ConsentDataUse",
+    "TabGroup": "Clinical",
+    "Type": "truefalse"
+  },
+  {
+    "Annotation": "research_specific_restrictions",
+    "AnnotationDescription": "This secondary category consent code indicates that use is limited to studies of a certain research type.; DUO:0000012",
+    "Category": "ConsentDataUse",
+    "TabGroup": "Clinical",
+    "Type": "truefalse"
+  },
+  {
+    "Annotation": "research_use_only",
+    "AnnotationDescription": "This secondary category consent code indicates that use is limited to research purposes (e.g. does not include its use in clinical care).; DUO:0000014",
+    "Category": "ConsentDataUse",
+    "TabGroup": "Clinical",
+    "Type": "truefalse"
+  },
+  {
+    "Annotation": "return_to_database_or_resource",
+    "AnnotationDescription": "This requirement indicates that the requestor must return derived/enriched data to the database/resource.; DUO:0000029",
+    "Category": "ConsentDataUse",
+    "TabGroup": "Clinical",
+    "Type": "truefalse"
+  },
+  {
+    "Annotation": "specimen_gdspolicy",
+    "AnnotationDescription": "Was this specimen originally acquired from the subject on or after January 25th;  2015 when the NIH requirements for Genomic Data Sharing consenting requirements changed?  This relates to whether a waiver can be applied for for use of data originating from a specimen banked prior to the requirement that all consents have Genomic Data Sharing language in them.",
+    "Category": "ConsentDataUse",
+    "TabGroup": "Clinical",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "specimen_privacy",
+    "AnnotationDescription": "What is the privacy type of this specimen? i.e. Is this specimen from a human source associated with private clinical information or is this specimen from a publicly accessible cell line or other reference specimen?",
+    "Category": "ConsentDataUse",
+    "TabGroup": "Clinical",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "time_limit_on_use",
+    "AnnotationDescription": "This requirement indicates that use is approved for a specific number of months.; DUO:0000025",
+    "Category": "ConsentDataUse",
+    "TabGroup": "Clinical",
+    "Type": "truefalse"
+  },
+  {
+    "Annotation": "user_specific_restriction",
+    "AnnotationDescription": "This requirement indicates that use is limited to use by approved users.; DUO:0000026",
+    "Category": "ConsentDataUse",
+    "TabGroup": "Clinical",
+    "Type": "truefalse"
+  },
+  {
+    "Annotation": "blast_bm_flow",
+    "AnnotationDescription": "Bone Marrow Blast Percent (by Flow)",
+    "Category": "Biomarkers",
+    "TabGroup": "Clinical",
+    "Type": "numeric"
+  },
+  {
+    "Annotation": "blast_bm_morph",
+    "AnnotationDescription": "Bone Marrow Blast Percent (by Morphology)",
+    "Category": "Biomarkers",
+    "TabGroup": "Clinical",
+    "Type": "numeric"
+  },
+  {
+    "Annotation": "blast_flow",
+    "AnnotationDescription": "Percentage of blasts in the specimen from which this assay material originated;  identified by Flow Cytometry",
+    "Category": "Biomarkers",
+    "TabGroup": "Clinical",
+    "Type": "numeric"
+  },
+  {
+    "Annotation": "blast_morph",
+    "AnnotationDescription": "Percentage of blasts in the specimen from which this assay material originated;  identified by Morphology",
+    "Category": "Biomarkers",
+    "TabGroup": "Clinical",
+    "Type": "numeric"
+  },
+  {
+    "Annotation": "blast_pb",
+    "AnnotationDescription": "Peripheral Blood Blast Percentage (by Morphology)",
+    "Category": "Biomarkers",
+    "TabGroup": "Clinical",
+    "Type": "numeric"
+  },
+  {
+    "Annotation": "blast_pb_flow",
+    "AnnotationDescription": "Peripheral Blood Blast Percentage (by Flow)",
+    "Category": "Biomarkers",
+    "TabGroup": "Clinical",
+    "Type": "numeric"
+  },
+  {
+    "Annotation": "cyto_group",
+    "AnnotationDescription": "Cytogenetics group",
+    "Category": "Biomarkers",
+    "TabGroup": "Clinical",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "cytogenetics",
+    "AnnotationDescription": "Cytogenetics full detail",
+    "Category": "Biomarkers",
+    "TabGroup": "Clinical",
+    "Type": "freetext"
+  },
+  {
+    "Annotation": "flt3itd_ar",
+    "AnnotationDescription": "FLT3-ITD allele ratio (ITD intensity/WT intensity)",
+    "Category": "Biomarkers",
+    "TabGroup": "Clinical",
+    "Type": "numeric"
+  },
+  {
+    "Annotation": "flt3itd_length",
+    "AnnotationDescription": "Length of FLT3-ITD insertion in number of bases",
+    "Category": "Biomarkers",
+    "TabGroup": "Clinical",
+    "Type": "numeric"
+  },
+  {
+    "Annotation": "genotype_calr",
+    "AnnotationDescription": "CALR Status",
+    "Category": "Biomarkers",
+    "TabGroup": "Clinical",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "genotype_cebpa",
+    "AnnotationDescription": "CEBPA Status",
+    "Category": "Biomarkers",
+    "TabGroup": "Clinical",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "genotype_dnmt3a",
+    "AnnotationDescription": "DNMT3A Status",
+    "Category": "Biomarkers",
+    "TabGroup": "Clinical",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "genotype_flt3d835",
+    "AnnotationDescription": "FLT3 D835 Status",
+    "Category": "Biomarkers",
+    "TabGroup": "Clinical",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "genotype_flt3itd",
+    "AnnotationDescription": "FLT3-ITD Status",
+    "Category": "Biomarkers",
+    "TabGroup": "Clinical",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "genotype_jak2",
+    "AnnotationDescription": "JAK2 Status",
+    "Category": "Biomarkers",
+    "TabGroup": "Clinical",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "genotype_mpl",
+    "AnnotationDescription": "MPL Status",
+    "Category": "Biomarkers",
+    "TabGroup": "Clinical",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "genotype_npm1",
+    "AnnotationDescription": "NPM1 Status",
+    "Category": "Biomarkers",
+    "TabGroup": "Clinical",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "genotype_nras",
+    "AnnotationDescription": "NRAS Status (for Q61/G12/G13)",
+    "Category": "Biomarkers",
+    "TabGroup": "Clinical",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "array_image_date",
+    "AnnotationDescription": "Array Image Date (addresses sample prep batches for array based data both expression and SNP);  YY-MM-DD",
+    "Category": "Genomics",
+    "TabGroup": "Genomics",
+    "Type": "date"
+  },
+  {
+    "Annotation": "array_position_id",
+    "AnnotationDescription": "The position of the assay material in the microarray",
+    "Category": "Genomics",
+    "TabGroup": "Genomics",
+    "Type": "freetext"
+  },
+  {
+    "Annotation": "array_slide_id",
+    "AnnotationDescription": "Array slide ID (barcode of the individual array this sample was run on);  currently limited to integers",
+    "Category": "Genomics",
+    "TabGroup": "Genomics",
+    "Type": "numeric"
+  },
+  {
+    "Annotation": "array_totalinput",
+    "AnnotationDescription": "Total nucleic acid input amount (in ng);  integer greater than 0",
+    "Category": "Genomics",
+    "TabGroup": "Genomics",
+    "Type": "numeric"
+  },
+  {
+    "Annotation": "array_type",
+    "AnnotationDescription": "Type of microarray that was used to generate the raw genomics dataset",
+    "Category": "Genomics",
+    "TabGroup": "Genomics",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "capture_name",
+    "AnnotationDescription": "Sequencing capture multiplex batch name",
+    "Category": "Genomics",
+    "TabGroup": "Genomics",
+    "Type": "freetext"
+  },
+  {
+    "Annotation": "card_mirna_file",
+    "AnnotationDescription": "miRNA File Name",
+    "Category": "Genomics",
+    "TabGroup": "Genomics",
+    "Type": "freetext"
+  },
+  {
+    "Annotation": "card_mirna_synid",
+    "AnnotationDescription": "SynID for miRNA analysis processed data",
+    "Category": "Genomics",
+    "TabGroup": "Genomics",
+    "Type": "freetext"
+  },
+  {
+    "Annotation": "dataset_qc",
+    "AnnotationDescription": "The type of quality concerns or considerations that apply to this dataset that might impact their analysis.",
+    "Category": "Genomics",
+    "TabGroup": "Genomics",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "dataset_qc_cohort",
+    "AnnotationDescription": "The unique name of the cohort this dataset should be compared against for basic QC purposes.",
+    "Category": "Genomics",
+    "TabGroup": "Genomics",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "flowcell_type",
+    "AnnotationDescription": "Sequencing flow cell type that generated the raw data",
+    "Category": "Genomics",
+    "TabGroup": "Genomics",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "genomics_note",
+    "AnnotationDescription": "Note field for Genomics annotations",
+    "Category": "Genomics",
+    "TabGroup": "Genomics",
+    "Type": "freetext"
+  },
+  {
+    "Annotation": "genomics_type",
+    "AnnotationDescription": "Type of  raw genomics data generated from this assay material",
+    "Category": "Genomics",
+    "TabGroup": "Genomics",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "library_pool_fraction",
+    "AnnotationDescription": "Fraction of the sequencing pool that this library comprises (%)",
+    "Category": "Genomics",
+    "TabGroup": "Genomics",
+    "Type": "numeric"
+  },
+  {
+    "Annotation": "library_size",
+    "AnnotationDescription": "Library fragment size (bp)",
+    "Category": "Genomics",
+    "TabGroup": "Genomics",
+    "Type": "numeric"
+  },
+  {
+    "Annotation": "library_yield",
+    "AnnotationDescription": "Library yield (ng)",
+    "Category": "Genomics",
+    "TabGroup": "Genomics",
+    "Type": "numeric"
+  },
+  {
+    "Annotation": "mirna_detail",
+    "AnnotationDescription": "Additional detailed annotations for miRNA data",
+    "Category": "Genomics",
+    "TabGroup": "Genomics",
+    "Type": "freetext"
+  },
+  {
+    "Annotation": "omics_contact_id",
+    "AnnotationDescription": "Contact ID of investigator responsible for omics dataset generation",
+    "Category": "Genomics",
+    "TabGroup": "Genomics",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "omics_date",
+    "AnnotationDescription": "Date data set was generated. If the data set is the result of a merge of two or more sequencing runs this is the date of the earliest run in the format YY-MM-DD after 00/01/01.",
+    "Category": "Genomics",
+    "TabGroup": "Genomics",
+    "Type": "date"
+  },
+  {
+    "Annotation": "omics_sample_name",
+    "AnnotationDescription": "Name of the sample used in the process of generating the raw genomics dataset.",
+    "Category": "Genomics",
+    "TabGroup": "Genomics",
+    "Type": "freetext"
+  },
+  {
+    "Annotation": "run_mode",
+    "AnnotationDescription": "Mode the sequencing platform was run in during data acquisition",
+    "Category": "Genomics",
+    "TabGroup": "Genomics",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "seq_flowcell_id",
+    "AnnotationDescription": "Flowcell Identifier for sequencing data (addresses batch of samples run on the sequencer together)",
+    "Category": "Genomics",
+    "TabGroup": "Genomics",
+    "Type": "freetext"
+  },
+  {
+    "Annotation": "seq_index",
+    "AnnotationDescription": "Illumina index sequence used for this sample",
+    "Category": "Genomics",
+    "TabGroup": "Genomics",
+    "Type": "freetext"
+  },
+  {
+    "Annotation": "seq_libtype",
+    "AnnotationDescription": "Library preparation type for Illumina sequencing data",
+    "Category": "Genomics",
+    "TabGroup": "Genomics",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "seq_paired",
+    "AnnotationDescription": "Paired end sequencing?",
+    "Category": "Genomics",
+    "TabGroup": "Genomics",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "seq_platelocation",
+    "AnnotationDescription": "Plate location of the nucleic acid if submitted for sequencing in a plate layout",
+    "Category": "Genomics",
+    "TabGroup": "Genomics",
+    "Type": "freetext"
+  },
+  {
+    "Annotation": "seq_platform",
+    "AnnotationDescription": "Sequencing platform which generated the raw data",
+    "Category": "Genomics",
+    "TabGroup": "Genomics",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "seq_pool",
+    "AnnotationDescription": "Sequencing pool name if submitted for sequencing (addresses batch for samples prepared for sequencing together)",
+    "Category": "Genomics",
+    "TabGroup": "Genomics",
+    "Type": "freetext"
+  },
+  {
+    "Annotation": "seq_readlength",
+    "AnnotationDescription": "Read length of sequencing",
+    "Category": "Genomics",
+    "TabGroup": "Genomics",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "seq_totalinput",
+    "AnnotationDescription": "Total nucleic acid input amount (in ng) ( integer greater than 0)",
+    "Category": "Genomics",
+    "TabGroup": "Genomics",
+    "Type": "numeric"
+  },
+  {
+    "Annotation": "sequencing_center",
+    "AnnotationDescription": "The sequencing provider for this dataset",
+    "Category": "Genomics",
+    "TabGroup": "Genomics",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "species",
+    "AnnotationDescription": "Species of reference for analysis of genomic data.",
+    "Category": "Genomics",
+    "TabGroup": "Genomics",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "volume_seq",
+    "AnnotationDescription": "Volume of nucleic acid used for sequencing (in uL)",
+    "Category": "Genomics",
+    "TabGroup": "Genomics",
+    "Type": "numeric"
+  },
+  {
+    "Annotation": "cohortLevelID",
+    "AnnotationDescription": "Name of the cohort (dataset_qc_cohort) that a file belongs to.",
+    "Category": "Bioinformatics",
+    "TabGroup": "Genomics",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "processedContentType",
+    "AnnotationDescription": "Type of processed dataset dependent on both genomics data type and the specific bioinformatic workflow performed to generate the file",
+    "Category": "Bioinformatics",
+    "TabGroup": "Genomics",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "stage",
+    "AnnotationDescription": "Stage of processing of a molecular data set",
+    "Category": "Bioinformatics",
+    "TabGroup": "Genomics",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "workflowID",
+    "AnnotationDescription": "Name of the workflow used to generate a processed file from a dataset.",
+    "Category": "Bioinformatics",
+    "TabGroup": "Genomics",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "workflowName",
+    "AnnotationDescription": "Name of the workflow used to generate a processed file from a dataset.",
+    "Category": "Bioinformatics",
+    "TabGroup": "Genomics",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "acquisition_date",
+    "AnnotationDescription": "Original specimen acquisition date from the patient YY-MM-DD",
+    "Category": "Specimen",
+    "TabGroup": "Laboratory",
+    "Type": "date"
+  },
+  {
+    "Annotation": "acquisition_id",
+    "AnnotationDescription": "Unique Specimen Identifier given by group who acquired the sample",
+    "Category": "Specimen",
+    "TabGroup": "Laboratory",
+    "Type": "freetext"
+  },
+  {
+    "Annotation": "cell_line_id",
+    "AnnotationDescription": "Name of the cell line",
+    "Category": "Specimen",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "collection_event",
+    "AnnotationDescription": "Event at specimen collection",
+    "Category": "Specimen",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "collection_site",
+    "AnnotationDescription": "Location of the collection site for the specimen inside a organ or body region.",
+    "Category": "Specimen",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "collection_type",
+    "AnnotationDescription": "Hematological specimen collection tube type",
+    "Category": "Specimen",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "processing_type",
+    "AnnotationDescription": "Specimen processing type immediately after acquisition from the patient prior to preservation experimentation or preparation for assay material isolation",
+    "Category": "Specimen",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "shipping",
+    "AnnotationDescription": "Identifies if the specimen  or any of it's possible parent specimens were shipped prior to generation of assay material",
+    "Category": "Specimen",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "specimen_contact_id",
+    "AnnotationDescription": "Contact ID of investigator responsible for specimen acquisition",
+    "Category": "Specimen",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "specimen_type",
+    "AnnotationDescription": "What is the type of specimen as in what was it's purpose for being acquired?",
+    "Category": "Specimen",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "storage",
+    "AnnotationDescription": "Identifies if the specimen or any of it's possible parent specimens were cryopreserved prior to generation of assay material",
+    "Category": "Specimen",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "time_to_processing",
+    "AnnotationDescription": "Time range from hematological specimen collection (i.e. blood/bone marrow draw) until specimen processing performed to preserve the specimen (i.e. process to lyse in Trizol or cryopreserve)",
+    "Category": "Specimen",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "tissue_type",
+    "AnnotationDescription": "Tissue type of the specimen collected from a patient",
+    "Category": "Specimen",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "tissue_type_origin",
+    "AnnotationDescription": "If the specimen is a cell line or a derivative of some parent specimen; what was the tissue type of origin of the original specimen",
+    "Category": "Specimen",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "tumor_fraction",
+    "AnnotationDescription": "Tumor cell fraction in the specimen (percentage %).",
+    "Category": "Specimen",
+    "TabGroup": "Laboratory",
+    "Type": "numeric"
+  },
+  {
+    "Annotation": "handling_note",
+    "AnnotationDescription": "Handling Notes",
+    "Category": "Laboratory",
+    "TabGroup": "Laboratory",
+    "Type": "freetext"
+  },
+  {
+    "Annotation": "ac220_flt3d835_gtt",
+    "AnnotationDescription": "FLT3-D835 Mutated Codon Sequence (WT is GAT): Is GTT present?",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "truefalse"
+  },
+  {
+    "Annotation": "ac220_flt3d835_tac",
+    "AnnotationDescription": "FLT3-D835 Mutated Codon Sequence (WT is GAT): Is TAC present?",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "truefalse"
+  },
+  {
+    "Annotation": "ac220_flt3d835_tat",
+    "AnnotationDescription": "FLT3-D835 Mutated Codon Sequence (WT is GAT): Is TAT present?",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "truefalse"
+  },
+  {
+    "Annotation": "ac220_flt3d835_ttt",
+    "AnnotationDescription": "FLT3-D835 Mutated Codon Sequence (WT is GAT): Is TTT present?",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "truefalse"
+  },
+  {
+    "Annotation": "ac220_singlecell",
+    "AnnotationDescription": "Does Single Cell data exist for this sample?",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "truefalse"
+  },
+  {
+    "Annotation": "ac220_timepoint",
+    "AnnotationDescription": "Time of sample acquisition relative to AC220 (quizartinib) exposure",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "adult_yrs_with_smoker",
+    "AnnotationDescription": "Years after age 18 lived with smoker (OS only)",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "bead_pop",
+    "AnnotationDescription": "Type of cell population isolated via antibody conjugated magnetic bead selection prior to generation of a lysate",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "cancer_outcome_status",
+    "AnnotationDescription": "Cancer outcome status",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "child_yrs_with_smoker",
+    "AnnotationDescription": "Years as child lived with smoker (OS only)",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "clone_number",
+    "AnnotationDescription": "Number of Clones",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "numeric"
+  },
+  {
+    "Annotation": "date_to_berger",
+    "AnnotationDescription": "Date nucleic acid was received by Berger Lab",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "date"
+  },
+  {
+    "Annotation": "date_to_whi",
+    "AnnotationDescription": "Date nucleic acid was received by WHI extraction lab (Porter)",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "date"
+  },
+  {
+    "Annotation": "derivative_process",
+    "AnnotationDescription": "What type of derivative process was used to generate this specimen from the originally acquired specimen?",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "dudakov2018",
+    "AnnotationDescription": "Covariates for Dudakov 2018 Data",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "egan_cytorisk",
+    "AnnotationDescription": "Cyto Risk Group as defined for the purposes of gene expression comparison. CBF: Inv(16) or t(8:21); Poor risk:  Includes complex and pts with del(5q);  inv(3);  or abnormal chromosome 7; Intermediate Risk: CARDINAL cyto normals",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "egan_group",
+    "AnnotationDescription": "Egan experimental design group",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "egan_outcome",
+    "AnnotationDescription": "Chemo Outcome as defined from the purposes of gene expression comparison. Responder means CR > 6 months; Non-responder defined as CR but relapse within 1.5 years  or by CR with incomplete count recovery.",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "egan_relapse",
+    "AnnotationDescription": "Months until relapse from start of therapy if applicable.",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "numeric"
+  },
+  {
+    "Annotation": "egan_remission",
+    "AnnotationDescription": "Months until remission achieved from start of therapy if applicable.",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "numeric"
+  },
+  {
+    "Annotation": "family_cancer",
+    "AnnotationDescription": "Family history of cancer",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "female_relative_cancer",
+    "AnnotationDescription": "Female relative had cancer",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "flow_pop",
+    "AnnotationDescription": "Type of Population Isolated via Flow Cytometry prior to generation of the assay material",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "halo_response",
+    "AnnotationDescription": "HALO outcome",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "hockenbery2018",
+    "AnnotationDescription": "Covariates for Hockenbery 2018 Data",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "hrt_baseline",
+    "AnnotationDescription": "Hormone replacement therapy (HRT) use at baseline",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "hrt_baseline_time",
+    "AnnotationDescription": "Lifetime HRT duration of use (years) at baseline",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "ithvalid_dhl4",
+    "AnnotationDescription": "Is DHL4 in the mixture?",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "truefalse"
+  },
+  {
+    "Annotation": "ithvalid_dhl4percent",
+    "AnnotationDescription": "Fraction of the total population of cells that are DHL4's in this mixture",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "numeric"
+  },
+  {
+    "Annotation": "ithvalid_kg1a",
+    "AnnotationDescription": "Is KG1a in the mixture?",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "truefalse"
+  },
+  {
+    "Annotation": "ithvalid_kg1apercent",
+    "AnnotationDescription": "Fraction of the total population of cells that are KG1a's in this mixture",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "numeric"
+  },
+  {
+    "Annotation": "ithvalid_molm14l1",
+    "AnnotationDescription": "Is MOLM14-L1 in the mixture?",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "truefalse"
+  },
+  {
+    "Annotation": "ithvalid_molm14l1percent",
+    "AnnotationDescription": "Fraction of the total population of cells that are MOLM14-L1's in this mixture",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "numeric"
+  },
+  {
+    "Annotation": "ithvalid_ociaml3",
+    "AnnotationDescription": "Is OCI-AML3 in the mixture?",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "truefalse"
+  },
+  {
+    "Annotation": "ithvalid_ociaml3percent",
+    "AnnotationDescription": "Fraction of the total population of cells that are OCI-AML3's in this mixture",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "numeric"
+  },
+  {
+    "Annotation": "jak2_vaf",
+    "AnnotationDescription": "JAK2 V6217F variant allele frequency via pyrosequencing (VAF in %)",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "numeric"
+  },
+  {
+    "Annotation": "lilac_os_study",
+    "AnnotationDescription": "Participant in Observational Study (OS) study?",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "lilac_pub_id",
+    "AnnotationDescription": "Publication ID",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "identifier"
+  },
+  {
+    "Annotation": "lives_with_smoker",
+    "AnnotationDescription": "Live with smoker now (OS only)",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "male_relative_cancer",
+    "AnnotationDescription": "Immediate male blood relative had cancer",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "meshinchi2018",
+    "AnnotationDescription": "Covariates for Meshinchi 2018 Data",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "oc_status_baseline",
+    "AnnotationDescription": "Oral contraceptive (OC) user ever?",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "oc_time_baseline",
+    "AnnotationDescription": "Oral contraceptive duration; years",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "occupation_category",
+    "AnnotationDescription": "Occupation category",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "other_data_type",
+    "AnnotationDescription": "Other Data Type - brief description of data available on this sample.",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "freetext"
+  },
+  {
+    "Annotation": "pack_years",
+    "AnnotationDescription": "Pack years of smoking",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "paddison2018",
+    "AnnotationDescription": "Covariates for Paddison 2018 Data",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "parkhurst2018",
+    "AnnotationDescription": "Covariates for Parkhurst 2018 Data",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "residence_baseline",
+    "AnnotationDescription": "What region of the US does the participant belong to?",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "salama2018",
+    "AnnotationDescription": "Covariates for Salama 2018 Data",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "smoke_quit_age",
+    "AnnotationDescription": "Age quit smoking regularly",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "smoke_start_age",
+    "AnnotationDescription": "Age started smoking cigarettes regularly",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "smoking_status",
+    "AnnotationDescription": "Smoking status",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "torok_storb2018",
+    "AnnotationDescription": "Covariates for Torok-Storb 2018 Data",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "us_born",
+    "AnnotationDescription": "Was the participant born in the US?",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "whi_participant_id",
+    "AnnotationDescription": "WHI Participant ID",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "identifier"
+  },
+  {
+    "Annotation": "years_quit",
+    "AnnotationDescription": "Years since quit smoking",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "years_regular_smoker",
+    "AnnotationDescription": "Years a regular smoker",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "years_worked_with_smoker",
+    "AnnotationDescription": "Years worked where people smoked (OS only)",
+    "Category": "Experimental",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "batch_extraction",
+    "AnnotationDescription": "Lab-defined Batch ID for assay material extraction batch",
+    "Category": "Assay Material",
+    "TabGroup": "Laboratory",
+    "Type": "freetext"
+  },
+  {
+    "Annotation": "batch_thaw",
+    "AnnotationDescription": "Lab-defined Batch ID for cryopreserved specimen thaw batch",
+    "Category": "Assay Material",
+    "TabGroup": "Laboratory",
+    "Type": "freetext"
+  },
+  {
+    "Annotation": "extraction_date",
+    "AnnotationDescription": "Extraction Date",
+    "Category": "Assay Material",
+    "TabGroup": "Laboratory",
+    "Type": "date"
+  },
+  {
+    "Annotation": "extraction_modifier",
+    "AnnotationDescription": "Any modifier relating to the extraction type that may influence downstream data.",
+    "Category": "Assay Material",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "extraction_type",
+    "AnnotationDescription": "Extraction protocol used to isolate the assay material from a lysate",
+    "Category": "Assay Material",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "material_name",
+    "AnnotationDescription": "Assay material name if different from the acquisition_id",
+    "Category": "Assay Material",
+    "TabGroup": "Laboratory",
+    "Type": "freetext"
+  },
+  {
+    "Annotation": "material_type",
+    "AnnotationDescription": "Type of assay material",
+    "Category": "Assay Material",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "na_260230",
+    "AnnotationDescription": "Nanodrop A260/A230 for nucleic acid assay materials  (numeric between 0-3)",
+    "Category": "Assay Material",
+    "TabGroup": "Laboratory",
+    "Type": "numeric"
+  },
+  {
+    "Annotation": "na_260280",
+    "AnnotationDescription": "Nanodrop A260/A230 for nucleic acid assay materials  (numeric between 0-3)",
+    "Category": "Assay Material",
+    "TabGroup": "Laboratory",
+    "Type": "numeric"
+  },
+  {
+    "Annotation": "na_quantification_method",
+    "AnnotationDescription": "Nucleic acid quantification method",
+    "Category": "Assay Material",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "rin",
+    "AnnotationDescription": "RIN value for assay materials that are RNA ( numeric between 0-12)",
+    "Category": "Assay Material",
+    "TabGroup": "Laboratory",
+    "Type": "numeric"
+  },
+  {
+    "Annotation": "rin_range",
+    "AnnotationDescription": "RIN range if assay material is RNA",
+    "Category": "Assay Material",
+    "TabGroup": "Laboratory",
+    "Type": "categorical"
+  },
+  {
+    "Annotation": "viability",
+    "AnnotationDescription": "Viability of thawed specimen prior to creating a lysate from which an assay material would be isolated ( integer values 0-100)",
+    "Category": "Assay Material",
+    "TabGroup": "Laboratory",
+    "Type": "numeric"
+  },
+  {
+    "Annotation": "assay_material_id",
+    "AnnotationDescription": "Assay Material ID from LabMatrix",
+    "Category": "Identifiers",
+    "Type": "identifier"
+  },
+  {
+    "Annotation": "biospecimen_id",
+    "AnnotationDescription": "Biospecimen unique identifier",
+    "Category": "Identifiers",
+    "Type": "identifier"
+  },
+  {
+    "Annotation": "ext_biospecimen_id",
+    "AnnotationDescription": "Externally defined biospecimen unique identifier",
+    "Category": "Identifiers",
+    "Type": "identifier"
+  },
+  {
+    "Annotation": "molecular_id",
+    "AnnotationDescription": "Unique record identifier of a single genomic data set",
+    "Category": "Identifiers",
+    "Type": "identifier"
+  },
+  {
+    "Annotation": "redcap_data_access_group",
+    "AnnotationDescription": "Data Access Group",
+    "Category": "Identifiers",
+    "Type": "identifier"
+  },
+  {
+    "Annotation": "study_id",
+    "AnnotationDescription": "Study/Project unique identifier",
+    "Category": "Identifiers",
+    "Type": "identifier"
+  },
+  {
+    "Annotation": "subject_id",
+    "AnnotationDescription": "Subject/Patient unique identifier",
+    "Category": "Identifiers",
+    "Type": "identifier"
+  },
+  {
+    "Annotation": "submission_contact",
+    "AnnotationDescription": "Contact Name of person responsible for data submission",
+    "Category": "Identifiers",
+    "Type": "freetext"
+  },
+  {
+    "Annotation": "submission_id",
+    "AnnotationDescription": "Id of a data submission to the Repository",
+    "Category": "Identifiers",
+    "Type": "identifier"
+  }
+]

@@ -1,0 +1,1787 @@
+[
+  {
+    "Annotation": "age_range",
+    "Value": "adult18to60",
+    "ValueDescription": "Adult ages 18-60  years old"
+  },
+  {
+    "Annotation": "age_range",
+    "Value": "elderly61",
+    "ValueDescription": "Elderly ages 61+  years old"
+  },
+  {
+    "Annotation": "age_range",
+    "Value": "pediatric17",
+    "ValueDescription": "Pediatric ages 0-17 years old"
+  },
+  {
+    "Annotation": "age_range",
+    "Value": "unknown",
+    "ValueDescription": "Unknown age"
+  },
+  {
+    "Annotation": "cr_achieved",
+    "Value": "no",
+    "ValueDescription": "No  a CR was not achieved"
+  },
+  {
+    "Annotation": "cr_achieved",
+    "Value": "unknown",
+    "ValueDescription": "Unknown if a CR was achived or was lost to follow up"
+  },
+  {
+    "Annotation": "cr_achieved",
+    "Value": "yes",
+    "ValueDescription": "Yes  a CR was achieved"
+  },
+  {
+    "Annotation": "dead_at_last_contact",
+    "Value": "no",
+    "ValueDescription": "No patient was alive at last contact"
+  },
+  {
+    "Annotation": "dead_at_last_contact",
+    "Value": "unknown",
+    "ValueDescription": "Unknown no follow up occurred or patient was lost to follow up."
+  },
+  {
+    "Annotation": "dead_at_last_contact",
+    "Value": "yes",
+    "ValueDescription": "Yes patient was dead at last contact"
+  },
+  {
+    "Annotation": "diagnosis",
+    "Value": "aa",
+    "ValueDescription": "Aplastic Anemia"
+  },
+  {
+    "Annotation": "diagnosis",
+    "Value": "all",
+    "ValueDescription": "Acute Lymphoblastic Leukemia"
+  },
+  {
+    "Annotation": "diagnosis",
+    "Value": "aml",
+    "ValueDescription": "Acute Myeloid Leukemia"
+  },
+  {
+    "Annotation": "diagnosis",
+    "Value": "breastadenocarcinoma",
+    "ValueDescription": "Breast Adenocarcinoma"
+  },
+  {
+    "Annotation": "diagnosis",
+    "Value": "cml",
+    "ValueDescription": "Chronic Myeloid Leukemia"
+  },
+  {
+    "Annotation": "diagnosis",
+    "Value": "et",
+    "ValueDescription": "Essential Thrombocytothemia"
+  },
+  {
+    "Annotation": "diagnosis",
+    "Value": "gastricadenocarcinoma",
+    "ValueDescription": "Gastric Adenocarcinoma"
+  },
+  {
+    "Annotation": "diagnosis",
+    "Value": "glioblastoma",
+    "ValueDescription": "Glioblastoma"
+  },
+  {
+    "Annotation": "diagnosis",
+    "Value": "icus",
+    "ValueDescription": "ICUS"
+  },
+  {
+    "Annotation": "diagnosis",
+    "Value": "mds",
+    "ValueDescription": "Myelodysplastic Syndrome"
+  },
+  {
+    "Annotation": "diagnosis",
+    "Value": "mf",
+    "ValueDescription": "Primary Myelofibrosis"
+  },
+  {
+    "Annotation": "diagnosis",
+    "Value": "mpn",
+    "ValueDescription": "Myeloproliferative Neoplasm"
+  },
+  {
+    "Annotation": "diagnosis",
+    "Value": "normal",
+    "ValueDescription": "Normal Donation"
+  },
+  {
+    "Annotation": "diagnosis",
+    "Value": "nsclc",
+    "ValueDescription": "Non Small Cell Lung Cancer"
+  },
+  {
+    "Annotation": "diagnosis",
+    "Value": "pv",
+    "ValueDescription": "Polycythemia Vera"
+  },
+  {
+    "Annotation": "diagnosis",
+    "Value": "secondaryaml",
+    "ValueDescription": "Secondary Acute Myeloid Leukemia"
+  },
+  {
+    "Annotation": "diagnosis",
+    "Value": "therapyaml",
+    "ValueDescription": "Therapy-Induced Acute Myeloid Leukemia"
+  },
+  {
+    "Annotation": "diagnosis",
+    "Value": "undetermined",
+    "ValueDescription": "Undetermined or Complex Diagnosis"
+  },
+  {
+    "Annotation": "event_indicator",
+    "Value": "CR_prog_death",
+    "ValueDescription": "Did not achive a CR had progression  or death (CARDINAL)"
+  },
+  {
+    "Annotation": "protocol",
+    "Value": "bloodbank",
+    "ValueDescription": "BloodBank"
+  },
+  {
+    "Annotation": "protocol",
+    "Value": "calgb_10201",
+    "ValueDescription": "CALGB-10201"
+  },
+  {
+    "Annotation": "protocol",
+    "Value": "calgb_19808",
+    "ValueDescription": "CALGB-19808"
+  },
+  {
+    "Annotation": "protocol",
+    "Value": "calgb_8525",
+    "ValueDescription": "CALGB-8525"
+  },
+  {
+    "Annotation": "protocol",
+    "Value": "calgb_9621",
+    "ValueDescription": "CALGB-9621"
+  },
+  {
+    "Annotation": "protocol",
+    "Value": "calgb_9720",
+    "ValueDescription": "CALGB-9720"
+  },
+  {
+    "Annotation": "protocol",
+    "Value": "cceh",
+    "ValueDescription": "CCEH"
+  },
+  {
+    "Annotation": "protocol",
+    "Value": "ecog",
+    "ValueDescription": "ECOG"
+  },
+  {
+    "Annotation": "protocol",
+    "Value": "eganaml",
+    "ValueDescription": "EganAML"
+  },
+  {
+    "Annotation": "protocol",
+    "Value": "externalcollaborator",
+    "ValueDescription": "External Collaborator"
+  },
+  {
+    "Annotation": "protocol",
+    "Value": "fh_1278",
+    "ValueDescription": "P1278"
+  },
+  {
+    "Annotation": "protocol",
+    "Value": "fh_1690",
+    "ValueDescription": "P1690"
+  },
+  {
+    "Annotation": "protocol",
+    "Value": "fh_1713",
+    "ValueDescription": "P1713"
+  },
+  {
+    "Annotation": "protocol",
+    "Value": "fh_2524",
+    "ValueDescription": "P2524"
+  },
+  {
+    "Annotation": "protocol",
+    "Value": "icus",
+    "ValueDescription": "ICUS"
+  },
+  {
+    "Annotation": "protocol",
+    "Value": "LILAC",
+    "ValueDescription": "LILAC-WHI"
+  },
+  {
+    "Annotation": "protocol",
+    "Value": "noannot",
+    "ValueDescription": "Not relevant or No protocol applicable (but still a protected specimen)"
+  },
+  {
+    "Annotation": "protocol",
+    "Value": "p334_00",
+    "ValueDescription": "P334_00"
+  },
+  {
+    "Annotation": "protocol",
+    "Value": "pathways-ship",
+    "ValueDescription": "Pathways-SHIP (Torok-Storb)"
+  },
+  {
+    "Annotation": "protocol",
+    "Value": "publiclyavailable",
+    "ValueDescription": "Publicly Available Specimen (no protocol applicable)"
+  },
+  {
+    "Annotation": "protocol",
+    "Value": "residualmaterial",
+    "ValueDescription": "ResidualMaterial"
+  },
+  {
+    "Annotation": "protocol",
+    "Value": "sanofi_ard12181",
+    "ValueDescription": "Sanofi-ARD12181"
+  },
+  {
+    "Annotation": "protocol",
+    "Value": "swog_s0106",
+    "ValueDescription": "SWOG-S0106"
+  },
+  {
+    "Annotation": "protocol",
+    "Value": "swog_s0112",
+    "ValueDescription": "SWOG-S01121"
+  },
+  {
+    "Annotation": "protocol",
+    "Value": "swog_s0301",
+    "ValueDescription": "SWOG-S0301"
+  },
+  {
+    "Annotation": "protocol",
+    "Value": "swog_s0325",
+    "ValueDescription": "SWOG-S0325"
+  },
+  {
+    "Annotation": "protocol",
+    "Value": "swog_s8600",
+    "ValueDescription": "SWOG-S8600"
+  },
+  {
+    "Annotation": "protocol",
+    "Value": "swog_s9031",
+    "ValueDescription": "SWOG-S9031"
+  },
+  {
+    "Annotation": "protocol",
+    "Value": "swog_s9034",
+    "ValueDescription": "SWOG-S9034"
+  },
+  {
+    "Annotation": "protocol",
+    "Value": "swog_s9126",
+    "ValueDescription": "SWOG-S9126"
+  },
+  {
+    "Annotation": "protocol",
+    "Value": "swog_s9333",
+    "ValueDescription": "SWOG-S9333"
+  },
+  {
+    "Annotation": "protocol",
+    "Value": "swog_s9500",
+    "ValueDescription": "SWOG-S9500"
+  },
+  {
+    "Annotation": "protocol",
+    "Value": "swog_s9918",
+    "ValueDescription": "SWOG-S9918"
+  },
+  {
+    "Annotation": "protocol_org",
+    "Value": "CALGB",
+    "ValueDescription": "CALGB"
+  },
+  {
+    "Annotation": "protocol_org",
+    "Value": "ECOG",
+    "ValueDescription": "ECOG"
+  },
+  {
+    "Annotation": "protocol_org",
+    "Value": "External_Pharma",
+    "ValueDescription": "External Pharmaceutical Company Initiated"
+  },
+  {
+    "Annotation": "protocol_org",
+    "Value": "External_PI",
+    "ValueDescription": "External PI Initiated"
+  },
+  {
+    "Annotation": "protocol_org",
+    "Value": "FredHutch_CCEH",
+    "ValueDescription": "Fred Hutch Co-Operative Center for Excellence in Hematology (CCEH)"
+  },
+  {
+    "Annotation": "protocol_org",
+    "Value": "FredHutch_LeukemiaRepo",
+    "ValueDescription": "Fred Hutch Leukemia Lymphoma Repository"
+  },
+  {
+    "Annotation": "protocol_org",
+    "Value": "FredHutch_PI",
+    "ValueDescription": "Fred Hutch PI Initiated"
+  },
+  {
+    "Annotation": "protocol_org",
+    "Value": "PubliclyAvailable",
+    "ValueDescription": "Publicly Available Specimen (no protocol applicable)"
+  },
+  {
+    "Annotation": "protocol_org",
+    "Value": "SWOG",
+    "ValueDescription": "SWOG"
+  },
+  {
+    "Annotation": "protocol_org",
+    "Value": "UW_ResidualClinical",
+    "ValueDescription": "Univ. of Washington Residual Clinical Material"
+  },
+  {
+    "Annotation": "protocol_org",
+    "Value": "WHI",
+    "ValueDescription": "Women's Health Initiative"
+  },
+  {
+    "Annotation": "race",
+    "Value": "asianpacificislander",
+    "ValueDescription": "Asian- Pacific Islander"
+  },
+  {
+    "Annotation": "race",
+    "Value": "black",
+    "ValueDescription": "Black"
+  },
+  {
+    "Annotation": "race",
+    "Value": "other",
+    "ValueDescription": "Other"
+  },
+  {
+    "Annotation": "race",
+    "Value": "unknown",
+    "ValueDescription": "Unknown"
+  },
+  {
+    "Annotation": "race",
+    "Value": "white",
+    "ValueDescription": "White"
+  },
+  {
+    "Annotation": "relapse_indicator",
+    "Value": "no",
+    "ValueDescription": "No the patient was known not to have relapsed"
+  },
+  {
+    "Annotation": "relapse_indicator",
+    "Value": "unknown",
+    "ValueDescription": "Unknown it cannot be known if the patient relapsed or not including lost to follow up."
+  },
+  {
+    "Annotation": "relapse_indicator",
+    "Value": "yes",
+    "ValueDescription": "Yes the patient was known to have relapsed"
+  },
+  {
+    "Annotation": "sex",
+    "Value": "female",
+    "ValueDescription": "Female"
+  },
+  {
+    "Annotation": "sex",
+    "Value": "male",
+    "ValueDescription": "Male"
+  },
+  {
+    "Annotation": "sex",
+    "Value": "unknown",
+    "ValueDescription": "Unknown"
+  },
+  {
+    "Annotation": "subtype",
+    "Value": "FAB_M0",
+    "ValueDescription": "FAB-M0"
+  },
+  {
+    "Annotation": "subtype",
+    "Value": "FAB_M1",
+    "ValueDescription": "FAB-M1"
+  },
+  {
+    "Annotation": "subtype",
+    "Value": "FAB_M2",
+    "ValueDescription": "FAB-M2"
+  },
+  {
+    "Annotation": "subtype",
+    "Value": "FAB_M3",
+    "ValueDescription": "FAB-M3"
+  },
+  {
+    "Annotation": "subtype",
+    "Value": "FAB_M4",
+    "ValueDescription": "FAB-M4"
+  },
+  {
+    "Annotation": "subtype",
+    "Value": "FAB_M5",
+    "ValueDescription": "FAB-M5"
+  },
+  {
+    "Annotation": "subtype",
+    "Value": "FAB_M6",
+    "ValueDescription": "FAB-M6"
+  },
+  {
+    "Annotation": "subtype",
+    "Value": "FAB_M7",
+    "ValueDescription": "FAB-M7"
+  },
+  {
+    "Annotation": "specimen_gdspolicy",
+    "Value": "required",
+    "ValueDescription": "On or after Jan 25th 2015 - GDS policy required"
+  },
+  {
+    "Annotation": "specimen_gdspolicy",
+    "Value": "unknown",
+    "ValueDescription": "Consult Magic 8 ball"
+  },
+  {
+    "Annotation": "specimen_gdspolicy",
+    "Value": "waiver",
+    "ValueDescription": "Before January 25th 2015 - GDS policy waiver possible"
+  },
+  {
+    "Annotation": "specimen_privacy",
+    "Value": "modelorganism",
+    "ValueDescription": "Model Organism"
+  },
+  {
+    "Annotation": "specimen_privacy",
+    "Value": "protected",
+    "ValueDescription": "Protected Specimen with restrictions on privacy"
+  },
+  {
+    "Annotation": "specimen_privacy",
+    "Value": "publiclyavailable",
+    "ValueDescription": "Publicly Available Specimen with no restrictions on privacy"
+  },
+  {
+    "Annotation": "cyto_group",
+    "Value": "BCRABL",
+    "ValueDescription": "Any BCR-ABL (t(9;22)) translocation"
+  },
+  {
+    "Annotation": "cyto_group",
+    "Value": "complex",
+    "ValueDescription": "Complex cytogenetics (3 or more chromosomal abnormalities)"
+  },
+  {
+    "Annotation": "cyto_group",
+    "Value": "inv16",
+    "ValueDescription": "Inversion(16)"
+  },
+  {
+    "Annotation": "cyto_group",
+    "Value": "noannot",
+    "ValueDescription": "Not relevant/Do not annotate in Synapse"
+  },
+  {
+    "Annotation": "cyto_group",
+    "Value": "normal",
+    "ValueDescription": "Normal Karyotype"
+  },
+  {
+    "Annotation": "cyto_group",
+    "Value": "other_nondefined",
+    "ValueDescription": "Other non-defined cytogenetic abnormality"
+  },
+  {
+    "Annotation": "cyto_group",
+    "Value": "other_nondefined_del7",
+    "ValueDescription": "Deletion(7) and one non-defined cytogenetic abnormality"
+  },
+  {
+    "Annotation": "cyto_group",
+    "Value": "other_nondefined_inv16",
+    "ValueDescription": "Inversion(16) and one non-defined cytogenetic abnormality"
+  },
+  {
+    "Annotation": "cyto_group",
+    "Value": "t821",
+    "ValueDescription": "Translocation(8;21)"
+  },
+  {
+    "Annotation": "genotype_calr",
+    "Value": "negative",
+    "ValueDescription": "Negative"
+  },
+  {
+    "Annotation": "genotype_calr",
+    "Value": "notdetermined",
+    "ValueDescription": "Not Determined"
+  },
+  {
+    "Annotation": "genotype_calr",
+    "Value": "positive",
+    "ValueDescription": "Positive"
+  },
+  {
+    "Annotation": "genotype_cebpa",
+    "Value": "negative",
+    "ValueDescription": "Negative"
+  },
+  {
+    "Annotation": "genotype_cebpa",
+    "Value": "notdetermined",
+    "ValueDescription": "Not Determined"
+  },
+  {
+    "Annotation": "genotype_cebpa",
+    "Value": "positive",
+    "ValueDescription": "Positive"
+  },
+  {
+    "Annotation": "genotype_dnmt3a",
+    "Value": "negative",
+    "ValueDescription": "Negative"
+  },
+  {
+    "Annotation": "genotype_dnmt3a",
+    "Value": "notdetermined",
+    "ValueDescription": "Not Determined"
+  },
+  {
+    "Annotation": "genotype_dnmt3a",
+    "Value": "positive",
+    "ValueDescription": "Positive"
+  },
+  {
+    "Annotation": "genotype_flt3d835",
+    "Value": "negative",
+    "ValueDescription": "Negative"
+  },
+  {
+    "Annotation": "genotype_flt3d835",
+    "Value": "notdetermined",
+    "ValueDescription": "Not Determined"
+  },
+  {
+    "Annotation": "genotype_flt3d835",
+    "Value": "positive",
+    "ValueDescription": "Positive"
+  },
+  {
+    "Annotation": "genotype_flt3itd",
+    "Value": "negative",
+    "ValueDescription": "Negative"
+  },
+  {
+    "Annotation": "genotype_flt3itd",
+    "Value": "notdetermined",
+    "ValueDescription": "Not Determined"
+  },
+  {
+    "Annotation": "genotype_flt3itd",
+    "Value": "positive",
+    "ValueDescription": "Positive"
+  },
+  {
+    "Annotation": "genotype_jak2",
+    "Value": "negative",
+    "ValueDescription": "Negative"
+  },
+  {
+    "Annotation": "genotype_jak2",
+    "Value": "notdetermined",
+    "ValueDescription": "Not Determined"
+  },
+  {
+    "Annotation": "genotype_jak2",
+    "Value": "positive",
+    "ValueDescription": "Positive"
+  },
+  {
+    "Annotation": "genotype_mpl",
+    "Value": "negative",
+    "ValueDescription": "Negative"
+  },
+  {
+    "Annotation": "genotype_mpl",
+    "Value": "notdetermined",
+    "ValueDescription": "Not Determined"
+  },
+  {
+    "Annotation": "genotype_mpl",
+    "Value": "positive",
+    "ValueDescription": "Positive"
+  },
+  {
+    "Annotation": "genotype_npm1",
+    "Value": "negative",
+    "ValueDescription": "Negative"
+  },
+  {
+    "Annotation": "genotype_npm1",
+    "Value": "notdetermined",
+    "ValueDescription": "Not Determined"
+  },
+  {
+    "Annotation": "genotype_npm1",
+    "Value": "positive",
+    "ValueDescription": "Positive"
+  },
+  {
+    "Annotation": "genotype_nras",
+    "Value": "negative",
+    "ValueDescription": "Negative"
+  },
+  {
+    "Annotation": "genotype_nras",
+    "Value": "notdetermined",
+    "ValueDescription": "Not Determined"
+  },
+  {
+    "Annotation": "genotype_nras",
+    "Value": "positive",
+    "ValueDescription": "Positive"
+  },
+  {
+    "Annotation": "array_type",
+    "Value": "hg19hx3",
+    "ValueDescription": "HG19 HX3 Methylation Array (Cornell)"
+  },
+  {
+    "Annotation": "array_type",
+    "Value": "ht12",
+    "ValueDescription": "HumanHT-12 Expression BeadChip (Illumina) v4"
+  },
+  {
+    "Annotation": "array_type",
+    "Value": "infiniumomni2m8",
+    "ValueDescription": "Illumina Omni 2.5M"
+  },
+  {
+    "Annotation": "array_type",
+    "Value": "infiniumomni2m8v1to3",
+    "ValueDescription": "Illumina Omni 2.5M v1-3"
+  },
+  {
+    "Annotation": "array_type",
+    "Value": "infiniumomni5mquad",
+    "ValueDescription": "Illumina Omni 5M"
+  },
+  {
+    "Annotation": "dataset_qc",
+    "Value": "highLibraryReadDepth",
+    "ValueDescription": "Higher than expected overall library read depth"
+  },
+  {
+    "Annotation": "dataset_qc",
+    "Value": "lowLibraryReadDepth",
+    "ValueDescription": "Lower than expected overall library read depth"
+  },
+  {
+    "Annotation": "dataset_qc_cohort",
+    "Value": "CARDINAL",
+    "ValueDescription": "Washington Univ DNA Seq for CARDINAL project"
+  },
+  {
+    "Annotation": "dataset_qc_cohort",
+    "Value": "dfci-cohort2",
+    "ValueDescription": "Berger A; DFCI Cohort 2"
+  },
+  {
+    "Annotation": "dataset_qc_cohort",
+    "Value": "dfci-pilot",
+    "ValueDescription": "Berger A; DFCI Pilot cohort"
+  },
+  {
+    "Annotation": "dataset_qc_cohort",
+    "Value": "HALO-validation",
+    "ValueDescription": "HALO-validation"
+  },
+  {
+    "Annotation": "dataset_qc_cohort",
+    "Value": "ITHOnePilot",
+    "ValueDescription": "TruSight One DNA seq panel for ITH pilot minted 2019-04-22"
+  },
+  {
+    "Annotation": "dataset_qc_cohort",
+    "Value": "LILAC-FARBER",
+    "ValueDescription": "LILAC specimen data from Dana Farber"
+  },
+  {
+    "Annotation": "dataset_qc_cohort",
+    "Value": "paguiriganTSM",
+    "ValueDescription": "TruSight Myeloid DNA seq minted 2019-04-22"
+  },
+  {
+    "Annotation": "flowcell_type",
+    "Value": "HiSeqRapidFlowCellv2",
+    "ValueDescription": "HiSeq Rapid Flow Cell v2"
+  },
+  {
+    "Annotation": "flowcell_type",
+    "Value": "NovaSP100",
+    "ValueDescription": "NovaSeq SP100"
+  },
+  {
+    "Annotation": "genomics_type",
+    "Value": "dnaseq",
+    "ValueDescription": "DNA sequencing"
+  },
+  {
+    "Annotation": "genomics_type",
+    "Value": "exparray",
+    "ValueDescription": "Gene expression array"
+  },
+  {
+    "Annotation": "genomics_type",
+    "Value": "methylarray",
+    "ValueDescription": "Methylation array"
+  },
+  {
+    "Annotation": "genomics_type",
+    "Value": "mirnaarray",
+    "ValueDescription": "miRNA array"
+  },
+  {
+    "Annotation": "genomics_type",
+    "Value": "rnaseq",
+    "ValueDescription": "RNA sequencing"
+  },
+  {
+    "Annotation": "genomics_type",
+    "Value": "singleCell",
+    "ValueDescription": "Single cell based sequencing assay"
+  },
+  {
+    "Annotation": "genomics_type",
+    "Value": "snparray",
+    "ValueDescription": "SNP array"
+  },
+  {
+    "Annotation": "omics_contact_id",
+    "Value": "aberger",
+    "ValueDescription": "Alice Berger"
+  },
+  {
+    "Annotation": "omics_contact_id",
+    "Value": "apaguiri",
+    "ValueDescription": "Amy Paguirigan"
+  },
+  {
+    "Annotation": "omics_contact_id",
+    "Value": "apaguirigan",
+    "ValueDescription": "Amy Paguirigan"
+  },
+  {
+    "Annotation": "omics_contact_id",
+    "Value": "csmith",
+    "ValueDescription": "Catherine Smith (UCSF)"
+  },
+  {
+    "Annotation": "omics_contact_id",
+    "Value": "degan",
+    "ValueDescription": "Dan Egan"
+  },
+  {
+    "Annotation": "omics_contact_id",
+    "Value": "dstirewalt",
+    "ValueDescription": "Derek Stirewalt"
+  },
+  {
+    "Annotation": "omics_contact_id",
+    "Value": "dyadock",
+    "ValueDescription": "David Yadock"
+  },
+  {
+    "Annotation": "omics_contact_id",
+    "Value": "epogosova",
+    "ValueDescription": "Era Pogosova"
+  },
+  {
+    "Annotation": "omics_contact_id",
+    "Value": "estevens",
+    "ValueDescription": "Emily Stevens"
+  },
+  {
+    "Annotation": "omics_contact_id",
+    "Value": "jdeeg",
+    "ValueDescription": "Joachim Deeg"
+  },
+  {
+    "Annotation": "omics_contact_id",
+    "Value": "jfromm",
+    "ValueDescription": "Jonathan Fromm"
+  },
+  {
+    "Annotation": "omics_contact_id",
+    "Value": "jradich",
+    "ValueDescription": "Jerry Radich"
+  },
+  {
+    "Annotation": "omics_contact_id",
+    "Value": "pathways-ship",
+    "ValueDescription": "Pathways-SHIP projects"
+  },
+  {
+    "Annotation": "omics_contact_id",
+    "Value": "pbecker",
+    "ValueDescription": "Pam Becker"
+  },
+  {
+    "Annotation": "run_mode",
+    "Value": "RapidRun",
+    "ValueDescription": "RapidRun"
+  },
+  {
+    "Annotation": "seq_libtype",
+    "Value": "5prime10XNextGEM_NPM1",
+    "ValueDescription": "5' 10x Genomics Next GEM - Enriched for NPM1"
+  },
+  {
+    "Annotation": "seq_libtype",
+    "Value": "agssex5",
+    "ValueDescription": "Agilent SureSelect v5 Exome All Exon"
+  },
+  {
+    "Annotation": "seq_libtype",
+    "Value": "agssex6",
+    "ValueDescription": "Agilent SureSelect v6 Exome"
+  },
+  {
+    "Annotation": "seq_libtype",
+    "Value": "clon",
+    "ValueDescription": "Clontech SMARTer STranded Total RNA-Seq Kit pico Mammalian"
+  },
+  {
+    "Annotation": "seq_libtype",
+    "Value": "dfci-v5Oncopanel3.1",
+    "ValueDescription": "Dana Farber Agilent v5 Oncopanel v 3.1"
+  },
+  {
+    "Annotation": "seq_libtype",
+    "Value": "one",
+    "ValueDescription": "Illumina TruSight One Panel"
+  },
+  {
+    "Annotation": "seq_libtype",
+    "Value": "smartv4-nexteraXT",
+    "ValueDescription": "Smart v4 and Nextera XT"
+  },
+  {
+    "Annotation": "seq_libtype",
+    "Value": "tapestriAMLPanel",
+    "ValueDescription": "Mission Bio Tapestri Single Cell AML panel"
+  },
+  {
+    "Annotation": "seq_libtype",
+    "Value": "truseq",
+    "ValueDescription": "Illumina TruSeq RNA v2"
+  },
+  {
+    "Annotation": "seq_libtype",
+    "Value": "tsm",
+    "ValueDescription": "Illumina TruSight Myeloid Panel"
+  },
+  {
+    "Annotation": "seq_libtype",
+    "Value": "washu",
+    "ValueDescription": "Washington University AML Panel"
+  },
+  {
+    "Annotation": "seq_paired",
+    "Value": "no",
+    "ValueDescription": "No"
+  },
+  {
+    "Annotation": "seq_paired",
+    "Value": "yes",
+    "ValueDescription": "Yes"
+  },
+  {
+    "Annotation": "seq_platform",
+    "Value": "HiSeq",
+    "ValueDescription": "HiSeq"
+  },
+  {
+    "Annotation": "seq_platform",
+    "Value": "MiSeq",
+    "ValueDescription": "MiSeq"
+  },
+  {
+    "Annotation": "seq_platform",
+    "Value": "Nova",
+    "ValueDescription": "NovaSeq Unknown"
+  },
+  {
+    "Annotation": "seq_readlength",
+    "Value": "100",
+    "ValueDescription": "100 base"
+  },
+  {
+    "Annotation": "seq_readlength",
+    "Value": "150",
+    "ValueDescription": "150 base"
+  },
+  {
+    "Annotation": "seq_readlength",
+    "Value": "26_91",
+    "ValueDescription": "Forward read 26bp and reverse read 91bp"
+  },
+  {
+    "Annotation": "seq_readlength",
+    "Value": "300",
+    "ValueDescription": "300 base"
+  },
+  {
+    "Annotation": "seq_readlength",
+    "Value": "49",
+    "ValueDescription": "50 base made @ Genomics SR PRIOR to 8/20/2014"
+  },
+  {
+    "Annotation": "seq_readlength",
+    "Value": "50",
+    "ValueDescription": "50 base"
+  },
+  {
+    "Annotation": "seq_readlength",
+    "Value": "99",
+    "ValueDescription": "100base made @ Genomics SR PRIOR to 8/20/2014"
+  },
+  {
+    "Annotation": "sequencing_center",
+    "Value": "DFCI",
+    "ValueDescription": "Dana Farber Cancer Institute"
+  },
+  {
+    "Annotation": "sequencing_center",
+    "Value": "FHGenomics",
+    "ValueDescription": "Fred Hutch Genomics Core"
+  },
+  {
+    "Annotation": "sequencing_center",
+    "Value": "NYGC",
+    "ValueDescription": "New York Genome Center"
+  },
+  {
+    "Annotation": "species",
+    "Value": "dog",
+    "ValueDescription": "Dog"
+  },
+  {
+    "Annotation": "species",
+    "Value": "drosophila",
+    "ValueDescription": "Dropsophila"
+  },
+  {
+    "Annotation": "species",
+    "Value": "human",
+    "ValueDescription": "Human"
+  },
+  {
+    "Annotation": "species",
+    "Value": "mouse",
+    "ValueDescription": "Mouse"
+  },
+  {
+    "Annotation": "processedContentType",
+    "Value": "ampliconSeqQC"
+  },
+  {
+    "Annotation": "processedContentType",
+    "Value": "annotatedVariants"
+  },
+  {
+    "Annotation": "processedContentType",
+    "Value": "consensusVariants"
+  },
+  {
+    "Annotation": "processedContentType",
+    "Value": "genelevelCounts"
+  },
+  {
+    "Annotation": "processedContentType",
+    "Value": "genelevelNormalized"
+  },
+  {
+    "Annotation": "processedContentType",
+    "Value": "probelevelNormalized"
+  },
+  {
+    "Annotation": "processedContentType",
+    "Value": "probelevelQuantileNormed"
+  },
+  {
+    "Annotation": "processedContentType",
+    "Value": "QCStats"
+  },
+  {
+    "Annotation": "processedContentType",
+    "Value": "rawVariants"
+  },
+  {
+    "Annotation": "processedContentType",
+    "Value": "snparrayFinalReport"
+  },
+  {
+    "Annotation": "stage",
+    "Value": "analyzed",
+    "ValueDescription": "An analyzed form of a processed data set."
+  },
+  {
+    "Annotation": "stage",
+    "Value": "probelevelnormalized",
+    "ValueDescription": "Probe level normalized gene expression array data"
+  },
+  {
+    "Annotation": "stage",
+    "Value": "processed",
+    "ValueDescription": "Molecular data set in a processed form"
+  },
+  {
+    "Annotation": "stage",
+    "Value": "QC",
+    "ValueDescription": "A quality control data set generated to describe a molecular data set"
+  },
+  {
+    "Annotation": "stage",
+    "Value": "raw",
+    "ValueDescription": "Molecular data set in it's raw form"
+  },
+  {
+    "Annotation": "stage",
+    "Value": "snpfinalreport",
+    "ValueDescription": "SNP array final report usually from Genome Studio"
+  },
+  {
+    "Annotation": "cell_line_id",
+    "Value": "AGS",
+    "ValueDescription": "Human transformed gastric epithelial cells"
+  },
+  {
+    "Annotation": "cell_line_id",
+    "Value": "DS1-GFP",
+    "ValueDescription": "GFP DS1 dog MSC stromal cell line"
+  },
+  {
+    "Annotation": "cell_line_id",
+    "Value": "glio-0827",
+    "ValueDescription": "Glioblastoma 0827 line"
+  },
+  {
+    "Annotation": "cell_line_id",
+    "Value": "HEL",
+    "ValueDescription": "HEL 92.1.7 (ATCC TIB-180)"
+  },
+  {
+    "Annotation": "cell_line_id",
+    "Value": "K562",
+    "ValueDescription": "K-562 (ATCC CCL-243)"
+  },
+  {
+    "Annotation": "cell_line_id",
+    "Value": "KG1a",
+    "ValueDescription": "KG-1a (ATCC CCL-246.1)"
+  },
+  {
+    "Annotation": "cell_line_id",
+    "Value": "MDA-MD-231",
+    "ValueDescription": "MDA-MB-231 (ATCC HTB-26)"
+  },
+  {
+    "Annotation": "cell_line_id",
+    "Value": "MOLM14-L1",
+    "ValueDescription": "Subclone of MOLM14 cell line generated in a research lab selected due to presence of FLT3-D835 mutation"
+  },
+  {
+    "Annotation": "cell_line_id",
+    "Value": "OCI-AML3",
+    "ValueDescription": "OCI/AML3; DSMZ# ACC 582"
+  },
+  {
+    "Annotation": "collection_event",
+    "Value": "2ndrelapse",
+    "ValueDescription": "Second Relapse"
+  },
+  {
+    "Annotation": "collection_event",
+    "Value": "day0",
+    "ValueDescription": "Day 0 Post HCT"
+  },
+  {
+    "Annotation": "collection_event",
+    "Value": "day28",
+    "ValueDescription": "Day 28 Post HCT"
+  },
+  {
+    "Annotation": "collection_event",
+    "Value": "diagnosis",
+    "ValueDescription": "Diagnosis"
+  },
+  {
+    "Annotation": "collection_event",
+    "Value": "normal",
+    "ValueDescription": "Normal Donation"
+  },
+  {
+    "Annotation": "collection_event",
+    "Value": "postinduction",
+    "ValueDescription": "Post-Induction"
+  },
+  {
+    "Annotation": "collection_event",
+    "Value": "prediagnosis",
+    "ValueDescription": "Pre-Diagnosis"
+  },
+  {
+    "Annotation": "collection_event",
+    "Value": "prehct",
+    "ValueDescription": "Pre-HCT"
+  },
+  {
+    "Annotation": "collection_event",
+    "Value": "relapse",
+    "ValueDescription": "Relapse"
+  },
+  {
+    "Annotation": "collection_event",
+    "Value": "remission",
+    "ValueDescription": "Remission"
+  },
+  {
+    "Annotation": "collection_site",
+    "Value": "blinded",
+    "ValueDescription": "Blinded to researcher"
+  },
+  {
+    "Annotation": "collection_site",
+    "Value": "left_lower_lobe",
+    "ValueDescription": "Left lower lung lobe"
+  },
+  {
+    "Annotation": "collection_site",
+    "Value": "left_middle_lobe",
+    "ValueDescription": "Left middle lung lobe"
+  },
+  {
+    "Annotation": "collection_site",
+    "Value": "left_upper_lobe",
+    "ValueDescription": "Left upper lung lobe"
+  },
+  {
+    "Annotation": "collection_site",
+    "Value": "right_lower_lobe",
+    "ValueDescription": "Right lower lung lobe"
+  },
+  {
+    "Annotation": "collection_site",
+    "Value": "right_middle_lobe",
+    "ValueDescription": "Right middle lung lobe"
+  },
+  {
+    "Annotation": "collection_site",
+    "Value": "right_upper_lobe",
+    "ValueDescription": "Right upper lung lobe"
+  },
+  {
+    "Annotation": "collection_site",
+    "Value": "unknown",
+    "ValueDescription": "Unknown collection Site"
+  },
+  {
+    "Annotation": "collection_type",
+    "Value": "acd",
+    "ValueDescription": "ACD"
+  },
+  {
+    "Annotation": "collection_type",
+    "Value": "blinded",
+    "ValueDescription": "Blinded to researcher"
+  },
+  {
+    "Annotation": "collection_type",
+    "Value": "edta",
+    "ValueDescription": "EDTA"
+  },
+  {
+    "Annotation": "collection_type",
+    "Value": "ffpeCurl",
+    "ValueDescription": "FFPE Tissue Curl"
+  },
+  {
+    "Annotation": "collection_type",
+    "Value": "ffpeSlide",
+    "ValueDescription": "FFPE Tissue Slide"
+  },
+  {
+    "Annotation": "collection_type",
+    "Value": "heparin",
+    "ValueDescription": "Sodium Heparin"
+  },
+  {
+    "Annotation": "collection_type",
+    "Value": "other",
+    "ValueDescription": "Other"
+  },
+  {
+    "Annotation": "collection_type",
+    "Value": "paxdna",
+    "ValueDescription": "PAXgene DNA"
+  },
+  {
+    "Annotation": "collection_type",
+    "Value": "paxrna",
+    "ValueDescription": "PAXgene RNA"
+  },
+  {
+    "Annotation": "collection_type",
+    "Value": "unknown",
+    "ValueDescription": "Unknown"
+  },
+  {
+    "Annotation": "processing_type",
+    "Value": "cellline",
+    "ValueDescription": "Cell Culture (document conditions in notes)"
+  },
+  {
+    "Annotation": "processing_type",
+    "Value": "mononuclearcells",
+    "ValueDescription": "Mononuclear Cells"
+  },
+  {
+    "Annotation": "processing_type",
+    "Value": "paxgene",
+    "ValueDescription": "PAXgene"
+  },
+  {
+    "Annotation": "processing_type",
+    "Value": "polymorphonuclearcells",
+    "ValueDescription": "Polymorphonuclear Cells"
+  },
+  {
+    "Annotation": "processing_type",
+    "Value": "redbloodcelllysis",
+    "ValueDescription": "RBC Lysis"
+  },
+  {
+    "Annotation": "processing_type",
+    "Value": "tumorenriched",
+    "ValueDescription": "Tumor Enriched Region Selected"
+  },
+  {
+    "Annotation": "processing_type",
+    "Value": "unknown",
+    "ValueDescription": "Unknown"
+  },
+  {
+    "Annotation": "shipping",
+    "Value": "fresh",
+    "ValueDescription": "Yes: the freshly isolated specimen was shipped prior to preservation"
+  },
+  {
+    "Annotation": "shipping",
+    "Value": "notapplicable",
+    "ValueDescription": "No: the specimen was never shipped"
+  },
+  {
+    "Annotation": "shipping",
+    "Value": "preserved",
+    "ValueDescription": "Yes: the specimen was shipped in a preserved form (i.e. cryopreserved aliqout)"
+  },
+  {
+    "Annotation": "shipping",
+    "Value": "shipped",
+    "ValueDescription": "Yes: the specimen was shipped at some point but the status at the time is unknown"
+  },
+  {
+    "Annotation": "specimen_contact_id",
+    "Value": "apaguirigan",
+    "ValueDescription": "Amy Paguirigan"
+  },
+  {
+    "Annotation": "specimen_contact_id",
+    "Value": "csmith",
+    "ValueDescription": "Catherine Smith (UCSF)"
+  },
+  {
+    "Annotation": "specimen_contact_id",
+    "Value": "degan",
+    "ValueDescription": "Dan Egan"
+  },
+  {
+    "Annotation": "specimen_contact_id",
+    "Value": "dstirewalt",
+    "ValueDescription": "Derek Stirewalt"
+  },
+  {
+    "Annotation": "specimen_contact_id",
+    "Value": "dyadock",
+    "ValueDescription": "David Yadock"
+  },
+  {
+    "Annotation": "specimen_contact_id",
+    "Value": "epogosova",
+    "ValueDescription": "Era Pogosova"
+  },
+  {
+    "Annotation": "specimen_contact_id",
+    "Value": "estevens",
+    "ValueDescription": "Emily Stevens"
+  },
+  {
+    "Annotation": "specimen_contact_id",
+    "Value": "jdeeg",
+    "ValueDescription": "Joachim Deeg"
+  },
+  {
+    "Annotation": "specimen_contact_id",
+    "Value": "jfromm",
+    "ValueDescription": "Jonathan Fromm"
+  },
+  {
+    "Annotation": "specimen_contact_id",
+    "Value": "jradich",
+    "ValueDescription": "Jerry Radich"
+  },
+  {
+    "Annotation": "specimen_contact_id",
+    "Value": "pathways-ship",
+    "ValueDescription": "Pathways-SHIP projects"
+  },
+  {
+    "Annotation": "specimen_contact_id",
+    "Value": "pbecker",
+    "ValueDescription": "Pam Becker"
+  },
+  {
+    "Annotation": "specimen_type",
+    "Value": "normal",
+    "ValueDescription": "Normal reference"
+  },
+  {
+    "Annotation": "specimen_type",
+    "Value": "tumor",
+    "ValueDescription": "Tumor"
+  },
+  {
+    "Annotation": "specimen_type",
+    "Value": "tumorAdjacent",
+    "ValueDescription": "Tumor adjacent presumed normal tissue"
+  },
+  {
+    "Annotation": "storage",
+    "Value": "cryopreserved",
+    "ValueDescription": "The specimen was cryopreserved"
+  },
+  {
+    "Annotation": "storage",
+    "Value": "notapplicable",
+    "ValueDescription": "The specimen was not cryopreserved"
+  },
+  {
+    "Annotation": "time_to_processing",
+    "Value": "12to23h",
+    "ValueDescription": "12-23.9 hours"
+  },
+  {
+    "Annotation": "time_to_processing",
+    "Value": "24to47h",
+    "ValueDescription": "24-47.9 hours"
+  },
+  {
+    "Annotation": "time_to_processing",
+    "Value": "3to6h",
+    "ValueDescription": "3-6.9 hours"
+  },
+  {
+    "Annotation": "time_to_processing",
+    "Value": "48hplus",
+    "ValueDescription": "48+ hours"
+  },
+  {
+    "Annotation": "time_to_processing",
+    "Value": "7to11h",
+    "ValueDescription": "7-11.9 hours"
+  },
+  {
+    "Annotation": "time_to_processing",
+    "Value": "noannot",
+    "ValueDescription": "Not Relevant (such as for cell lines or other non-primary human sample)"
+  },
+  {
+    "Annotation": "time_to_processing",
+    "Value": "notapplicable",
+    "ValueDescription": "Not Applicable (such as for cell lines or other non-primary human sample)"
+  },
+  {
+    "Annotation": "time_to_processing",
+    "Value": "paxgene",
+    "ValueDescription": "PAXgene"
+  },
+  {
+    "Annotation": "time_to_processing",
+    "Value": "repositoryprocessing",
+    "ValueDescription": "Repository Processing (times/shipping unknown but not rapid)"
+  },
+  {
+    "Annotation": "time_to_processing",
+    "Value": "under3h",
+    "ValueDescription": "< 3 hours"
+  },
+  {
+    "Annotation": "time_to_processing",
+    "Value": "unknown",
+    "ValueDescription": "Unknown"
+  },
+  {
+    "Annotation": "tissue_type",
+    "Value": "apheresis",
+    "ValueDescription": "Apheresis"
+  },
+  {
+    "Annotation": "tissue_type",
+    "Value": "bonemarrow",
+    "ValueDescription": "Bone Marrow"
+  },
+  {
+    "Annotation": "tissue_type",
+    "Value": "cellline",
+    "ValueDescription": "Cell Line"
+  },
+  {
+    "Annotation": "tissue_type",
+    "Value": "embryo",
+    "ValueDescription": "Embryo"
+  },
+  {
+    "Annotation": "tissue_type",
+    "Value": "esophageal",
+    "ValueDescription": "esophageal"
+  },
+  {
+    "Annotation": "tissue_type",
+    "Value": "fibroblasts",
+    "ValueDescription": "Expanded fibroblasts"
+  },
+  {
+    "Annotation": "tissue_type",
+    "Value": "gastric",
+    "ValueDescription": "Gastric"
+  },
+  {
+    "Annotation": "tissue_type",
+    "Value": "lung",
+    "ValueDescription": "Lung"
+  },
+  {
+    "Annotation": "tissue_type",
+    "Value": "pbpaxdna",
+    "ValueDescription": "Peripheral Blood PAXgene DNA"
+  },
+  {
+    "Annotation": "tissue_type",
+    "Value": "pbpaxrna",
+    "ValueDescription": "Peripheral Blood PAXgene RNA"
+  },
+  {
+    "Annotation": "tissue_type",
+    "Value": "peripheralblood",
+    "ValueDescription": "Peripheral Blood"
+  },
+  {
+    "Annotation": "tissue_type",
+    "Value": "skinbiopsy",
+    "ValueDescription": "Skin Biopsy"
+  },
+  {
+    "Annotation": "tissue_type",
+    "Value": "thymus",
+    "ValueDescription": "Thymus"
+  },
+  {
+    "Annotation": "tissue_type",
+    "Value": "unknownhematopoeitic",
+    "ValueDescription": "Unknown specimen type of hematopoietic origin"
+  },
+  {
+    "Annotation": "tissue_type_origin",
+    "Value": "bonemarrow",
+    "ValueDescription": "Bone Marrow"
+  },
+  {
+    "Annotation": "tissue_type_origin",
+    "Value": "breast",
+    "ValueDescription": "Breast Cancer"
+  },
+  {
+    "Annotation": "tissue_type_origin",
+    "Value": "fibroblasts",
+    "ValueDescription": "Fibroblasts"
+  },
+  {
+    "Annotation": "tissue_type_origin",
+    "Value": "gastricepithelium",
+    "ValueDescription": "Gastric Epithelium"
+  },
+  {
+    "Annotation": "tissue_type_origin",
+    "Value": "glioblastoma",
+    "ValueDescription": "Glioblastoma"
+  },
+  {
+    "Annotation": "tissue_type_origin",
+    "Value": "peripheralblood",
+    "ValueDescription": "Peripheral Blood"
+  },
+  {
+    "Annotation": "bead_pop",
+    "Value": "cd19_or_cd3",
+    "ValueDescription": "CD19+ or CD3+ magnetic bead positive selection (lymphoid)"
+  },
+  {
+    "Annotation": "bead_pop",
+    "Value": "cd33_or_cd66b",
+    "ValueDescription": "CD33+ or CD66b+ magnetic bead positive selection prior to lysis (myeloid)"
+  },
+  {
+    "Annotation": "bead_pop",
+    "Value": "negative_for_cd19_cd3_cd33_cd66b",
+    "ValueDescription": "CD19- CD3- CD33- CD66b- (neither lymphoid or myeloid; remainder from lymph/myelo selection)"
+  },
+  {
+    "Annotation": "derivative_process",
+    "Value": "exposedsubclone",
+    "ValueDescription": "Subcloning after drug or other condition exposure"
+  },
+  {
+    "Annotation": "derivative_process",
+    "Value": "immortalized",
+    "ValueDescription": "Immortalized cell line creation (spontaneous or via viral transduction)"
+  },
+  {
+    "Annotation": "derivative_process",
+    "Value": "isolatedsubclone",
+    "ValueDescription": "Subcloning after a selection process (i.e. Flow cytometry or single cell sorting)"
+  },
+  {
+    "Annotation": "flow_pop",
+    "Value": "cd14_live",
+    "ValueDescription": "CD14 positive  live (monocytes)"
+  },
+  {
+    "Annotation": "flow_pop",
+    "Value": "cd19_or_cd3_live",
+    "ValueDescription": "CD19 OR CD3 positive  live (lymphoid)"
+  },
+  {
+    "Annotation": "flow_pop",
+    "Value": "cd3_live",
+    "ValueDescription": "CD13 positive live (t-cells)"
+  },
+  {
+    "Annotation": "flow_pop",
+    "Value": "cd33_cd14_live",
+    "ValueDescription": "CD33 and CD14 positive live (monocytes)"
+  },
+  {
+    "Annotation": "flow_pop",
+    "Value": "cd33_cd34_cd14neg_live",
+    "ValueDescription": "CD33 and CD34 positive CD14 negative live (progenitor without monocytic differentiation)"
+  },
+  {
+    "Annotation": "flow_pop",
+    "Value": "cd33_cd34_live",
+    "ValueDescription": "CD33 and CD34 positive live (progenitor)"
+  },
+  {
+    "Annotation": "flow_pop",
+    "Value": "cd33_live",
+    "ValueDescription": "CD33 positive live (myeloid)"
+  },
+  {
+    "Annotation": "flow_pop",
+    "Value": "cd34_live",
+    "ValueDescription": "CD34 positive live (blast)"
+  },
+  {
+    "Annotation": "flow_pop",
+    "Value": "cd4_cd8",
+    "ValueDescription": "CD4 positive and CD8 positive"
+  },
+  {
+    "Annotation": "flow_pop",
+    "Value": "cd45_mch11_cd11",
+    "ValueDescription": "CD45,  MCH11 and CD11 positive"
+  },
+  {
+    "Annotation": "flow_pop",
+    "Value": "cd64_cd14neg_live",
+    "ValueDescription": "CD64 positive and CD14 negative live (blast with no monocytic differentiation)"
+  },
+  {
+    "Annotation": "flow_pop",
+    "Value": "cd71_live",
+    "ValueDescription": "CD71 positive"
+  },
+  {
+    "Annotation": "flow_pop",
+    "Value": "customcocktail",
+    "ValueDescription": "Custom cocktail (describe in notes)"
+  },
+  {
+    "Annotation": "flow_pop",
+    "Value": "differentiatedmyeloidcocktail",
+    "ValueDescription": "Differentiated Myeloid cocktail (CD33+ and CD14+ or CD66b+ live)"
+  },
+  {
+    "Annotation": "flow_pop",
+    "Value": "enrichedblastcocktail",
+    "ValueDescription": "Enriched Blast cocktail (not differentiated myeloid nor lymphoid (via CD19+ or CD3+))"
+  },
+  {
+    "Annotation": "flow_pop",
+    "Value": "live",
+    "ValueDescription": "Live"
+  },
+  {
+    "Annotation": "extraction_modifier",
+    "Value": "5 prime",
+    "ValueDescription": "5 prime Kit"
+  },
+  {
+    "Annotation": "extraction_modifier",
+    "Value": "Phenol",
+    "ValueDescription": "Phenol"
+  },
+  {
+    "Annotation": "extraction_modifier",
+    "Value": "Qiagen Deparaffinization Solution/QIAamp DNA FFPE",
+    "ValueDescription": "Qiagen Deparaffinization Solution/QIAamp DNA FFPE"
+  },
+  {
+    "Annotation": "extraction_modifier",
+    "Value": "Xylene/QIAamp DNA FFPE",
+    "ValueDescription": "Xylene/QIAamp DNA FFPE"
+  },
+  {
+    "Annotation": "extraction_type",
+    "Value": "column",
+    "ValueDescription": "Column"
+  },
+  {
+    "Annotation": "extraction_type",
+    "Value": "directlysis",
+    "ValueDescription": "Direct lysis in plate (for sorted cells)"
+  },
+  {
+    "Annotation": "extraction_type",
+    "Value": "magneticbead",
+    "ValueDescription": "Magnetic bead"
+  },
+  {
+    "Annotation": "extraction_type",
+    "Value": "paxgenerna",
+    "ValueDescription": "PAXgene RNA"
+  },
+  {
+    "Annotation": "extraction_type",
+    "Value": "precipitation",
+    "ValueDescription": "Precipitation"
+  },
+  {
+    "Annotation": "extraction_type",
+    "Value": "trizol",
+    "ValueDescription": "Trizol"
+  },
+  {
+    "Annotation": "extraction_type",
+    "Value": "unknown",
+    "ValueDescription": "Unknown method"
+  },
+  {
+    "Annotation": "material_type",
+    "Value": "beadRNA",
+    "ValueDescription": "Bead based extracted total RNA without DNase treatment"
+  },
+  {
+    "Annotation": "material_type",
+    "Value": "cellSuspension",
+    "ValueDescription": "Cell Suspension"
+  },
+  {
+    "Annotation": "material_type",
+    "Value": "DNA",
+    "ValueDescription": "Genomic DNA"
+  },
+  {
+    "Annotation": "material_type",
+    "Value": "lysate",
+    "ValueDescription": "Direct to Lysate intended for downstream analysis of DNA"
+  },
+  {
+    "Annotation": "material_type",
+    "Value": "PAX_RNA",
+    "ValueDescription": "PAXgene isolated total RNA"
+  },
+  {
+    "Annotation": "material_type",
+    "Value": "RNA",
+    "ValueDescription": "Total RNA assumes small RNAs are not specifically retained"
+  },
+  {
+    "Annotation": "rin_range",
+    "Value": "highquality",
+    "ValueDescription": "RIN value of >7"
+  },
+  {
+    "Annotation": "rin_range",
+    "Value": "lowquality",
+    "ValueDescription": "RIN value of < 4.9"
+  },
+  {
+    "Annotation": "rin_range",
+    "Value": "mediumquality",
+    "ValueDescription": "RIN value of 5-6.9"
+  },
+  {
+    "Annotation": "rin_range",
+    "Value": "notdetermined",
+    "ValueDescription": "Not Determined"
+  },
+  {
+    "Annotation": "redcap_data_access_group",
+    "Value": "bergera",
+    "ValueDescription": "Berger A data"
+  },
+  {
+    "Annotation": "redcap_data_access_group",
+    "Value": "paguirigana",
+    "ValueDescription": "Paguirigan A data"
+  }
+]
