@@ -1459,5 +1459,89 @@
     "AnnotationDescription": "Id of a data submission to the Repository",
     "Category": "Identifiers",
     "Type": "identifier"
+  },
+  {
+    "Annotation": "uwid",
+    "AnnotationDescription": "UW ID for a patient",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
+    "Type": "identifier"
+  },
+  {
+    "Annotation": "upn",
+    "AnnotationDescription": "Universal patient number",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
+    "Type": "identifier"
+  },
+  {
+    "Annotation": "date_last_contact",
+    "AnnotationDescription": "Date of last contact with the subject by the study team",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
+    "Type": "date"
+  },
+  {
+    "Annotation": "date_death",
+    "AnnotationDescription": "Date of subject death",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
+    "Type": "date"
+  },
+  {
+    "Annotation": "transplant_date",
+    "AnnotationDescription": "Date of bone marrow transplant",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
+    "Type": "date"
+  },
+  {
+    "Annotation": "transplant_number",
+    "AnnotationDescription": "Number of transplants recieved up to the current",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
+    "Type": "date"
+  },
+  {
+    "Annotation": "days_toreldthdlc",
+    "AnnotationDescription": "Days to relapse, dealth or lost to followup",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
+    "Type": "date"
+  },
+  {
+    "Annotation": "days_todthdlc",
+    "AnnotationDescription": "Days to death or lost to followup",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
+    "Type": "date"
+  },
+  {
+    "Annotation": "be_timepoint_id",
+    "AnnotationDescription": "Barrett's esophagus timepoint identifier",
+    "Category": "Specimen",
+    "TabGroup": "Clinical",
+    "Type": "date"
+  },
+  {
+    "Annotation": "be_segment_length",
+    "AnnotationDescription": "Barrett's esophagus segment length",
+    "Category": "Specimen",
+    "TabGroup": "Clinical",
+    "Type": "date"
+  },
+  {
+    "Annotation": "be_distance",
+    "AnnotationDescription": "Barrett's esophagus distance",
+    "Category": "Specimen",
+    "TabGroup": "Clinical",
+    "Type": "date"
+  },
+  {
+    "Annotation": "be_baseline_age",
+    "AnnotationDescription": "Barrett's esophagus baseline age of subject",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
+    "Type": "date"
   }
 ]

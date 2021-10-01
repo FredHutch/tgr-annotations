@@ -1783,5 +1783,855 @@
     "Annotation": "redcap_data_access_group",
     "Value": "paguirigana",
     "ValueDescription": "Paguirigan A data"
+  },
+  {
+    "Annotation": "race",
+    "Value": "nativeamerican",
+    "ValueDescription": "Native American"
+  },
+  {
+    "Annotation": "ethnicity",
+    "Value": "hispanic",
+    "ValueDescription": "Hispanic"
+  },
+  {
+    "Annotation": "ethnicity",
+    "Value": "non_hispanic",
+    "ValueDescription": "Non-Hispanic"
+  },
+  {
+    "Annotation": "age_at_diagnosis",
+    "Value": "unknown",
+    "ValueDescription": "Unknown"
+  },
+  {
+    "Annotation": "age_at_diagnosis",
+    "Value": "less_than_15yr",
+    "ValueDescription": "Under 15 years old"
+  },
+  {
+    "Annotation": "age_at_diagnosis",
+    "Value": "15_19_yrs",
+    "ValueDescription": "15-19 years old"
+  },
+  {
+    "Annotation": "age_at_diagnosis",
+    "Value": "20_24_yrs",
+    "ValueDescription": "20-24 years old"
+  },
+  {
+    "Annotation": "age_at_diagnosis",
+    "Value": "25_29_yrs",
+    "ValueDescription": "25-29 years old"
+  },
+  {
+    "Annotation": "age_at_diagnosis",
+    "Value": "30_34_yrs",
+    "ValueDescription": "30-34 years old"
+  },
+  {
+    "Annotation": "age_at_diagnosis",
+    "Value": "35_39_yrs",
+    "ValueDescription": "35-39 years old"
+  },
+  {
+    "Annotation": "age_at_diagnosis",
+    "Value": "40_44_yrs",
+    "ValueDescription": "40-44 years old"
+  },
+  {
+    "Annotation": "age_at_diagnosis",
+    "Value": "45_49_yrs",
+    "ValueDescription": "45-49 years old"
+  },
+  {
+    "Annotation": "age_at_diagnosis",
+    "Value": "50_54_yrs",
+    "ValueDescription": "50-54 years old"
+  },
+  {
+    "Annotation": "age_at_diagnosis",
+    "Value": "55_59_yrs",
+    "ValueDescription": "55-59 years old"
+  },
+  {
+    "Annotation": "age_at_diagnosis",
+    "Value": "60_64_yrs",
+    "ValueDescription": "60-64 years old"
+  },
+  {
+    "Annotation": "age_at_diagnosis",
+    "Value": "65_69_yrs",
+    "ValueDescription": "65-69 years old"
+  },
+  {
+    "Annotation": "age_at_diagnosis",
+    "Value": "70_74_yrs",
+    "ValueDescription": "70-74 years old"
+  },
+  {
+    "Annotation": "age_at_diagnosis",
+    "Value": "75_79_yrs",
+    "ValueDescription": "75-79 years old"
+  },
+  {
+    "Annotation": "age_at_diagnosis",
+    "Value": "80_84_yrs",
+    "ValueDescription": "80-84 years old"
+  },
+  {
+    "Annotation": "age_at_diagnosis",
+    "Value": "85_89_yrs",
+    "ValueDescription": "85-89 years old"
+  },
+  {
+    "Annotation": "age_at_diagnosis",
+    "Value": "over_90yrs",
+    "ValueDescription": "Over 90 years old"
+  },
+  {
+    "Annotation": "diagnosis",
+    "Value": "cmml",
+    "ValueDescription": "Chronic Myelomonocytic Leukemia"
+  },
+  {
+    "Annotation": "specimen_type",
+    "Value": "sequencing",
+    "ValueDescription": "Specimen was used to generate a sequencing control dataset"
+  },
+  {
+    "Annotation": "specimen_type",
+    "Value": "tumoradjacent",
+    "ValueDescription": "Specimen was used as a tumor-adjacent normal tissue dataset"
+  },
+  {
+    "Annotation": "specimen_type",
+    "Value": "technicalduplicate",
+    "ValueDescription": "Specimen was used as a technical duplicate"
+  },
+  {
+    "Annotation": "specimen_subtype",
+    "Value": "acinar_cell_carcinoma",
+    "ValueDescription": "Acinar cell carcinoma"
+  },
+  {
+    "Annotation": "specimen_subtype",
+    "Value": "adenocarcinoma_nos",
+    "ValueDescription": "Adenocarcinoma not otherwise specified"
+  },
+  {
+    "Annotation": "specimen_subtype",
+    "Value": "bronchiolo_alveolar_adenocarcinoma",
+    "ValueDescription": "Bronchiolo alveolar adenocarcinoma"
+  },
+  {
+    "Annotation": "specimen_subtype",
+    "Value": "mucous_adenocarcinoma",
+    "ValueDescription": "Mucous adenocarcinoma"
+  },
+  {
+    "Annotation": "icd_subtype",
+    "Value": "BIOPORTAL:ICD-O-3-M",
+    "ValueDescription": "BIOPORTAL:ICD-O-3-M"
+  },
+  {
+    "Annotation": "seer_stage",
+    "Value": "localized",
+    "ValueDescription": "Localized"
+  },
+  {
+    "Annotation": "seer_stage",
+    "Value": "regional",
+    "ValueDescription": "Regional"
+  },
+  {
+    "Annotation": "specimen_contact_id",
+    "Value": "aberger",
+    "ValueDescription": "Alice Berger"
+  },
+  {
+    "Annotation": "site_code",
+    "Value": "BIOPORTAL:ICD-O-3-M",
+    "ValueDescription": "BIOPORTAL:ICD-O-3-M"
+  },
+  {
+    "Annotation": "morphology_grading",
+    "Value": "moderately_differentiated",
+    "ValueDescription": "Differentiated morphology"
+  },
+  {
+    "Annotation": "morphology_grading",
+    "Value": "poorly_differentiated",
+    "ValueDescription": "Poorly differentiated"
+  },
+  {
+    "Annotation": "morphology_grading",
+    "Value": "well_differentiated",
+    "ValueDescription": "Well differentiated"
+  },
+  {
+    "Annotation": "na_quantification_method",
+    "Value": "fluorometric",
+    "ValueDescription": "Fluormetric (e.g. Qubit)"
+  },
+  {
+    "Annotation": "na_quantification_method",
+    "Value": "spectrophotometric",
+    "ValueDescription": "Spectrophotometric (e.g. Nanodrop)"
+  },
+  {
+    "Annotation": "na_quantification_method",
+    "Value": "electrophoretic",
+    "ValueDescription": "Electrophoretic (e.g. Tapestation)"
+  },
+  {
+    "Annotation": "prior_hct",
+    "Value": "yes",
+    "ValueDescription": "A prior hematopoetic transplant was received"
+  },
+  {
+    "Annotation": "prior_hct",
+    "Value": "no",
+    "ValueDescription": "A prior hematopoetic transplant was not received"
+  },
+  {
+    "Annotation": "torok_storb2018",
+    "Value": "normBM",
+    "ValueDescription": "Normal Bone Marrow"
+  },
+  {
+    "Annotation": "torok_storb2018",
+    "Value": "ML3",
+    "ValueDescription": "ML3"
+  },
+  {
+    "Annotation": "salama2018",
+    "Value": "J99",
+    "ValueDescription": "J99"
+  },
+  {
+    "Annotation": "salama2018",
+    "Value": "C11",
+    "ValueDescription": "C11"
+  },
+  {
+    "Annotation": "parkhurst2018",
+    "Value": "UW",
+    "ValueDescription": "UW"
+  },
+  {
+    "Annotation": "parkhurst2018",
+    "Value": "LW",
+    "ValueDescription": "LW"
+  },
+  {
+    "Annotation": "parkhurst2018",
+    "Value": "NW",
+    "ValueDescription": "NW"
+  },
+  {
+    "Annotation": "paddison2018",
+    "Value": "dmso",
+    "ValueDescription": "DSMO"
+  },
+  {
+    "Annotation": "paddison2018",
+    "Value": "plad",
+    "ValueDescription": "Plad"
+  },
+  {
+    "Annotation": "paddison2018",
+    "Value": "hts",
+    "ValueDescription": "HTS"
+  },
+  {
+    "Annotation": "meshinchi2018",
+    "Value": "M7",
+    "ValueDescription": "M7"
+  },
+  {
+    "Annotation": "meshinchi2018",
+    "Value": "DS",
+    "ValueDescription": "DS"
+  },
+  {
+    "Annotation": "hockenbery2018",
+    "Value": "glucose",
+    "ValueDescription": "Glucose"
+  },
+  {
+    "Annotation": "hockenbery2018",
+    "Value": "fructose",
+    "ValueDescription": "Fructose"
+  },
+  {
+    "Annotation": "dudakov2018",
+    "Value": "day0",
+    "ValueDescription": "Day 0"
+  },
+  {
+    "Annotation": "dudakov2018",
+    "Value": "day4",
+    "ValueDescription": "Day 4"
+  },
+  {
+    "Annotation": "dudakov2018",
+    "Value": "day7",
+    "ValueDescription": "Day 7"
+  },
+  {
+    "Annotation": "aml_response_category",
+    "Value": "responder",
+    "ValueDescription": "Responded to therapy by achieving a complete remission within 24 months of starting treatment"
+  },
+  {
+    "Annotation": "aml_response_category",
+    "Value": "nonresponder",
+    "ValueDescription": "Responded to therapy by achieving a complete remission within 24 months of starting treatment"
+  },
+  {
+    "Annotation": "aml_response_category",
+    "Value": "relapse",
+    "ValueDescription": "Reponded to therapy by achieving a complete remission and then relapsed within 24 months of starting treatment"
+  },
+  {
+    "Annotation": "aml_response_category",
+    "Value": "unknown",
+    "ValueDescription": "Unknown"
+  },
+  {
+    "Annotation": "halo_response",
+    "Value": "responder",
+    "ValueDescription": "Responded to therapy by achieving a complete remission within 12 months of starting treatment"
+  },
+  {
+    "Annotation": "halo_response",
+    "Value": "relapser",
+    "ValueDescription": "Responded to therapy by achieving a complete remission and then relapsed within 12 months of starting treatment"
+  },
+  {
+    "Annotation": "halo_response",
+    "Value": "nonresponder",
+    "ValueDescription": "Responded to therapy by achieving a complete remission within 12 months of starting treatment"
+  },
+  {
+    "Annotation": "halo_response",
+    "Value": "blinded",
+    "ValueDescription": "Blinded"
+  },
+  {
+    "Annotation": "ac220_timepoint",
+    "Value": "preac220",
+    "ValueDescription": "Prior to AC220 therapy"
+  },
+  {
+    "Annotation": "ac220_timepoint",
+    "Value": "relapseac220",
+    "ValueDescription": "After relapse after AC220 therapy"
+  },
+  {
+    "Annotation": "ac220_flt3d835_tat",
+    "Value": "tat",
+    "ValueDescription": "FLT3 D835 TAT codon"
+  },
+  {
+    "Annotation": "ac220_flt3d835_tat",
+    "Value": "notapplicable",
+    "ValueDescription": "Not applicable"
+  },
+  {
+    "Annotation": "ac220_flt3d835_ttt",
+    "Value": "ttt",
+    "ValueDescription": "FLT3 D835 TTT codon"
+  },
+  {
+    "Annotation": "ac220_flt3d835_ttt",
+    "Value": "notapplicable",
+    "ValueDescription": "Not applicable"
+  },
+  {
+    "Annotation": "ac220_flt3d835_gtt",
+    "Value": "gtt",
+    "ValueDescription": "FLT3 D835 GTT codon"
+  },
+  {
+    "Annotation": "ac220_flt3d835_gtt",
+    "Value": "notapplicable",
+    "ValueDescription": "Not applicable"
+  },
+  {
+    "Annotation": "ac220_flt3d835_tac",
+    "Value": "tac",
+    "ValueDescription": "FLT3 D835 TAC codon"
+  },
+  {
+    "Annotation": "ac220_flt3d835_tac",
+    "Value": "notapplicable",
+    "ValueDescription": "Not applicable"
+  },
+  {
+    "Annotation": "egan_outcome",
+    "Value": "responder",
+    "ValueDescription": "Responded according to study criteria"
+  },
+  {
+    "Annotation": "egan_outcome",
+    "Value": "nonresponder",
+    "ValueDescription": "Did not respond according to study criteria"
+  },
+  {
+    "Annotation": "egan_cytorisk",
+    "Value": "cbf",
+    "ValueDescription": "Core binding factor"
+  },
+  {
+    "Annotation": "egan_cytorisk",
+    "Value": "poorrisk",
+    "ValueDescription": "Poor cytogenetic risk"
+  },
+  {
+    "Annotation": "egan_cytorisk",
+    "Value": "intermediate",
+    "ValueDescription": "Intermediate cytogenetic risk"
+  },
+  {
+    "Annotation": "egan_group",
+    "Value": "A",
+    "ValueDescription": "A"
+  },
+  {
+    "Annotation": "egan_group",
+    "Value": "B",
+    "ValueDescription": "B"
+  },
+  {
+    "Annotation": "egan_group",
+    "Value": "C",
+    "ValueDescription": "D"
+  },
+  {
+    "Annotation": "egan_group",
+    "Value": "D",
+    "ValueDescription": "D"
+  },
+  {
+    "Annotation": "egan_group",
+    "Value": "E",
+    "ValueDescription": "E"
+  },
+  {
+    "Annotation": "egan_group",
+    "Value": "F",
+    "ValueDescription": "F"
+  },
+  {
+    "Annotation": "transplant_donor_type",
+    "Value": "unrel",
+    "ValueDescription": "Unrelated transplant donor"
+  },
+  {
+    "Annotation": "transplant_donor_type",
+    "Value": "allo",
+    "ValueDescription": "Allogeneic transplant"
+  },
+  {
+    "Annotation": "transplant_match",
+    "Value": "matched",
+    "ValueDescription": "Matched donor transplant"
+  },
+  {
+    "Annotation": "transplant_match",
+    "Value": "mismatched",
+    "ValueDescription": "Mismatched donor transplant"
+  },
+  {
+    "Annotation": "cancer_outcome_status",
+    "Value": "cancer",
+    "ValueDescription": "Relevant cancer occured"
+  },
+  {
+    "Annotation": "cancer_outcome_status",
+    "Value": "noncancer",
+    "ValueDescription": "No relevant cancer occured"
+  },
+  {
+    "Annotation": "be_nsaid",
+    "Value": "user",
+    "ValueDescription": "NSAID user"
+  },
+  {
+    "Annotation": "be_nsaid",
+    "Value": "nonuser",
+    "ValueDescription": "NSAID non-user"
+  },
+  {
+    "Annotation": "be_smoker",
+    "Value": "never",
+    "ValueDescription": "Never smoker"
+  },
+  {
+    "Annotation": "be_smoker",
+    "Value": "ever",
+    "ValueDescription": "Ever smoker"
+  },
+  {
+    "Annotation": "occupation_category",
+    "Value": "technical_sales_admin",
+    "ValueDescription": "Technical Sales Admin"
+  },
+  {
+    "Annotation": "occupation_category",
+    "Value": "managerial_professional",
+    "ValueDescription": "Managerial Professional"
+  },
+  {
+    "Annotation": "occupation_category",
+    "Value": "service_labor",
+    "ValueDescription": "Service/Labor"
+  },
+  {
+    "Annotation": "occupation_category",
+    "Value": "homemaker",
+    "ValueDescription": "Homemaker"
+  },
+  {
+    "Annotation": "occupation_category",
+    "Value": "unknown",
+    "ValueDescription": "Unknown"
+  },
+  {
+    "Annotation": "oc_status_baseline",
+    "Value": "yes",
+    "ValueDescription": "Oral contraceptive use at baseline"
+  },
+  {
+    "Annotation": "oc_status_baseline",
+    "Value": "no",
+    "ValueDescription": "No oral contraceptive use at baseline"
+  },
+  {
+    "Annotation": "hrt_baseline",
+    "Value": "current",
+    "ValueDescription": "Currently undergoing hormone replacement therapy"
+  },
+  {
+    "Annotation": "hrt_baseline",
+    "Value": "past",
+    "ValueDescription": "Past hormone replacement therapy"
+  },
+  {
+    "Annotation": "hrt_baseline",
+    "Value": "never",
+    "ValueDescription": "Never undergone hormone replacement therapy"
+  },
+  {
+    "Annotation": "lilac_os_study",
+    "Value": "yes",
+    "ValueDescription": "Participated in the observational WHI study"
+  },
+  {
+    "Annotation": "lilac_os_study",
+    "Value": "no",
+    "ValueDescription": "Did not participate in the observational WHI study"
+  },
+  {
+    "Annotation": "residence_baseline",
+    "Value": "northeast",
+    "ValueDescription": "Resided in the Northeast US"
+  },
+  {
+    "Annotation": "residence_baseline",
+    "Value": "south",
+    "ValueDescription": "Resided in the South US"
+  },
+  {
+    "Annotation": "residence_baseline",
+    "Value": "west",
+    "ValueDescription": "Resided in the West US"
+  },
+  {
+    "Annotation": "residence_baseline",
+    "Value": "midwest",
+    "ValueDescription": "Resided in the Midwest US"
+  },
+  {
+    "Annotation": "us_born",
+    "Value": "yes",
+    "ValueDescription": "US Born"
+  },
+  {
+    "Annotation": "us_born",
+    "Value": "no",
+    "ValueDescription": "Not US born"
+  },
+  {
+    "Annotation": "adult_yrs_with_smoker",
+    "Value": "never",
+    "ValueDescription": "Never lived with a smoker as an adult"
+  },
+  {
+    "Annotation": "adult_yrs_with_smoker",
+    "Value": "unknown",
+    "ValueDescription": "Unknown status of liveing with a smoker as an adult"
+  },
+  {
+    "Annotation": "adult_yrs_with_smoker",
+    "Value": "less_than_1yr",
+    "ValueDescription": "Lived with a smoker as an adult for less than 1 year"
+  },
+  {
+    "Annotation": "adult_yrs_with_smoker",
+    "Value": "1_4yrs",
+    "ValueDescription": "Lived with a smoker as an adult for 1-4 years"
+  },
+  {
+    "Annotation": "adult_yrs_with_smoker",
+    "Value": "5_9yrs",
+    "ValueDescription": "Lived with a smoker as an adult for 5-9 years"
+  },
+  {
+    "Annotation": "adult_yrs_with_smoker",
+    "Value": "10_19_yrs",
+    "ValueDescription": "Lived with a smoker as an adult for 10-19 years"
+  },
+  {
+    "Annotation": "adult_yrs_with_smoker",
+    "Value": "20_29_yrs",
+    "ValueDescription": "Lived with a smoker as an adult for 20-29 years"
+  },
+  {
+    "Annotation": "adult_yrs_with_smoker",
+    "Value": "30_39_yrs",
+    "ValueDescription": "Lived with a smoker as an adult for 30-39 years"
+  },
+  {
+    "Annotation": "adult_yrs_with_smoker",
+    "Value": "over_40yrs",
+    "ValueDescription": "Lived with a smoker as an adult for over 40 years"
+  },
+  {
+    "Annotation": "years_worked_with_smoker",
+    "Value": "less_than_1yr",
+    "ValueDescription": "Worked with a smoker for less than 1 year"
+  },
+  {
+    "Annotation": "years_worked_with_smoker",
+    "Value": "1_4yrs",
+    "ValueDescription": "Worked with a smoker for 1-4 years"
+  },
+  {
+    "Annotation": "years_worked_with_smoker",
+    "Value": "5_9yrs",
+    "ValueDescription": "Worked with a smoker for 5-9 years"
+  },
+  {
+    "Annotation": "years_worked_with_smoker",
+    "Value": "10_19_yrs",
+    "ValueDescription": "Worked with a smoker for 10-19 years"
+  },
+  {
+    "Annotation": "years_worked_with_smoker",
+    "Value": "20_29_yrs",
+    "ValueDescription": "Worked with a smoker for 20-29 years"
+  },
+  {
+    "Annotation": "years_worked_with_smoker",
+    "Value": "30_39_yrs",
+    "ValueDescription": "Worked with a smoker for 30-39 years"
+  },
+  {
+    "Annotation": "years_worked_with_smoker",
+    "Value": "over_40yrs",
+    "ValueDescription": "Worked with a smoker for over 40 years"
+  },
+  {
+    "Annotation": "child_yrs_with_smoker",
+    "Value": "never",
+    "ValueDescription": "Never lived with a smoker as a child"
+  },
+  {
+    "Annotation": "child_yrs_with_smoker",
+    "Value": "unknown",
+    "ValueDescription": "Unknown status of living with a smoker as a child"
+  },
+  {
+    "Annotation": "child_yrs_with_smoker",
+    "Value": "1_9_yrs",
+    "ValueDescription": "Lived with a smoker as a child for 1-9 years"
+  },
+  {
+    "Annotation": "child_yrs_with_smoker",
+    "Value": "10_18_yrs",
+    "ValueDescription": "Lived with a smoker as a child for 10-18 years"
+  },
+  {
+    "Annotation": "female_relative_cancer",
+    "Value": "yes",
+    "ValueDescription": "Had a female relative with cancer"
+  },
+  {
+    "Annotation": "female_relative_cancer",
+    "Value": "no",
+    "ValueDescription": "Did not have a female relative with cancer"
+  },
+  {
+    "Annotation": "male_relative_cancer",
+    "Value": "yes",
+    "ValueDescription": "Had a male relative with cancer"
+  },
+  {
+    "Annotation": "male_relative_cancer",
+    "Value": "no",
+    "ValueDescription": "Did not have a male relative with cancer"
+  },
+  {
+    "Annotation": "family_cancer",
+    "Value": "yes",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "family_cancer",
+    "Value": "no",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "lives_with_smoker",
+    "Value": "yes",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "lives_with_smoker",
+    "Value": "no",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "lives_with_smoker",
+    "Value": "unknown",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "smoking_status",
+    "Value": "past",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "smoking_status",
+    "Value": "current",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "smoking_status",
+    "Value": "never",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "smoke_quit_age",
+    "Value": "unknown",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "smoke_quit_age",
+    "Value": "less_than_15yr",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "smoke_quit_age",
+    "Value": "15_19_yrs",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "smoke_quit_age",
+    "Value": "20_24_yrs",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "smoke_quit_age",
+    "Value": "25_29_yrs",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "smoke_quit_age",
+    "Value": "30_34_yrs",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "smoke_quit_age",
+    "Value": "35_39_yrs",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "smoke_quit_age",
+    "Value": "40_44_yrs",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "smoke_quit_age",
+    "Value": "45_49_yrs",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "smoke_quit_age",
+    "Value": "50_54_yrs",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "smoke_quit_age",
+    "Value": "55_59_yrs",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "smoke_quit_age",
+    "Value": "over_60yrs",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "smoke_start_age",
+    "Value": "never_smoked",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "smoke_start_age",
+    "Value": "less_than_15yr",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "smoke_start_age",
+    "Value": "15_19_yrs",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "smoke_start_age",
+    "Value": "20_24_yrs",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "smoke_start_age",
+    "Value": "25_29_yrs",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "smoke_start_age",
+    "Value": "30_34_yrs",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "smoke_start_age",
+    "Value": "35_39_yrs",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "smoke_start_age",
+    "Value": "40_44_yrs",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "smoke_start_age",
+    "Value": "45_49_yrs",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "smoke_start_age",
+    "Value": "over_50yrs",
+    "ValueDescription": ""
   }
 ]
