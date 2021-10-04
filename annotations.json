@@ -1543,5 +1543,12 @@
     "Category": "Patient",
     "TabGroup": "Clinical",
     "Type": "date"
+  },
+  {
+    "Annotation": "submission_pi",
+    "AnnotationDescription": "PI of the data submission",
+    "Category": "Identifiers",
+    "TabGroup": "",
+    "Type": "categorical"
   }
 ]

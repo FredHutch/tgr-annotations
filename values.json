@@ -2633,5 +2633,90 @@
     "Annotation": "smoke_start_age",
     "Value": "over_50yrs",
     "ValueDescription": ""
+  },
+  {
+    "Annotation": "specimen_subtype",
+    "Value": "adenosquamous_carcinoma",
+    "ValueDescription": "Adenosquamous Carcinoma"
+  },
+  {
+    "Annotation": "specimen_subtype",
+    "Value": "mixed_adenocarcinoma",
+    "ValueDescription": "Mixed Cell Adenocarcinoma"
+  },
+  {
+    "Annotation": "specimen_subtype",
+    "Value": "mucin_adenocarcinoma",
+    "ValueDescription": "Mucin Secreting Adenocarcinoma"
+  },
+  {
+    "Annotation": "specimen_subtype",
+    "Value": "papillary_adenocar_nos",
+    "ValueDescription": "Papillary Adenocarinoma, NOS"
+  },
+  {
+    "Annotation": "specimen_subtype",
+    "Value": "papillary_carcinoma",
+    "ValueDescription": "Papillary Carcinoma"
+  },
+  {
+    "Annotation": "specimen_subtype",
+    "Value": "mucinous_cystadenocar_nos",
+    "ValueDescription": "Mucinous Cystadenocarinoma, NOS"
+  },
+  {
+    "Annotation": "seer_stage",
+    "Value": "distant",
+    "ValueDescription": "Distant"
+  },
+  {
+    "Annotation": "morphology_grading",
+    "Value": "unknown",
+    "ValueDescription": "Unknown/not assessed"
+  },
+  {
+    "Annotation": "tissue_type_origin",
+    "Value": "lung",
+    "ValueDescription": "Lung"
+  },
+  {
+    "Annotation": "transplant_donor_type",
+    "Value": "unrel",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "transplant_donor_type",
+    "Value": "allo",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "transplant_match",
+    "Value": "matched",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "transplant_match",
+    "Value": "mismatched",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "be_nsaid",
+    "Value": "user",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "be_nsaid",
+    "Value": "nonuser",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "be_smoker",
+    "Value": "never",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "be_smoker",
+    "Value": "ever",
+    "ValueDescription": ""
   }
 ]
