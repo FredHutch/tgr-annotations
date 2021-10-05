@@ -2718,5 +2718,105 @@
     "Annotation": "be_smoker",
     "Value": "ever",
     "ValueDescription": ""
+  },
+  {
+    "Annotation": "transplant_donor_type",
+    "Value": "unrel",
+    "ValueDescription": "Unrelated donor transplant"
+  },
+  {
+    "Annotation": "transplant_donor_type",
+    "Value": "allo",
+    "ValueDescription": "Allogenic transplant"
+  },
+  {
+    "Annotation": "be_nsaid",
+    "Value": "nonuser",
+    "ValueDescription": "Non-NSAID user"
+  },
+  {
+    "Annotation": "be_smoker",
+    "Value": "never",
+    "ValueDescription": "Never Smoker"
+  },
+  {
+    "Annotation": "be_smoker",
+    "Value": "ever",
+    "ValueDescription": "Ever Smoker"
+  },
+  {
+    "Annotation": "oc_status_baseline",
+    "Value": "missing",
+    "ValueDescription": "Oral contraceptive use at baseline missing"
+  },
+  {
+    "Annotation": "years_worked_with_smoker",
+    "Value": "unknown",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "years_worked_with_smoker",
+    "Value": "never",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "child_yrs_with_smoker",
+    "Value": "less_1_yr",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "child_yrs_with_smoker",
+    "Value": "1_4_yrs",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "child_yrs_with_smoker",
+    "Value": "5_9_yrs",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "years_regular_smoker",
+    "Value": "less_than_5yr",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "years_regular_smoker",
+    "Value": "5_9yrs",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "years_regular_smoker",
+    "Value": "10_19_yrs",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "years_regular_smoker",
+    "Value": "20_29_yrs",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "years_regular_smoker",
+    "Value": "30_39_yrs",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "years_regular_smoker",
+    "Value": "40_49_yrs",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "years_regular_smoker",
+    "Value": "over_50yrs",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "years_regular_smoker",
+    "Value": "never",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "years_regular_smoker",
+    "Value": "unknown",
+    "ValueDescription": ""
   }
 ]
