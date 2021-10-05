@@ -947,8 +947,8 @@
   {
     "Annotation": "adult_yrs_with_smoker",
     "AnnotationDescription": "Years after age 18 lived with smoker (OS only)",
-    "Category": "Experimental",
-    "TabGroup": "Laboratory",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
     "Type": "categorical"
   },
   {
@@ -961,15 +961,15 @@
   {
     "Annotation": "cancer_outcome_status",
     "AnnotationDescription": "Cancer outcome status",
-    "Category": "Experimental",
-    "TabGroup": "Laboratory",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
     "Type": "categorical"
   },
   {
     "Annotation": "child_yrs_with_smoker",
     "AnnotationDescription": "Years as child lived with smoker (OS only)",
-    "Category": "Experimental",
-    "TabGroup": "Laboratory",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
     "Type": "categorical"
   },
   {
@@ -1010,50 +1010,50 @@
   {
     "Annotation": "egan_cytorisk",
     "AnnotationDescription": "Cyto Risk Group as defined for the purposes of gene expression comparison. CBF: Inv(16) or t(8:21); Poor risk:  Includes complex and pts with del(5q);  inv(3);  or abnormal chromosome 7; Intermediate Risk: CARDINAL cyto normals",
-    "Category": "Experimental",
-    "TabGroup": "Laboratory",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
     "Type": "categorical"
   },
   {
     "Annotation": "egan_group",
     "AnnotationDescription": "Egan experimental design group",
-    "Category": "Experimental",
-    "TabGroup": "Laboratory",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
     "Type": "categorical"
   },
   {
     "Annotation": "egan_outcome",
     "AnnotationDescription": "Chemo Outcome as defined from the purposes of gene expression comparison. Responder means CR > 6 months; Non-responder defined as CR but relapse within 1.5 years  or by CR with incomplete count recovery.",
-    "Category": "Experimental",
-    "TabGroup": "Laboratory",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
     "Type": "categorical"
   },
   {
     "Annotation": "egan_relapse",
     "AnnotationDescription": "Months until relapse from start of therapy if applicable.",
-    "Category": "Experimental",
-    "TabGroup": "Laboratory",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
     "Type": "numeric"
   },
   {
     "Annotation": "egan_remission",
     "AnnotationDescription": "Months until remission achieved from start of therapy if applicable.",
-    "Category": "Experimental",
-    "TabGroup": "Laboratory",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
     "Type": "numeric"
   },
   {
     "Annotation": "family_cancer",
     "AnnotationDescription": "Family history of cancer",
-    "Category": "Experimental",
-    "TabGroup": "Laboratory",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
     "Type": "categorical"
   },
   {
     "Annotation": "female_relative_cancer",
     "AnnotationDescription": "Female relative had cancer",
-    "Category": "Experimental",
-    "TabGroup": "Laboratory",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
     "Type": "categorical"
   },
   {
@@ -1066,8 +1066,8 @@
   {
     "Annotation": "halo_response",
     "AnnotationDescription": "HALO outcome",
-    "Category": "Experimental",
-    "TabGroup": "Laboratory",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
     "Type": "categorical"
   },
   {
@@ -1080,16 +1080,16 @@
   {
     "Annotation": "hrt_baseline",
     "AnnotationDescription": "Hormone replacement therapy (HRT) use at baseline",
-    "Category": "Experimental",
-    "TabGroup": "Laboratory",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
     "Type": "categorical"
   },
   {
     "Annotation": "hrt_baseline_time",
     "AnnotationDescription": "Lifetime HRT duration of use (years) at baseline",
-    "Category": "Experimental",
-    "TabGroup": "Laboratory",
-    "Type": "categorical"
+    "Category": "Patient",
+    "TabGroup": "Clinical",
+    "Type": "numeric"
   },
   {
     "Annotation": "ithvalid_dhl4",
@@ -1157,8 +1157,8 @@
   {
     "Annotation": "lilac_os_study",
     "AnnotationDescription": "Participant in Observational Study (OS) study?",
-    "Category": "Experimental",
-    "TabGroup": "Laboratory",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
     "Type": "categorical"
   },
   {
@@ -1171,15 +1171,15 @@
   {
     "Annotation": "lives_with_smoker",
     "AnnotationDescription": "Live with smoker now (OS only)",
-    "Category": "Experimental",
-    "TabGroup": "Laboratory",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
     "Type": "categorical"
   },
   {
     "Annotation": "male_relative_cancer",
     "AnnotationDescription": "Immediate male blood relative had cancer",
-    "Category": "Experimental",
-    "TabGroup": "Laboratory",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
     "Type": "categorical"
   },
   {
@@ -1192,22 +1192,22 @@
   {
     "Annotation": "oc_status_baseline",
     "AnnotationDescription": "Oral contraceptive (OC) user ever?",
-    "Category": "Experimental",
-    "TabGroup": "Laboratory",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
     "Type": "categorical"
   },
   {
     "Annotation": "oc_time_baseline",
     "AnnotationDescription": "Oral contraceptive duration; years",
-    "Category": "Experimental",
-    "TabGroup": "Laboratory",
-    "Type": "categorical"
+    "Category": "Patient",
+    "TabGroup": "Clinical",
+    "Type": "numeric"
   },
   {
     "Annotation": "occupation_category",
     "AnnotationDescription": "Occupation category",
-    "Category": "Experimental",
-    "TabGroup": "Laboratory",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
     "Type": "categorical"
   },
   {
@@ -1220,9 +1220,9 @@
   {
     "Annotation": "pack_years",
     "AnnotationDescription": "Pack years of smoking",
-    "Category": "Experimental",
-    "TabGroup": "Laboratory",
-    "Type": "categorical"
+    "Category": "Patient",
+    "TabGroup": "Clinical",
+    "Type": "numeric"
   },
   {
     "Annotation": "paddison2018",
@@ -1240,9 +1240,9 @@
   },
   {
     "Annotation": "residence_baseline",
-    "AnnotationDescription": "What region of the US does the participant belong to?",
-    "Category": "Experimental",
-    "TabGroup": "Laboratory",
+    "AnnotationDescription": "What region of the US did the participant reside in at baseline?",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
     "Type": "categorical"
   },
   {
@@ -1283,36 +1283,36 @@
   {
     "Annotation": "us_born",
     "AnnotationDescription": "Was the participant born in the US?",
-    "Category": "Experimental",
-    "TabGroup": "Laboratory",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
     "Type": "categorical"
   },
   {
     "Annotation": "whi_participant_id",
     "AnnotationDescription": "WHI Participant ID",
-    "Category": "Experimental",
-    "TabGroup": "Laboratory",
+    "Category": "Specimen",
+    "TabGroup": "Identifier",
     "Type": "identifier"
   },
   {
     "Annotation": "years_quit",
     "AnnotationDescription": "Years since quit smoking",
-    "Category": "Experimental",
-    "TabGroup": "Laboratory",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
     "Type": "categorical"
   },
   {
     "Annotation": "years_regular_smoker",
     "AnnotationDescription": "Years a regular smoker",
-    "Category": "Experimental",
-    "TabGroup": "Laboratory",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
     "Type": "categorical"
   },
   {
     "Annotation": "years_worked_with_smoker",
     "AnnotationDescription": "Years worked where people smoked (OS only)",
-    "Category": "Experimental",
-    "TabGroup": "Laboratory",
+    "Category": "Patient",
+    "TabGroup": "Clinical",
     "Type": "categorical"
   },
   {
