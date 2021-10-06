@@ -46,7 +46,7 @@
     "AnnotationDescription": "Age range at diagnosis associated with this specimen in years",
     "Category": "Patient",
     "TabGroup": "Clinical",
-    "Type": "categorical"
+    "Type": "numeric"
   },
   {
     "Annotation": "age_range",
@@ -809,7 +809,7 @@
     "AnnotationDescription": "Name of the cell line",
     "Category": "Specimen",
     "TabGroup": "Laboratory",
-    "Type": "categorical"
+    "Type": "freetext"
   },
   {
     "Annotation": "collection_event",
