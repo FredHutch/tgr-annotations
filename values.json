@@ -2818,5 +2818,60 @@
     "Annotation": "years_regular_smoker",
     "Value": "unknown",
     "ValueDescription": ""
+  },
+  {
+    "Annotation": "ethnicity",
+    "Value": "unknown",
+    "ValueDescription": "Unknown"
+  },
+  {
+    "Annotation": "collection_site",
+    "Value": "left_nos",
+    "ValueDescription": "Left lung lobe not otherwise specified"
+  },
+  {
+    "Annotation": "collection_site",
+    "Value": "right_nos",
+    "ValueDescription": "Right lung lobe not otherwise specified"
+  },
+  {
+    "Annotation": "transplant_donor_type",
+    "Value": "unrel",
+    "ValueDescription": "Unrelated transplant donor type"
+  },
+  {
+    "Annotation": "transplant_donor_type",
+    "Value": "allo",
+    "ValueDescription": "Allogeneic transplant donor type"
+  },
+  {
+    "Annotation": "transplant_match",
+    "Value": "matched",
+    "ValueDescription": "Matched transplant donor type"
+  },
+  {
+    "Annotation": "transplant_match",
+    "Value": "mismatched",
+    "ValueDescription": "Mismatched transplant donor type"
+  },
+  {
+    "Annotation": "us_born",
+    "Value": "unknown",
+    "ValueDescription": "Unknown"
+  },
+  {
+    "Annotation": "female_relative_cancer",
+    "Value": "unknown",
+    "ValueDescription": "Unknown"
+  },
+  {
+    "Annotation": "male_relative_cancer",
+    "Value": "unknown",
+    "ValueDescription": "Unknown"
+  },
+  {
+    "Annotation": "family_cancer",
+    "Value": "unknown",
+    "ValueDescription": "Unknown"
   }
 ]
