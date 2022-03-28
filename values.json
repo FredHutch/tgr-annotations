@@ -2633,5 +2633,245 @@
     "Annotation": "smoke_start_age",
     "Value": "over_50yrs",
     "ValueDescription": ""
+  },
+  {
+    "Annotation": "specimen_subtype",
+    "Value": "adenosquamous_carcinoma",
+    "ValueDescription": "Adenosquamous Carcinoma"
+  },
+  {
+    "Annotation": "specimen_subtype",
+    "Value": "mixed_adenocarcinoma",
+    "ValueDescription": "Mixed Cell Adenocarcinoma"
+  },
+  {
+    "Annotation": "specimen_subtype",
+    "Value": "mucin_adenocarcinoma",
+    "ValueDescription": "Mucin Secreting Adenocarcinoma"
+  },
+  {
+    "Annotation": "specimen_subtype",
+    "Value": "papillary_adenocar_nos",
+    "ValueDescription": "Papillary Adenocarinoma, NOS"
+  },
+  {
+    "Annotation": "specimen_subtype",
+    "Value": "papillary_carcinoma",
+    "ValueDescription": "Papillary Carcinoma"
+  },
+  {
+    "Annotation": "specimen_subtype",
+    "Value": "mucinous_cystadenocar_nos",
+    "ValueDescription": "Mucinous Cystadenocarinoma, NOS"
+  },
+  {
+    "Annotation": "seer_stage",
+    "Value": "distant",
+    "ValueDescription": "Distant"
+  },
+  {
+    "Annotation": "morphology_grading",
+    "Value": "unknown",
+    "ValueDescription": "Unknown/not assessed"
+  },
+  {
+    "Annotation": "tissue_type_origin",
+    "Value": "lung",
+    "ValueDescription": "Lung"
+  },
+  {
+    "Annotation": "transplant_donor_type",
+    "Value": "unrel",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "transplant_donor_type",
+    "Value": "allo",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "transplant_match",
+    "Value": "matched",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "transplant_match",
+    "Value": "mismatched",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "be_nsaid",
+    "Value": "user",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "be_nsaid",
+    "Value": "nonuser",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "be_smoker",
+    "Value": "never",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "be_smoker",
+    "Value": "ever",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "transplant_donor_type",
+    "Value": "unrel",
+    "ValueDescription": "Unrelated donor transplant"
+  },
+  {
+    "Annotation": "transplant_donor_type",
+    "Value": "allo",
+    "ValueDescription": "Allogenic transplant"
+  },
+  {
+    "Annotation": "be_nsaid",
+    "Value": "nonuser",
+    "ValueDescription": "Non-NSAID user"
+  },
+  {
+    "Annotation": "be_smoker",
+    "Value": "never",
+    "ValueDescription": "Never Smoker"
+  },
+  {
+    "Annotation": "be_smoker",
+    "Value": "ever",
+    "ValueDescription": "Ever Smoker"
+  },
+  {
+    "Annotation": "oc_status_baseline",
+    "Value": "missing",
+    "ValueDescription": "Oral contraceptive use at baseline missing"
+  },
+  {
+    "Annotation": "years_worked_with_smoker",
+    "Value": "unknown",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "years_worked_with_smoker",
+    "Value": "never",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "child_yrs_with_smoker",
+    "Value": "less_1_yr",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "child_yrs_with_smoker",
+    "Value": "1_4_yrs",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "child_yrs_with_smoker",
+    "Value": "5_9_yrs",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "years_regular_smoker",
+    "Value": "less_than_5yr",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "years_regular_smoker",
+    "Value": "5_9yrs",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "years_regular_smoker",
+    "Value": "10_19_yrs",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "years_regular_smoker",
+    "Value": "20_29_yrs",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "years_regular_smoker",
+    "Value": "30_39_yrs",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "years_regular_smoker",
+    "Value": "40_49_yrs",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "years_regular_smoker",
+    "Value": "over_50yrs",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "years_regular_smoker",
+    "Value": "never",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "years_regular_smoker",
+    "Value": "unknown",
+    "ValueDescription": ""
+  },
+  {
+    "Annotation": "ethnicity",
+    "Value": "unknown",
+    "ValueDescription": "Unknown"
+  },
+  {
+    "Annotation": "collection_site",
+    "Value": "left_nos",
+    "ValueDescription": "Left lung lobe not otherwise specified"
+  },
+  {
+    "Annotation": "collection_site",
+    "Value": "right_nos",
+    "ValueDescription": "Right lung lobe not otherwise specified"
+  },
+  {
+    "Annotation": "transplant_donor_type",
+    "Value": "unrel",
+    "ValueDescription": "Unrelated transplant donor type"
+  },
+  {
+    "Annotation": "transplant_donor_type",
+    "Value": "allo",
+    "ValueDescription": "Allogeneic transplant donor type"
+  },
+  {
+    "Annotation": "transplant_match",
+    "Value": "matched",
+    "ValueDescription": "Matched transplant donor type"
+  },
+  {
+    "Annotation": "transplant_match",
+    "Value": "mismatched",
+    "ValueDescription": "Mismatched transplant donor type"
+  },
+  {
+    "Annotation": "us_born",
+    "Value": "unknown",
+    "ValueDescription": "Unknown"
+  },
+  {
+    "Annotation": "female_relative_cancer",
+    "Value": "unknown",
+    "ValueDescription": "Unknown"
+  },
+  {
+    "Annotation": "male_relative_cancer",
+    "Value": "unknown",
+    "ValueDescription": "Unknown"
+  },
+  {
+    "Annotation": "family_cancer",
+    "Value": "unknown",
+    "ValueDescription": "Unknown"
   }
 ]
