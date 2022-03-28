@@ -759,35 +759,35 @@
     "Annotation": "cohortLevelID",
     "AnnotationDescription": "Name of the cohort (dataset_qc_cohort) that a file belongs to.",
     "Category": "Bioinformatics",
-    "TabGroup": "Genomics",
+    "TabGroup": "Provenance",
     "Type": "categorical"
   },
   {
     "Annotation": "processedContentType",
     "AnnotationDescription": "Type of processed dataset dependent on both genomics data type and the specific bioinformatic workflow performed to generate the file",
     "Category": "Bioinformatics",
-    "TabGroup": "Genomics",
+    "TabGroup": "Provenance",
     "Type": "categorical"
   },
   {
     "Annotation": "stage",
     "AnnotationDescription": "Stage of processing of a molecular data set",
     "Category": "Bioinformatics",
-    "TabGroup": "Genomics",
+    "TabGroup": "Provenance",
     "Type": "categorical"
   },
   {
     "Annotation": "workflowID",
     "AnnotationDescription": "Name of the workflow used to generate a processed file from a dataset.",
     "Category": "Bioinformatics",
-    "TabGroup": "Genomics",
+    "TabGroup": "Provenance",
     "Type": "categorical"
   },
   {
     "Annotation": "workflowName",
     "AnnotationDescription": "Name of the workflow used to generate a processed file from a dataset.",
     "Category": "Bioinformatics",
-    "TabGroup": "Genomics",
+    "TabGroup": "Provenance",
     "Type": "categorical"
   },
   {
